@@ -1,0 +1,4 @@
+lxml>=5.3
+pytest>=8.2
+jsonschema>=4.22
+playwright>=1.49
