@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Noto Sans JP'; font-weight: 400; font-display: swap;
+  src: url('../assets/fonts/NotoSansJP-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans JP'; font-weight: 700; font-display: swap;
+  src: url('../assets/fonts/NotoSansJP-Bold.woff2') format('woff2');
+}
+:root { --ink:#1b2330; --line:#c9d2e0; --accent:#b3331f; --bg:#f7f8fb; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:'Noto Sans JP',system-ui,sans-serif; color:var(--ink); background:var(--bg); }
+header { display:flex; align-items:center; gap:1.5rem; padding:.8rem 1.2rem; border-bottom:2px solid var(--ink); }
+header h1 { font-size:1.2rem; margin:0; }
+#levels button { font:inherit; padding:.35rem .9rem; border:1px solid var(--ink); background:#fff; cursor:pointer; }
+#levels button.active { background:var(--ink); color:#fff; }
+main { padding:1rem 1.2rem; }
+.cluster { border:1px solid var(--line); border-radius:8px; margin-bottom:1.2rem; padding:.6rem 1rem; background:#fff; }
+.cluster h2 { font-size:1rem; margin:.2rem 0 .6rem; }
+.root-kanji { font-size:1.5rem; color:var(--accent); }
+svg .link { fill:none; stroke:var(--line); stroke-width:1.5; }
+svg text.kanji { font-size:20px; fill:var(--accent); }
+svg .node--root text.kanji { fill:var(--ink); }
+svg text.gloss { font-size:11px; fill:#46506a; }
+#detail { position:fixed; top:0; right:0; width:320px; height:100%; background:#fff; border-left:2px solid var(--ink); padding:1rem 1.2rem; overflow:auto; box-shadow:-4px 0 16px rgba(0,0,0,.08); }
+#detail .close { float:right; font-size:1.4rem; border:none; background:none; cursor:pointer; }
+.big-kanji { font-size:5rem; line-height:1; color:var(--accent); }
+.meanings { font-weight:700; }
+.readings dt { font-size:.75rem; text-transform:uppercase; color:#6b7689; margin-top:.5rem; }
+.readings dd { margin:0; font-size:1.1rem; }
+#detail h3 { font-size:.9rem; border-bottom:1px solid var(--line); padding-bottom:.2rem; margin-top:1rem; }
+#detail ul { list-style:none; padding:0; margin:.3rem 0; }
+#detail li { display:grid; grid-template-columns:auto auto 1fr; gap:.5rem; padding:.15rem 0; align-items:baseline; }
+.vw { font-size:1.1rem; } .vr { color:#6b7689; font-size:.85rem; } .vg { font-size:.85rem; }
+.empty { color:#9aa4b6; }
+footer { padding:1rem 1.2rem; font-size:.75rem; color:#6b7689; border-top:1px solid var(--line); }
+@media print { header nav, #detail, footer { display:none; } }

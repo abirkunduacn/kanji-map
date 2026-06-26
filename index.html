@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kanji Mind-Map · JLPT N5 / N4</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Kanji Mind-Map</h1>
+    <nav id="levels">
+      <button data-level="N5" class="active">N5</button>
+      <button data-level="N4">N4</button>
+    </nav>
+  </header>
+  <main>
+    <section id="maps" aria-label="Kanji mind maps"></section>
+  </main>
+  <aside id="detail" hidden></aside>
+  <footer>
+    Data: KANJIDIC2 &amp; JMdict © EDRDG, CC BY-SA 4.0.
+  </footer>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
