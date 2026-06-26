@@ -1,0 +1,9 @@
+raw/
+.venv/
+node_modules/
+pdf/*.pdf
+__pycache__/
+Temp/
+.superpowers/
+# Third-party source screenshots — used only for transcription, never redistributed
+Screenshot_*.png
