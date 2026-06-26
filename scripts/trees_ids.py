@@ -2,7 +2,7 @@
 
 A kanji's parent is the most specific *in-scope* kanji it is structurally built
 from, so chains read as a build-up of components, e.g. 一 -> 元 -> 院 and
-十 -> 土 -> 主 -> 住.  This replaces the earlier hand-transcribed trees and
+十 -> 土 -> 主 -> 注.  This replaces the earlier hand-transcribed trees and
 radical grouping: every edge here is a real "is built from" relationship, so
 mis-groupings like 字 under 月 cannot occur.
 
@@ -19,6 +19,9 @@ OTHER_ROOT = "他"
 
 
 def _is_cjk(ch: str) -> bool:
+    # BMP CJK only: Unified Ideographs (U+4E00–U+9FFF) + Extension A
+    # (U+3400–U+4DBF). Components in Ext B+ (above U+FFFF) are intentionally
+    # ignored — they are never in-scope JLPT kanji, so they cannot be parents.
     return ("一" <= ch <= "鿿") or ("㐀" <= ch <= "䶿")
 
 
@@ -119,6 +122,26 @@ def build_forest(direct, kanji_infos, scope, required=None) -> list[dict]:
             tree_roots.append({"id": f"k-{r}", "root": r, "label": label, "children": node["children"]})
         else:
             misc.append(node)
+
+    # Safety net: any in-scope kanji not reachable from a root — which could
+    # only happen if IDS data ever contained a true A-contains-B-contains-A
+    # cycle — would otherwise be silently dropped. Fold such strays in as
+    # standalone nodes so completeness never depends on the data being acyclic.
+    def _chars(node):
+        out = {node["char"]}
+        for c in node["children"]:
+            out |= _chars(c)
+        return out
+
+    emitted = set()
+    for tr in tree_roots:
+        emitted.add(tr["root"])
+        for c in tr["children"]:
+            emitted |= _chars(c)
+    for m in misc:
+        emitted |= _chars(m)
+    for stray in sorted(scope - emitted):
+        misc.append(_node(stray, kanji_infos))
 
     if required is not None:
         misc = [m for m in misc if m["char"] in set(required)]
