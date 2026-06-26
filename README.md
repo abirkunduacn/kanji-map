@@ -15,8 +15,9 @@ printable PDF for each level.
   open a detail panel showing stroke count, meanings, on'yomi/kun'yomi
   readings, and example words for each reading.
 - **Print / PDF** — `print.html?level=N5` (or `N4`) renders all trees and a
-  reference table suitable for printing or exporting to PDF.  Pre-built PDFs
-  are generated in CI (`pdf/kanji-N5.pdf`, `pdf/kanji-N4.pdf`).
+  reference table suitable for printing or exporting to PDF.  PDFs
+  (`kanji-N5.pdf`, `kanji-N4.pdf`) are built in CI and downloadable as an
+  artifact from the Actions tab, or generated locally (see below).
 - **Offline-first** — all data is bundled in `data/n5.json` and `data/n4.json`
   (no runtime network calls from the browser).
 

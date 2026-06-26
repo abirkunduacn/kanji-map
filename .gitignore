@@ -7,3 +7,5 @@ Temp/
 .superpowers/
 # Third-party source screenshots — used only for transcription, never redistributed
 Screenshot_*.png
+# Internal implementation/planning docs — not for the published site
+docs/superpowers/
