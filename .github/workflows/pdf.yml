@@ -1,0 +1,21 @@
+name: Build level PDFs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['data/**', 'print.html', 'js/**', 'css/**', 'pdf/**']
+jobs:
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'playwright>=1.49'
+      - run: python -m playwright install --with-deps chromium
+      - run: python -m pdf.generate_pdf
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kanji-pdfs
+          path: pdf/*.pdf
