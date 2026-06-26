@@ -21,14 +21,17 @@ def _on_keys(on: list[str]) -> list[str]:
 
 
 def _kun_keys(kun: list[str]) -> list[str]:
-    # い.きる -> stem before the dot: い ; う.まれる -> う ; 表-prefixed '-' markers stripped
+    # Full kun reading with the okurigana separator removed, used as a
+    # START-OF-READING key: い.きる -> いきる ; う.まれる -> うまれる ; みず -> みず.
+    # Matching the full reading at the start (not a bare-stem substring) keeps a
+    # short stem from spuriously matching inside an unrelated on-reading word.
     keys = []
     for r in kun:
         if not r:
             continue
-        stem = r.split(".")[0].replace("-", "")
-        if stem:
-            keys.append(stem)
+        full = r.replace(".", "").replace("-", "")
+        if full:
+            keys.append(full)
     return keys
 
 
@@ -41,14 +44,19 @@ class VocabIndex:
         on_keys = _on_keys(on)
         kun_keys = _kun_keys(kun)
 
-        def matches(reading: str, keys: list[str]) -> bool:
+        def contains(reading: str, keys: list[str]) -> bool:
             return any(k and k in reading for k in keys)
+
+        def prefix(reading: str, keys: list[str]) -> bool:
+            return any(k and reading.startswith(k) for k in keys)
 
         def rank(e: dict):
             return (0 if e["pri"] else 1, len(e["word"]))
 
-        on_hits = sorted((e for e in entries if matches(e["reading"], on_keys)), key=rank)
-        kun_hits = sorted((e for e in entries if matches(e["reading"], kun_keys)), key=rank)
+        # on: reading may carry the syllable anywhere (学生 がくせい). kun: anchor at
+        # the start so a short stem can't match inside an on-reading word.
+        on_hits = sorted((e for e in entries if contains(e["reading"], on_keys)), key=rank)
+        kun_hits = sorted((e for e in entries if prefix(e["reading"], kun_keys)), key=rank)
 
         def fmt(e):
             return {"word": e["word"], "reading": e["reading"], "gloss": e["gloss"]}

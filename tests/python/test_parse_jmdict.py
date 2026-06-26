@@ -17,3 +17,12 @@ def test_katakana_on_reading_is_matched_as_hiragana():
     idx = parse_jmdict.build_index(FIX, wanted={"生"})
     picks = idx.select("生", on=["セイ"], kun=[], limit=2)
     assert any(v["reading"] == "せいかつ" for v in picks["on"])
+
+def test_kun_match_excludes_on_reading_words():
+    # Short kun stems (い, う) must NOT match inside on-reading words.
+    idx = parse_jmdict.build_index(FIX, wanted={"生"})
+    picks = idx.select("生", on=["セイ"], kun=["い.きる", "う.まれる"], limit=5)
+    kun_words = {v["word"] for v in picks["kun"]}
+    assert "生きる" in kun_words          # いきる starts with the full kun reading いきる
+    assert "衛生" not in kun_words         # えいせい must not count as a kun example
+    assert "一生" not in kun_words         # いっしょう must not count as a kun example
