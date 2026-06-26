@@ -3,28 +3,204 @@
   "generated": "2026-06-26",
   "roots": [
     {
-      "id": "auto-⼀",
-      "root": "⼀",
-      "label": "⼀",
+      "id": "k-白",
+      "root": "白",
+      "label": "white",
       "children": [
         {
-          "char": "一",
-          "label": "one",
+          "char": "百",
+          "label": "hundred",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-日",
+      "root": "日",
+      "label": "day",
+      "children": [
+        {
+          "char": "時",
+          "label": "time",
           "children": []
         },
         {
-          "char": "七",
-          "label": "seven",
+          "char": "書",
+          "label": "write",
           "children": []
+        },
+        {
+          "char": "間",
+          "label": "interval",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-月",
+      "root": "月",
+      "label": "month",
+      "children": [
+        {
+          "char": "前",
+          "label": "in front",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-木",
+      "root": "木",
+      "label": "tree",
+      "children": [
+        {
+          "char": "休",
+          "label": "rest",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-子",
+      "root": "子",
+      "label": "child",
+      "children": [
+        {
+          "char": "学",
+          "label": "study",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-人",
+      "root": "人",
+      "label": "person",
+      "children": [
+        {
+          "char": "大",
+          "label": "large",
+          "children": [
+            {
+              "char": "天",
+              "label": "heavens",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "今",
+          "label": "now",
+          "children": []
+        },
+        {
+          "char": "食",
+          "label": "eat",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-八",
+      "root": "八",
+      "label": "eight",
+      "children": [
+        {
+          "char": "六",
+          "label": "six",
+          "children": []
+        },
+        {
+          "char": "火",
+          "label": "fire",
+          "children": []
+        },
+        {
+          "char": "父",
+          "label": "father",
+          "children": [
+            {
+              "char": "校",
+              "label": "exam",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k-十",
+      "root": "十",
+      "label": "ten",
+      "children": [
+        {
+          "char": "千",
+          "label": "thousand",
+          "children": [
+            {
+              "char": "話",
+              "label": "tale",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "土",
+          "label": "soil",
+          "children": [
+            {
+              "char": "国",
+              "label": "country",
+              "children": []
+            },
+            {
+              "char": "金",
+              "label": "gold",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "午",
+          "label": "noon",
+          "children": []
+        },
+        {
+          "char": "南",
+          "label": "south",
+          "children": []
+        },
+        {
+          "char": "読",
+          "label": "read",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-一",
+      "root": "一",
+      "label": "one",
+      "children": [
+        {
+          "char": "二",
+          "label": "two",
+          "children": [
+            {
+              "char": "三",
+              "label": "three",
+              "children": []
+            },
+            {
+              "char": "半",
+              "label": "half",
+              "children": []
+            }
+          ]
         },
         {
           "char": "万",
           "label": "ten thousand",
-          "children": []
-        },
-        {
-          "char": "三",
-          "label": "three",
           "children": []
         },
         {
@@ -36,297 +212,71 @@
           "char": "下",
           "label": "below",
           "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼆",
-      "root": "⼆",
-      "label": "⼆",
-      "children": [
-        {
-          "char": "二",
-          "label": "two",
-          "children": []
         },
         {
           "char": "五",
           "label": "five",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼈",
-      "root": "⼈",
-      "label": "⼈",
-      "children": [
+          "children": [
+            {
+              "char": "語",
+              "label": "word",
+              "children": []
+            }
+          ]
+        },
         {
-          "char": "人",
-          "label": "person",
+          "char": "気",
+          "label": "spirit",
           "children": []
         },
         {
-          "char": "今",
-          "label": "now",
+          "char": "行",
+          "label": "going",
           "children": []
         },
         {
-          "char": "休",
-          "label": "rest",
+          "char": "西",
+          "label": "west",
           "children": []
         },
         {
           "char": "何",
           "label": "what",
           "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼋",
-      "root": "⼋",
-      "label": "⼋",
-      "children": [
-        {
-          "char": "八",
-          "label": "eight",
-          "children": []
         },
         {
-          "char": "六",
-          "label": "six",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼗",
-      "root": "⼗",
-      "label": "⼗",
-      "children": [
-        {
-          "char": "十",
-          "label": "ten",
+          "char": "長",
+          "label": "long",
           "children": []
         },
-        {
-          "char": "千",
-          "label": "thousand",
-          "children": []
-        },
-        {
-          "char": "午",
-          "label": "noon",
-          "children": []
-        },
-        {
-          "char": "半",
-          "label": "half",
-          "children": []
-        },
-        {
-          "char": "南",
-          "label": "south",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼝",
-      "root": "⼝",
-      "label": "⼝",
-      "children": [
-        {
-          "char": "右",
-          "label": "right",
-          "children": []
-        },
-        {
-          "char": "名",
-          "label": "name",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼞",
-      "root": "⼞",
-      "label": "⼞",
-      "children": [
-        {
-          "char": "四",
-          "label": "four",
-          "children": []
-        },
-        {
-          "char": "国",
-          "label": "country",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼤",
-      "root": "⼤",
-      "label": "⼤",
-      "children": [
-        {
-          "char": "大",
-          "label": "large",
-          "children": []
-        },
-        {
-          "char": "天",
-          "label": "heavens",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼦",
-      "root": "⼦",
-      "label": "⼦",
-      "children": [
-        {
-          "char": "子",
-          "label": "child",
-          "children": []
-        },
-        {
-          "char": "学",
-          "label": "study",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⽇",
-      "root": "⽇",
-      "label": "⽇",
-      "children": [
-        {
-          "char": "日",
-          "label": "day",
-          "children": []
-        },
-        {
-          "char": "時",
-          "label": "time",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⽊",
-      "root": "⽊",
-      "label": "⽊",
-      "children": [
-        {
-          "char": "木",
-          "label": "tree",
-          "children": []
-        },
-        {
-          "char": "本",
-          "label": "book",
-          "children": []
-        },
-        {
-          "char": "来",
-          "label": "come",
-          "children": []
-        },
-        {
-          "char": "東",
-          "label": "east",
-          "children": []
-        },
-        {
-          "char": "校",
-          "label": "exam",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⽏",
-      "root": "⽏",
-      "label": "⽏",
-      "children": [
-        {
-          "char": "母",
-          "label": "mother",
-          "children": []
-        },
-        {
-          "char": "毎",
-          "label": "every",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⽩",
-      "root": "⽩",
-      "label": "⽩",
-      "children": [
-        {
-          "char": "白",
-          "label": "white",
-          "children": []
-        },
-        {
-          "char": "百",
-          "label": "hundred",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⾔",
-      "root": "⾔",
-      "label": "⾔",
-      "children": [
-        {
-          "char": "話",
-          "label": "tale",
-          "children": []
-        },
-        {
-          "char": "語",
-          "label": "word",
-          "children": []
-        },
-        {
-          "char": "読",
-          "label": "read",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⾬",
-      "root": "⾬",
-      "label": "⾬",
-      "children": [
         {
           "char": "雨",
           "label": "rain",
-          "children": []
+          "children": [
+            {
+              "char": "電",
+              "label": "electricity",
+              "children": []
+            }
+          ]
         },
         {
-          "char": "電",
-          "label": "electricity",
+          "char": "高",
+          "label": "tall",
           "children": []
         }
       ]
     },
     {
-      "id": "auto-misc",
+      "id": "other",
       "root": "他",
-      "label": "Other",
+      "label": "Other (standalone)",
       "children": [
+        {
+          "char": "七",
+          "label": "seven",
+          "children": []
+        },
         {
           "char": "中",
           "label": "in",
@@ -358,11 +308,6 @@
           "children": []
         },
         {
-          "char": "前",
-          "label": "in front",
-          "children": []
-        },
-        {
           "char": "北",
           "label": "north",
           "children": []
@@ -373,8 +318,18 @@
           "children": []
         },
         {
-          "char": "土",
-          "label": "soil",
+          "char": "右",
+          "label": "right",
+          "children": []
+        },
+        {
+          "char": "名",
+          "label": "name",
+          "children": []
+        },
+        {
+          "char": "四",
+          "label": "four",
           "children": []
         },
         {
@@ -418,33 +373,33 @@
           "children": []
         },
         {
-          "char": "書",
-          "label": "write",
+          "char": "本",
+          "label": "book",
           "children": []
         },
         {
-          "char": "月",
-          "label": "month",
+          "char": "来",
+          "label": "come",
           "children": []
         },
         {
-          "char": "気",
-          "label": "spirit",
+          "char": "東",
+          "label": "east",
+          "children": []
+        },
+        {
+          "char": "母",
+          "label": "mother",
+          "children": []
+        },
+        {
+          "char": "毎",
+          "label": "every",
           "children": []
         },
         {
           "char": "水",
           "label": "water",
-          "children": []
-        },
-        {
-          "char": "火",
-          "label": "fire",
-          "children": []
-        },
-        {
-          "char": "父",
-          "label": "father",
           "children": []
         },
         {
@@ -463,16 +418,6 @@
           "children": []
         },
         {
-          "char": "行",
-          "label": "going",
-          "children": []
-        },
-        {
-          "char": "西",
-          "label": "west",
-          "children": []
-        },
-        {
           "char": "見",
           "label": "see",
           "children": []
@@ -480,31 +425,6 @@
         {
           "char": "車",
           "label": "car",
-          "children": []
-        },
-        {
-          "char": "金",
-          "label": "gold",
-          "children": []
-        },
-        {
-          "char": "長",
-          "label": "long",
-          "children": []
-        },
-        {
-          "char": "間",
-          "label": "interval",
-          "children": []
-        },
-        {
-          "char": "食",
-          "label": "eat",
-          "children": []
-        },
-        {
-          "char": "高",
-          "label": "tall",
           "children": []
         }
       ]

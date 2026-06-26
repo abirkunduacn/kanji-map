@@ -10,10 +10,12 @@ printable PDF for each level.
 
 ## What it does
 
-- **Web app** (static, no build step) — browse N5 and N4 kanji grouped into
-  radical-based or hand-transcribed mind-map trees.  Click any kanji node to
-  open a detail panel showing stroke count, meanings, on'yomi/kun'yomi
-  readings, and example words for each reading.
+- **Web app** (static, no build step) — browse N5 and N4 kanji arranged into
+  "built-from" mind-map trees, where each kanji branches off the simpler kanji
+  it is structurally composed of (e.g. 一 → 元 → 院, 十 → 土 → 主 → 注).  Click
+  any kanji node — including the root building-block — to open a detail panel
+  showing stroke count, meanings, on'yomi/kun'yomi readings, and example words
+  for each reading.
 - **Print / PDF** — `print.html?level=N5` (or `N4`) renders all trees and a
   reference table suitable for printing or exporting to PDF.  PDFs
   (`kanji-N5.pdf`, `kanji-N4.pdf`) are built in CI and downloadable as an
@@ -25,27 +27,32 @@ printable PDF for each level.
 
 ## Data counts
 
-| Level | Kanji in JSON | Roots (tree groups) |
-|-------|--------------|---------------------|
-| N5    | 79           | 16 (auto-grouped by Kangxi radical) |
-| N4    | 187 (incl. ~21 N5 building-block kanji that appear in curated trees) | 48 (32 curated + 16 auto) |
+| Level | Kanji in JSON | Clusters |
+|-------|--------------|----------|
+| N5    | 79           | 10 (chains are short — N5 kanji are mostly primitive building blocks) |
+| N4    | 227 (N4 kanji plus the N5 building-block kanji that connect them into chains) | 29 |
 
 ---
 
-## Hybrid tree-data design
+## Connection model: structural "built-from" trees
 
-N4 trees were **hand-transcribed** from source mind-map screenshots into
-`scripts/trees_n4.py`.  Each root object carries a `kanji` list of child
-nodes, each of which may carry further children; the result mirrors the
-thematic groupings in the source images.
+Every edge in the mind-map is a real **"is built from"** relationship, computed
+from Ideographic Description Sequences (IDS) by `scripts/trees_ids.py`:
 
-N5 trees (and the N4 remainder not covered by the curated list) are
-**auto-grouped by Kangxi radical** using `scripts/trees_auto.py`.  The script
-maps each kanji to its Kangxi radical glyph and builds one root node per
-radical.
+- A kanji's **parent** is the most specific *in-scope* kanji that appears in its
+  structural decomposition.  So 字 hangs off **子** (字 = ⿱宀子), never off an
+  unrelated component, and chains deepen naturally: 一 → 元 → 院, 十 → 土 → 主 → 注.
+- **Roots** are real kanji building-blocks (一, 月, 言, 車 …) with no in-scope
+  parent; they are clickable like any other node.
+- The **N5 view** restricts parents to N5 kanji.  The **N4 view** uses N5 ∪ N4
+  so N5 kanji can connect N4 kanji into chains, keeping only trees that contain
+  at least one N4 kanji.
+- Kanji with no in-scope parent *and* no children are collected into a single
+  **"Other (standalone)"** cluster.
 
-Both strategies produce the same JSON shape (`data/schema.json`), so the
-front-end treats them identically.
+This replaced an earlier approach (hand-transcribed trees + Kangxi-radical
+grouping) that produced wrong edges (e.g. 字 grouped under 月) and shallow,
+disconnected chains.
 
 > **On/kun vocabulary note:** Example words are selected heuristically from
 > JMdict — on'yomi examples are matched by a reading-substring of the
@@ -82,7 +89,8 @@ python -m playwright install chromium
 python -m scripts.fetch_sources
 ```
 
-This downloads KANJIDIC2 and JMdict into `raw/` (gitignored).
+This downloads KANJIDIC2, JMdict, the JLPT level list, and the IDS
+decomposition file into `raw/` (gitignored).
 
 ### 3 — Build data files
 
@@ -120,7 +128,7 @@ Writes `pdf/kanji-N5.pdf` and `pdf/kanji-N4.pdf`.
 # JavaScript (Node built-in runner, 7 tests)
 npm test
 
-# Python (pytest, 17 tests)
+# Python (pytest, 16 tests)
 python -m pytest
 ```
 
@@ -133,12 +141,11 @@ requires three small steps:
 
 1. **Data** — in `scripts/build_data.py`, add the new level key to
    `_jlpt_chars` (it maps level strings like `"N3"` to the corresponding
-   character set).
-2. **Trees (optional)** — create `scripts/trees_n3.py` with hand-curated roots
-   following the same pattern as `scripts/trees_n4.py`, then import it in
-   `build_data.py`.  If no curated file exists, `trees_auto.py` will
-   auto-group every kanji in that level by Kangxi radical.
-3. **Navigation** — add a `<button data-level="N3">N3</button>` (or equivalent)
+   character set), then call `trees_ids.build_forest(...)` for it in `main()`
+   exactly as N4 does (scope = lower levels ∪ this level, `required` = this
+   level's kanji).  No new tree module is needed — the IDS builder works for
+   every level automatically.
+2. **Navigation** — add a `<button data-level="N3">N3</button>` (or equivalent)
    to the `#levels` nav in `index.html` and a matching entry in the level list
    in `print.html`.
 
@@ -163,7 +170,14 @@ can be downloaded from the Actions tab.
 | Kanji readings & meanings | KANJIDIC2, © The Electronic Dictionary Research and Development Group (EDRDG) | CC BY-SA 4.0 |
 | Vocabulary examples | JMdict, © EDRDG | CC BY-SA 4.0 |
 | JLPT level lists | [davidluzgouveia/kanji-data](https://github.com/davidluzgouveia/kanji-data) (pinned commit SHA in `scripts/sources.py`) | MIT |
+| Kanji structural decomposition (IDS) | [cjkvi-ids](https://github.com/cjkvi/cjkvi-ids), based on the CHISE IDS database (pinned commit SHA in `scripts/sources.py`) | GPLv2 |
 | Japanese font | Noto Sans JP, © Google | SIL Open Font Licence 1.1 (OFL) |
+
+> The IDS data (GPLv2) is used only at **build time** to compute factual
+> "kanji-X-is-built-from-kanji-Y" relationships; the source file is never
+> committed or redistributed.  The generated `data/*.json` contains those
+> derived facts together with the EDRDG-derived readings/vocabulary and is
+> distributed under **CC BY-SA 4.0**.
 
 The generated files `data/n5.json` and `data/n4.json` are derivative works of
 KANJIDIC2 and JMdict and are therefore distributed under **CC BY-SA 4.0**.

@@ -27,12 +27,15 @@ export function renderMindmap(svgEl, rootData, { onSelect } = {}) {
     .attr('class', 'link')
     .attr('d', d3.linkHorizontal().x(d => d.y).y(d => d.x));
 
+  // Every node is a real kanji (including the root building-block), so all are
+  // clickable. app.js's onSelect is a no-op for any char without a detail entry
+  // (e.g. the synthetic "Other" cluster marker).
   const node = g.append('g').attr('class', 'nodes')
     .selectAll('g').data(root.descendants()).enter().append('g')
     .attr('class', d => d.depth === 0 ? 'node node--root' : 'node')
     .attr('transform', d => `translate(${d.y},${d.x})`)
-    .style('cursor', d => d.depth === 0 ? 'default' : 'pointer')
-    .on('click', (_, d) => { if (d.depth > 0 && onSelect) onSelect(d.data.char); });
+    .style('cursor', 'pointer')
+    .on('click', (_, d) => { if (onSelect) onSelect(d.data.char); });
 
   node.append('text').attr('class', 'kanji').attr('dy', '0.32em').text(d => d.data.char);
   node.append('text').attr('class', 'gloss').attr('dx', 22).attr('dy', '0.32em')

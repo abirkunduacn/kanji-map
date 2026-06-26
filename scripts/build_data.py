@@ -4,8 +4,8 @@ from pathlib import Path
 
 import jsonschema
 
-from scripts import parse_kanjidic, parse_jmdict, trees_n4, trees_auto
-from scripts.sources import KANJIDIC2_PATH, JMDICT_PATH, JLPT_PATH
+from scripts import parse_kanjidic, parse_jmdict, trees_ids
+from scripts.sources import KANJIDIC2_PATH, JMDICT_PATH, JLPT_PATH, IDS_PATH
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -13,6 +13,8 @@ SCHEMA = json.loads((DATA_DIR / "schema.json").read_text(encoding="utf-8"))
 
 
 def _placed_in(roots: list[dict]) -> set[str]:
+    """Every kanji that appears in the trees: each root's own char (when it is a
+    real kanji, not the OTHER_ROOT marker) plus every node char in its subtree."""
     out = set()
 
     def walk(nodes):
@@ -21,33 +23,9 @@ def _placed_in(roots: list[dict]) -> set[str]:
             walk(node["children"])
 
     for r in roots:
+        if r["root"] != trees_ids.OTHER_ROOT:
+            out.add(r["root"])
         walk(r["children"])
-    return out
-
-
-def _prune_to_scope(roots: list[dict], scope: set[str]) -> list[dict]:
-    """Drop tree nodes whose kanji is outside `scope` (the kanji we have readings
-    for = N5 ∪ N4), along with their subtrees. In-scope descendants of a dropped
-    node are NOT lost overall: because they no longer appear in the pruned tree,
-    main() puts them in the auto-grouped remainder instead. Roots left with no
-    children are dropped entirely. This guarantees every node that survives has a
-    detail entry, so schema/JS validation (every placed kanji has a kanji entry)
-    holds."""
-    def prune_nodes(nodes):
-        kept = []
-        for node in nodes:
-            if node["char"] in scope:
-                kept.append({
-                    "char": node["char"],
-                    "label": node["label"],
-                    "children": prune_nodes(node["children"]),
-                })
-        return kept
-    out = []
-    for r in roots:
-        children = prune_nodes(r["children"])
-        if children:
-            out.append({"id": r["id"], "root": r["root"], "label": r["label"], "children": children})
     return out
 
 
@@ -55,7 +33,11 @@ def build_level(level, kanji_chars, kanji_infos, vocab_index, roots) -> dict:
     placed = _placed_in(roots)
     kanji = {}
     for ch in sorted(placed):
-        info = kanji_infos[ch]
+        info = kanji_infos.get(ch)
+        if info is None:
+            # A placed char with no readings (e.g. a connector outside our data);
+            # skip its detail entry. Real roots/nodes are always in kanji_infos.
+            continue
         vocab = vocab_index.select(ch, info.get("on", []), info.get("kun", []), limit=2)
         kanji[ch] = {
             "char": ch,
@@ -91,26 +73,22 @@ def main() -> None:
     levels = _jlpt_chars()
     all_wanted = levels["N5"] | levels["N4"]
     kanji_infos = parse_kanjidic.parse(KANJIDIC2_PATH, wanted=all_wanted)
-    radicals = {c: trees_auto.kangxi_char(i["radical"]) for c, i in kanji_infos.items()}
     vocab_index = parse_jmdict.build_index(JMDICT_PATH, wanted=all_wanted)
+    ids = trees_ids.parse_ids(IDS_PATH)
 
-    # N4: curated trees (pruned to in-scope kanji) + auto-group the remainder.
-    # The transcribed trees may contain building-block kanji outside N5∪N4
-    # (e.g. rare components); pruning drops those so every surviving node has a
-    # detail entry. Any N4 kanji not present in the pruned trees is auto-grouped.
-    scope = set(kanji_infos)  # every kanji we parsed readings for (N5 ∪ N4)
-    n4_chars = levels["N4"]
-    pruned_roots = _prune_to_scope(trees_n4.ROOTS, scope)
-    n4_in_trees = _placed_in(pruned_roots) & n4_chars
-    n4_remainder = {c: kanji_infos[c] for c in n4_chars - n4_in_trees}
-    n4_roots = pruned_roots + trees_auto.build(n4_remainder, radicals)
-    n4 = build_level("N4", n4_chars, kanji_infos, vocab_index, n4_roots)
-
-    # N5: fully auto-grouped.
     n5_chars = levels["N5"]
-    n5_infos = {c: kanji_infos[c] for c in n5_chars}
-    n5_roots = trees_auto.build(n5_infos, radicals)
+    n4_chars = levels["N4"]
+
+    # N5: build-from forest over N5 kanji only (parents restricted to N5).
+    n5_roots = trees_ids.build_forest(ids, kanji_infos, scope=n5_chars)
     n5 = build_level("N5", n5_chars, kanji_infos, vocab_index, n5_roots)
+
+    # N4: forest over N5 ∪ N4 so N5 building blocks connect the N4 kanji into
+    # deep chains; only trees that include at least one N4 kanji are kept.
+    n4_roots = trees_ids.build_forest(
+        ids, kanji_infos, scope=n5_chars | n4_chars, required=n4_chars
+    )
+    n4 = build_level("N4", n4_chars, kanji_infos, vocab_index, n4_roots)
 
     (DATA_DIR / "n4.json").write_text(json.dumps(n4, ensure_ascii=False, indent=2), encoding="utf-8")
     (DATA_DIR / "n5.json").write_text(json.dumps(n5, ensure_ascii=False, indent=2), encoding="utf-8")

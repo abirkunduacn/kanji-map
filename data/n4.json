@@ -3,234 +3,10 @@
   "generated": "2026-06-26",
   "roots": [
     {
-      "id": "ichi-juu",
-      "root": "十",
-      "label": "One / Ten",
+      "id": "k-重",
+      "root": "重",
+      "label": "heavy",
       "children": [
-        {
-          "char": "生",
-          "label": "life",
-          "children": [
-            {
-              "char": "売",
-              "label": "to sell",
-              "children": []
-            }
-          ]
-        },
-        {
-          "char": "土",
-          "label": "soil",
-          "children": []
-        },
-        {
-          "char": "赤",
-          "label": "red",
-          "children": [
-            {
-              "char": "教",
-              "label": "teach",
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "dai",
-      "root": "代",
-      "label": "Replace, period",
-      "children": [
-        {
-          "char": "貸",
-          "label": "lend",
-          "children": [
-            {
-              "char": "試",
-              "label": "test, try, experiment",
-              "children": []
-            }
-          ]
-        },
-        {
-          "char": "世",
-          "label": "twenty, world, generation",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "hito",
-      "root": "人",
-      "label": "Person",
-      "children": [
-        {
-          "char": "集",
-          "label": "gather",
-          "children": []
-        },
-        {
-          "char": "会",
-          "label": "to assemble",
-          "children": []
-        },
-        {
-          "char": "験",
-          "label": "verification, effect, testing",
-          "children": []
-        },
-        {
-          "char": "以",
-          "label": "by means of",
-          "children": []
-        },
-        {
-          "char": "金",
-          "label": "gold",
-          "children": [
-            {
-              "char": "銀",
-              "label": "silver",
-              "children": []
-            }
-          ]
-        },
-        {
-          "char": "今",
-          "label": "now",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "kuchi",
-      "root": "口",
-      "label": "Mouth",
-      "children": [
-        {
-          "char": "日",
-          "label": "sun, day",
-          "children": [
-            {
-              "char": "車",
-              "label": "car",
-              "children": []
-            },
-            {
-              "char": "音",
-              "label": "sound",
-              "children": [
-                {
-                  "char": "意",
-                  "label": "idea",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "char": "早",
-              "label": "early",
-              "children": []
-            },
-            {
-              "char": "朝",
-              "label": "morning",
-              "children": []
-            },
-            {
-              "char": "昼",
-              "label": "daytime",
-              "children": []
-            }
-          ]
-        },
-        {
-          "char": "目",
-          "label": "eye",
-          "children": [
-            {
-              "char": "見",
-              "label": "see",
-              "children": []
-            },
-            {
-              "char": "夏",
-              "label": "summer",
-              "children": []
-            },
-            {
-              "char": "真",
-              "label": "true, reality",
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "onna",
-      "root": "女",
-      "label": "Woman",
-      "children": [
-        {
-          "char": "安",
-          "label": "cheap",
-          "children": []
-        },
-        {
-          "char": "毎",
-          "label": "every",
-          "children": [
-            {
-              "char": "海",
-              "label": "sea, ocean",
-              "children": []
-            }
-          ]
-        },
-        {
-          "char": "妹",
-          "label": "younger sister",
-          "children": []
-        },
-        {
-          "char": "母",
-          "label": "mother",
-          "children": [
-            {
-              "char": "毎",
-              "label": "every",
-              "children": []
-            }
-          ]
-        },
-        {
-          "char": "姉",
-          "label": "elder sister",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "chikara",
-      "root": "力",
-      "label": "Power",
-      "children": [
-        {
-          "char": "地",
-          "label": "ground",
-          "children": []
-        },
-        {
-          "char": "業",
-          "label": "occupation, business",
-          "children": []
-        },
-        {
-          "char": "勉",
-          "label": "diligence",
-          "children": []
-        },
         {
           "char": "動",
           "label": "move",
@@ -239,102 +15,110 @@
       ]
     },
     {
-      "id": "otsu",
-      "root": "乙",
-      "label": "Second",
+      "id": "k-言",
+      "root": "言",
+      "label": "say",
       "children": [
         {
-          "char": "風",
-          "label": "wind",
+          "char": "計",
+          "label": "plot",
           "children": []
         },
         {
-          "char": "服",
-          "label": "clothing",
+          "char": "試",
+          "label": "test",
           "children": []
         },
         {
-          "char": "広",
-          "label": "wide, broad, spacious",
-          "children": [
-            {
-              "char": "台",
-              "label": "pedestal",
-              "children": [
-                {
-                  "char": "始",
-                  "label": "commence, begin",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "char": "話",
+          "label": "tale",
+          "children": []
         },
         {
-          "char": "去",
-          "label": "gone, past",
-          "children": [
-            {
-              "char": "屋",
-              "label": "roof, house, shop, seller",
-              "children": [
-                {
-                  "char": "室",
-                  "label": "room, chamber",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "char": "語",
+          "label": "word",
+          "children": []
+        },
+        {
+          "char": "読",
+          "label": "read",
+          "children": []
         }
       ]
     },
     {
-      "id": "mon",
-      "root": "門",
-      "label": "Gate",
+      "id": "k-車",
+      "root": "車",
+      "label": "car",
       "children": [
         {
-          "char": "問",
-          "label": "question, ask, problem",
+          "char": "転",
+          "label": "revolve",
           "children": []
         },
         {
-          "char": "間",
-          "label": "between",
-          "children": [
-            {
-              "char": "聞",
-              "label": "hear, listen",
-              "children": []
-            }
-          ]
+          "char": "運",
+          "label": "carry",
+          "children": []
         }
       ]
     },
     {
-      "id": "tsuki",
-      "root": "月",
-      "label": "Month, moon",
+      "id": "k-自",
+      "root": "自",
+      "label": "oneself",
       "children": [
         {
-          "char": "明",
-          "label": "bright, light",
+          "char": "道",
+          "label": "road-way",
           "children": []
-        },
+        }
+      ]
+    },
+    {
+      "id": "k-冬",
+      "root": "冬",
+      "label": "winter",
+      "children": [
         {
-          "char": "有",
-          "label": "possess, have, exist",
+          "char": "終",
+          "label": "end",
           "children": []
-        },
+        }
+      ]
+    },
+    {
+      "id": "k-本",
+      "root": "本",
+      "label": "book",
+      "children": [
         {
-          "char": "字",
-          "label": "character",
+          "char": "体",
+          "label": "body",
           "children": []
-        },
+        }
+      ]
+    },
+    {
+      "id": "k-母",
+      "root": "母",
+      "label": "mother",
+      "children": [
         {
-          "char": "野",
-          "label": "plains, field",
+          "char": "海",
+          "label": "sea",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-田",
+      "root": "田",
+      "label": "rice field",
+      "children": [
+        {
+          "char": "男",
+          "label": "male",
           "children": []
         },
         {
@@ -343,139 +127,122 @@
           "children": []
         },
         {
-          "char": "歌",
-          "label": "song, sing",
+          "char": "画",
+          "label": "brush-stroke",
           "children": []
         },
         {
-          "char": "持",
-          "label": "hold, have",
+          "char": "思",
+          "label": "think",
+          "children": []
+        },
+        {
+          "char": "界",
+          "label": "world",
+          "children": []
+        },
+        {
+          "char": "魚",
+          "label": "fish",
           "children": []
         }
       ]
     },
     {
-      "id": "ukanmuri",
-      "root": "宀",
-      "label": "Roof",
+      "id": "k-白",
+      "root": "白",
+      "label": "white",
       "children": [
         {
-          "char": "家",
-          "label": "house, family, expert",
+          "char": "百",
+          "label": "hundred",
           "children": []
         },
         {
-          "char": "室",
-          "label": "room",
+          "char": "習",
+          "label": "learn",
           "children": []
         },
         {
-          "char": "安",
-          "label": "cheap",
+          "char": "楽",
+          "label": "music",
           "children": []
         }
       ]
     },
     {
-      "id": "shikabane",
-      "root": "尸",
-      "label": "Corpse",
+      "id": "k-目",
+      "root": "目",
+      "label": "eye",
       "children": [
         {
-          "char": "図",
-          "label": "map, drawing, plan",
-          "children": []
-        },
-        {
-          "char": "文",
-          "label": "sentence, literature, art",
-          "children": []
-        },
-        {
-          "char": "冬",
-          "label": "winter",
-          "children": []
-        },
-        {
-          "char": "終",
-          "label": "end, finish",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "one-ext",
-      "root": "一",
-      "label": "One",
-      "children": [
-        {
-          "char": "上",
-          "label": "above, up",
-          "children": []
-        },
-        {
-          "char": "下",
-          "label": "below",
-          "children": []
-        },
-        {
-          "char": "近",
-          "label": "near",
-          "children": []
-        },
-        {
-          "char": "元",
-          "label": "origin",
-          "children": []
-        },
-        {
-          "char": "正",
-          "label": "correct, justice, righteous",
+          "char": "見",
+          "label": "see",
           "children": [
             {
-              "char": "中",
-              "label": "China",
+              "char": "親",
+              "label": "parent",
               "children": []
             }
           ]
         },
         {
-          "char": "工",
-          "label": "construction",
+          "char": "員",
+          "label": "employee",
           "children": []
-        }
-      ]
-    },
-    {
-      "id": "gake",
-      "root": "厂",
-      "label": "Cliff",
-      "children": [
+        },
+        {
+          "char": "着",
+          "label": "don",
+          "children": []
+        },
+        {
+          "char": "買",
+          "label": "buy",
+          "children": []
+        },
+        {
+          "char": "貸",
+          "label": "lend",
+          "children": []
+        },
         {
           "char": "質",
           "label": "substance",
           "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-心",
+      "root": "心",
+      "label": "heart",
+      "children": [
+        {
+          "char": "急",
+          "label": "hurry",
+          "children": []
         },
         {
-          "char": "考",
-          "label": "to think",
+          "char": "悪",
+          "label": "bad",
           "children": []
         }
       ]
     },
     {
-      "id": "dai-hito",
-      "root": "大",
-      "label": "Large",
+      "id": "k-日",
+      "root": "日",
+      "label": "day",
       "children": [
         {
-          "char": "天",
-          "label": "heavens, sky, imperial",
+          "char": "早",
+          "label": "early",
           "children": []
         },
         {
-          "char": "英",
-          "label": "outstanding",
+          "char": "者",
+          "label": "someone",
           "children": []
         },
         {
@@ -484,186 +251,43 @@
           "children": []
         },
         {
-          "char": "犬",
-          "label": "dog",
+          "char": "春",
+          "label": "springtime",
           "children": []
-        }
-      ]
-    },
-    {
-      "id": "hane",
-      "root": "羽",
-      "label": "Feather",
-      "children": [
+        },
         {
-          "char": "習",
-          "label": "learn",
+          "char": "昼",
+          "label": "daytime",
+          "children": []
+        },
+        {
+          "char": "借",
+          "label": "borrow",
+          "children": []
+        },
+        {
+          "char": "時",
+          "label": "time",
+          "children": []
+        },
+        {
+          "char": "書",
+          "label": "write",
+          "children": []
+        },
+        {
+          "char": "場",
+          "label": "location",
+          "children": []
+        },
+        {
+          "char": "間",
+          "label": "interval",
           "children": []
         },
         {
           "char": "曜",
           "label": "weekday",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "yoi",
-      "root": "良",
-      "label": "Good",
-      "children": [
-        {
-          "char": "食",
-          "label": "eat, meal, rice",
-          "children": []
-        },
-        {
-          "char": "飲",
-          "label": "drink",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "moto",
-      "root": "元",
-      "label": "Origin",
-      "children": [
-        {
-          "char": "院",
-          "label": "institution",
-          "children": []
-        },
-        {
-          "char": "兄",
-          "label": "elder brother",
-          "children": []
-        },
-        {
-          "char": "明",
-          "label": "bright",
-          "children": []
-        },
-        {
-          "char": "場",
-          "label": "location, place",
-          "children": []
-        },
-        {
-          "char": "題",
-          "label": "thing",
-          "children": []
-        },
-        {
-          "char": "聞",
-          "label": "hear",
-          "children": []
-        },
-        {
-          "char": "開",
-          "label": "open",
-          "children": []
-        },
-        {
-          "char": "勉",
-          "label": "polish, study",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "onna-ext",
-      "root": "女",
-      "label": "Woman (extended)",
-      "children": [
-        {
-          "char": "着",
-          "label": "wear, arrive",
-          "children": []
-        },
-        {
-          "char": "長",
-          "label": "long kimono",
-          "children": []
-        },
-        {
-          "char": "妹",
-          "label": "younger sister",
-          "children": []
-        },
-        {
-          "char": "母",
-          "label": "mother",
-          "children": []
-        },
-        {
-          "char": "毎",
-          "label": "every",
-          "children": [
-            {
-              "char": "海",
-              "label": "sea, ocean",
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "san-haru",
-      "root": "三",
-      "label": "Three",
-      "children": [
-        {
-          "char": "春",
-          "label": "spring",
-          "children": []
-        },
-        {
-          "char": "青",
-          "label": "blue, young",
-          "children": []
-        },
-        {
-          "char": "白",
-          "label": "white",
-          "children": []
-        },
-        {
-          "char": "作",
-          "label": "make",
-          "children": []
-        },
-        {
-          "char": "不",
-          "label": "negative, non-",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "tomeru",
-      "root": "止",
-      "label": "Stop",
-      "children": [
-        {
-          "char": "歩",
-          "label": "walk",
-          "children": []
-        },
-        {
-          "char": "正",
-          "label": "correct, justice",
-          "children": []
-        },
-        {
-          "char": "走",
-          "label": "run",
-          "children": []
-        },
-        {
-          "char": "起",
-          "label": "wake up, get up",
           "children": []
         },
         {
@@ -674,156 +298,18 @@
       ]
     },
     {
-      "id": "naga",
-      "root": "長",
-      "label": "Length",
+      "id": "k-月",
+      "root": "月",
+      "label": "month",
       "children": [
         {
-          "char": "使",
-          "label": "to use",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "hi-full",
-      "root": "日",
-      "label": "Sun, day (full)",
-      "children": [
-        {
-          "char": "早",
-          "label": "early, fast",
-          "children": []
-        },
-        {
-          "char": "朝",
-          "label": "morning",
-          "children": []
-        },
-        {
-          "char": "昼",
-          "label": "daytime",
-          "children": []
-        },
-        {
-          "char": "曜",
-          "label": "weekday",
+          "char": "有",
+          "label": "possess",
           "children": []
         },
         {
           "char": "明",
           "label": "bright",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "kuchi-full",
-      "root": "口",
-      "label": "Mouth (full)",
-      "children": [
-        {
-          "char": "目",
-          "label": "eye",
-          "children": [
-            {
-              "char": "見",
-              "label": "see",
-              "children": []
-            },
-            {
-              "char": "夏",
-              "label": "summer",
-              "children": []
-            },
-            {
-              "char": "真",
-              "label": "true, reality",
-              "children": []
-            }
-          ]
-        },
-        {
-          "char": "員",
-          "label": "employee, member",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "mu",
-      "root": "厶",
-      "label": "Private",
-      "children": [
-        {
-          "char": "公",
-          "label": "public",
-          "children": []
-        },
-        {
-          "char": "私",
-          "label": "private, I/me",
-          "children": []
-        },
-        {
-          "char": "去",
-          "label": "go away, past",
-          "children": []
-        },
-        {
-          "char": "台",
-          "label": "pedestal",
-          "children": [
-            {
-              "char": "始",
-              "label": "commence, begin",
-              "children": []
-            }
-          ]
-        },
-        {
-          "char": "屋",
-          "label": "roof, house, seller",
-          "children": []
-        },
-        {
-          "char": "室",
-          "label": "room",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "mon-full",
-      "root": "門",
-      "label": "Gate (full)",
-      "children": [
-        {
-          "char": "間",
-          "label": "between, among",
-          "children": [
-            {
-              "char": "聞",
-              "label": "hear",
-              "children": []
-            }
-          ]
-        },
-        {
-          "char": "問",
-          "label": "question",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "tsuki-full",
-      "root": "月",
-      "label": "Month, moon (full)",
-      "children": [
-        {
-          "char": "朝",
-          "label": "morning",
           "children": []
         },
         {
@@ -832,379 +318,66 @@
           "children": []
         },
         {
-          "char": "肉",
-          "label": "meat",
+          "char": "青",
+          "label": "blue",
           "children": []
         },
         {
-          "char": "有",
-          "label": "exist",
+          "char": "前",
+          "label": "in front",
           "children": []
         },
         {
-          "char": "明",
-          "label": "bright",
-          "children": []
-        },
-        {
-          "char": "用",
-          "label": "use",
+          "char": "朝",
+          "label": "morning",
           "children": []
         }
       ]
     },
     {
-      "id": "ukanmuri-full",
-      "root": "宀",
-      "label": "Roof (full)",
+      "id": "k-木",
+      "root": "木",
+      "label": "tree",
       "children": [
         {
-          "char": "写",
-          "label": "copy",
+          "char": "休",
+          "label": "rest",
           "children": []
         },
         {
-          "char": "安",
-          "label": "cheap",
+          "char": "私",
+          "label": "private",
           "children": []
         },
         {
-          "char": "家",
-          "label": "house, family",
-          "children": []
-        },
-        {
-          "char": "室",
-          "label": "room",
+          "char": "集",
+          "label": "gather",
           "children": []
         }
       ]
     },
     {
-      "id": "sho",
-      "root": "尚",
-      "label": "Still",
+      "id": "k-止",
+      "root": "止",
+      "label": "stop",
       "children": [
         {
-          "char": "通",
-          "label": "road, pass through",
+          "char": "正",
+          "label": "correct",
           "children": []
         },
         {
-          "char": "週",
-          "label": "week",
+          "char": "歩",
+          "label": "walk",
           "children": []
         }
       ]
     },
     {
-      "id": "ko",
-      "root": "子",
-      "label": "Child",
+      "id": "k-牛",
+      "root": "牛",
+      "label": "cow",
       "children": [
-        {
-          "char": "字",
-          "label": "character",
-          "children": []
-        },
-        {
-          "char": "学",
-          "label": "study",
-          "children": []
-        },
-        {
-          "char": "野",
-          "label": "plains, field",
-          "children": []
-        },
-        {
-          "char": "町",
-          "label": "town",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "kuchi-capital",
-      "root": "口",
-      "label": "Mouth (capital)",
-      "children": [
-        {
-          "char": "品",
-          "label": "goods",
-          "children": []
-        },
-        {
-          "char": "国",
-          "label": "country",
-          "children": []
-        },
-        {
-          "char": "図",
-          "label": "map, plan",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "yo",
-      "root": "与",
-      "label": "Give",
-      "children": [
-        {
-          "char": "急",
-          "label": "hurry",
-          "children": []
-        },
-        {
-          "char": "書",
-          "label": "write",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "waka",
-      "root": "分",
-      "label": "Separate",
-      "children": [
-        {
-          "char": "悪",
-          "label": "bad, evil, wrong",
-          "children": []
-        },
-        {
-          "char": "品",
-          "label": "goods",
-          "children": []
-        },
-        {
-          "char": "言",
-          "label": "say",
-          "children": [
-            {
-              "char": "計",
-              "label": "plan, scheme, measure",
-              "children": [
-                {
-                  "char": "建",
-                  "label": "building",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "char": "使",
-          "label": "to use",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼈",
-      "root": "⼈",
-      "label": "⼈",
-      "children": [
-        {
-          "char": "仕",
-          "label": "attend",
-          "children": []
-        },
-        {
-          "char": "代",
-          "label": "substitute",
-          "children": []
-        },
-        {
-          "char": "住",
-          "label": "dwell",
-          "children": []
-        },
-        {
-          "char": "体",
-          "label": "body",
-          "children": []
-        },
-        {
-          "char": "借",
-          "label": "borrow",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼑",
-      "root": "⼑",
-      "label": "⼑",
-      "children": [
-        {
-          "char": "切",
-          "label": "cut",
-          "children": []
-        },
-        {
-          "char": "別",
-          "label": "separate",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼝",
-      "root": "⼝",
-      "label": "⼝",
-      "children": [
-        {
-          "char": "口",
-          "label": "mouth",
-          "children": []
-        },
-        {
-          "char": "古",
-          "label": "old",
-          "children": []
-        },
-        {
-          "char": "同",
-          "label": "same",
-          "children": []
-        },
-        {
-          "char": "味",
-          "label": "flavor",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼣",
-      "root": "⼣",
-      "label": "⼣",
-      "children": [
-        {
-          "char": "夕",
-          "label": "evening",
-          "children": []
-        },
-        {
-          "char": "多",
-          "label": "many",
-          "children": []
-        },
-        {
-          "char": "夜",
-          "label": "night",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼴",
-      "root": "⼴",
-      "label": "⼴",
-      "children": [
-        {
-          "char": "店",
-          "label": "store",
-          "children": []
-        },
-        {
-          "char": "度",
-          "label": "degrees",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼸",
-      "root": "⼸",
-      "label": "⼸",
-      "children": [
-        {
-          "char": "弟",
-          "label": "younger brother",
-          "children": []
-        },
-        {
-          "char": "強",
-          "label": "strong",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⼼",
-      "root": "⼼",
-      "label": "⼼",
-      "children": [
-        {
-          "char": "心",
-          "label": "heart",
-          "children": []
-        },
-        {
-          "char": "思",
-          "label": "think",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⽅",
-      "root": "⽅",
-      "label": "⽅",
-      "children": [
-        {
-          "char": "方",
-          "label": "direction",
-          "children": []
-        },
-        {
-          "char": "旅",
-          "label": "trip",
-          "children": []
-        },
-        {
-          "char": "族",
-          "label": "tribe",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⽔",
-      "root": "⽔",
-      "label": "⽔",
-      "children": [
-        {
-          "char": "注",
-          "label": "pour",
-          "children": []
-        },
-        {
-          "char": "洋",
-          "label": "ocean",
-          "children": []
-        },
-        {
-          "char": "漢",
-          "label": "Sino-",
-          "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⽜",
-      "root": "⽜",
-      "label": "⽜",
-      "children": [
-        {
-          "char": "牛",
-          "label": "cow",
-          "children": []
-        },
         {
           "char": "物",
           "label": "thing",
@@ -1218,35 +391,204 @@
       ]
     },
     {
-      "id": "auto-⽥",
-      "root": "⽥",
-      "label": "⽥",
+      "id": "k-口",
+      "root": "口",
+      "label": "mouth",
       "children": [
         {
-          "char": "田",
-          "label": "rice field",
+          "char": "中",
+          "label": "in",
           "children": []
         },
         {
-          "char": "画",
-          "label": "brush-stroke",
+          "char": "兄",
+          "label": "elder brother",
           "children": []
         },
         {
-          "char": "界",
-          "label": "world",
+          "char": "古",
+          "label": "old",
+          "children": []
+        },
+        {
+          "char": "台",
+          "label": "pedestal",
+          "children": [
+            {
+              "char": "始",
+              "label": "commence",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "右",
+          "label": "right",
+          "children": []
+        },
+        {
+          "char": "同",
+          "label": "same",
+          "children": []
+        },
+        {
+          "char": "何",
+          "label": "what",
+          "children": []
+        },
+        {
+          "char": "足",
+          "label": "leg",
+          "children": []
+        },
+        {
+          "char": "味",
+          "label": "flavor",
+          "children": []
+        },
+        {
+          "char": "店",
+          "label": "store",
+          "children": []
+        },
+        {
+          "char": "品",
+          "label": "goods",
+          "children": []
+        },
+        {
+          "char": "研",
+          "label": "polish",
+          "children": []
+        },
+        {
+          "char": "高",
+          "label": "tall",
+          "children": []
+        },
+        {
+          "char": "問",
+          "label": "question",
+          "children": []
+        },
+        {
+          "char": "答",
+          "label": "solution",
+          "children": []
+        },
+        {
+          "char": "漢",
+          "label": "Sino-",
+          "children": []
+        },
+        {
+          "char": "歌",
+          "label": "song",
+          "children": []
+        },
+        {
+          "char": "験",
+          "label": "verification",
           "children": []
         }
       ]
     },
     {
-      "id": "auto-⽳",
-      "root": "⽳",
-      "label": "⽳",
+      "id": "k-夕",
+      "root": "夕",
+      "label": "evening",
       "children": [
         {
-          "char": "究",
-          "label": "research",
+          "char": "外",
+          "label": "outside",
+          "children": []
+        },
+        {
+          "char": "名",
+          "label": "name",
+          "children": []
+        },
+        {
+          "char": "多",
+          "label": "many",
+          "children": []
+        },
+        {
+          "char": "死",
+          "label": "death",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-女",
+      "root": "女",
+      "label": "woman",
+      "children": [
+        {
+          "char": "安",
+          "label": "relax",
+          "children": []
+        },
+        {
+          "char": "妹",
+          "label": "younger sister",
+          "children": []
+        },
+        {
+          "char": "姉",
+          "label": "elder sister",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-子",
+      "root": "子",
+      "label": "child",
+      "children": [
+        {
+          "char": "字",
+          "label": "character",
+          "children": []
+        },
+        {
+          "char": "学",
+          "label": "study",
+          "children": []
+        },
+        {
+          "char": "教",
+          "label": "teach",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-小",
+      "root": "小",
+      "label": "little",
+      "children": [
+        {
+          "char": "少",
+          "label": "few",
+          "children": []
+        },
+        {
+          "char": "京",
+          "label": "capital",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-工",
+      "root": "工",
+      "label": "craft",
+      "children": [
+        {
+          "char": "左",
+          "label": "left",
           "children": []
         },
         {
@@ -1257,52 +599,77 @@
       ]
     },
     {
-      "id": "auto-⾋",
-      "root": "⾋",
-      "label": "⾋",
+      "id": "k-七",
+      "root": "七",
+      "label": "seven",
       "children": [
         {
-          "char": "花",
-          "label": "flower",
-          "children": []
-        },
-        {
-          "char": "茶",
-          "label": "tea",
+          "char": "切",
+          "label": "cut",
           "children": []
         }
       ]
     },
     {
-      "id": "auto-⾡",
-      "root": "⾡",
-      "label": "⾡",
+      "id": "k-人",
+      "root": "人",
+      "label": "person",
       "children": [
         {
-          "char": "送",
-          "label": "escort",
+          "char": "大",
+          "label": "large",
+          "children": [
+            {
+              "char": "天",
+              "label": "heavens",
+              "children": [
+                {
+                  "char": "送",
+                  "label": "escort",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "char": "医",
+              "label": "doctor",
+              "children": []
+            },
+            {
+              "char": "知",
+              "label": "know",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "今",
+          "label": "now",
           "children": []
         },
         {
-          "char": "運",
-          "label": "carry",
+          "char": "会",
+          "label": "meeting",
           "children": []
         },
         {
-          "char": "道",
-          "label": "road-way",
+          "char": "食",
+          "label": "eat",
           "children": []
-        }
-      ]
-    },
-    {
-      "id": "auto-⾷",
-      "root": "⾷",
-      "label": "⾷",
-      "children": [
+        },
+        {
+          "char": "病",
+          "label": "ill",
+          "children": []
+        },
         {
           "char": "飯",
           "label": "meal",
+          "children": []
+        },
+        {
+          "char": "飲",
+          "label": "drink",
           "children": []
         },
         {
@@ -1313,13 +680,429 @@
       ]
     },
     {
-      "id": "auto-misc",
-      "root": "他",
-      "label": "Other",
+      "id": "k-八",
+      "root": "八",
+      "label": "eight",
       "children": [
         {
-          "char": "主",
-          "label": "lord",
+          "char": "公",
+          "label": "public",
+          "children": []
+        },
+        {
+          "char": "六",
+          "label": "six",
+          "children": []
+        },
+        {
+          "char": "火",
+          "label": "fire",
+          "children": [
+            {
+              "char": "秋",
+              "label": "autumn",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "父",
+          "label": "father",
+          "children": [
+            {
+              "char": "校",
+              "label": "exam",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "究",
+          "label": "research",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-力",
+      "root": "力",
+      "label": "power",
+      "children": [
+        {
+          "char": "勉",
+          "label": "exertion",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-十",
+      "root": "十",
+      "label": "ten",
+      "children": [
+        {
+          "char": "千",
+          "label": "thousand",
+          "children": []
+        },
+        {
+          "char": "土",
+          "label": "soil",
+          "children": [
+            {
+              "char": "主",
+              "label": "lord",
+              "children": [
+                {
+                  "char": "住",
+                  "label": "dwell",
+                  "children": []
+                },
+                {
+                  "char": "注",
+                  "label": "pour",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "char": "去",
+              "label": "gone",
+              "children": []
+            },
+            {
+              "char": "地",
+              "label": "ground",
+              "children": []
+            },
+            {
+              "char": "社",
+              "label": "company",
+              "children": []
+            },
+            {
+              "char": "赤",
+              "label": "red",
+              "children": []
+            },
+            {
+              "char": "走",
+              "label": "run",
+              "children": [
+                {
+                  "char": "起",
+                  "label": "rouse",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "char": "国",
+              "label": "country",
+              "children": []
+            },
+            {
+              "char": "金",
+              "label": "gold",
+              "children": [
+                {
+                  "char": "銀",
+                  "label": "silver",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "char": "室",
+              "label": "room",
+              "children": []
+            },
+            {
+              "char": "屋",
+              "label": "roof",
+              "children": []
+            },
+            {
+              "char": "待",
+              "label": "wait",
+              "children": []
+            },
+            {
+              "char": "持",
+              "label": "hold",
+              "children": []
+            },
+            {
+              "char": "堂",
+              "label": "public chamber",
+              "children": []
+            },
+            {
+              "char": "理",
+              "label": "logic",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "午",
+          "label": "noon",
+          "children": []
+        },
+        {
+          "char": "仕",
+          "label": "attend",
+          "children": []
+        },
+        {
+          "char": "売",
+          "label": "sell",
+          "children": []
+        },
+        {
+          "char": "花",
+          "label": "flower",
+          "children": []
+        },
+        {
+          "char": "英",
+          "label": "England",
+          "children": []
+        },
+        {
+          "char": "南",
+          "label": "south",
+          "children": []
+        },
+        {
+          "char": "茶",
+          "label": "tea",
+          "children": []
+        },
+        {
+          "char": "真",
+          "label": "true",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "k-一",
+      "root": "一",
+      "label": "one",
+      "children": [
+        {
+          "char": "二",
+          "label": "two",
+          "children": [
+            {
+              "char": "三",
+              "label": "three",
+              "children": []
+            },
+            {
+              "char": "半",
+              "label": "half",
+              "children": []
+            },
+            {
+              "char": "用",
+              "label": "utilize",
+              "children": [
+                {
+                  "char": "通",
+                  "label": "traffic",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "char": "建",
+              "label": "build",
+              "children": []
+            },
+            {
+              "char": "洋",
+              "label": "ocean",
+              "children": []
+            },
+            {
+              "char": "発",
+              "label": "departure",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "万",
+          "label": "ten thousand",
+          "children": []
+        },
+        {
+          "char": "上",
+          "label": "above",
+          "children": []
+        },
+        {
+          "char": "下",
+          "label": "below",
+          "children": []
+        },
+        {
+          "char": "不",
+          "label": "negative",
+          "children": []
+        },
+        {
+          "char": "五",
+          "label": "five",
+          "children": []
+        },
+        {
+          "char": "元",
+          "label": "beginning",
+          "children": [
+            {
+              "char": "院",
+              "label": "Inst.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "文",
+          "label": "sentence",
+          "children": []
+        },
+        {
+          "char": "方",
+          "label": "direction",
+          "children": [
+            {
+              "char": "旅",
+              "label": "trip",
+              "children": []
+            },
+            {
+              "char": "族",
+              "label": "tribe",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "写",
+          "label": "copy",
+          "children": []
+        },
+        {
+          "char": "立",
+          "label": "stand up",
+          "children": [
+            {
+              "char": "音",
+              "label": "sound",
+              "children": [
+                {
+                  "char": "意",
+                  "label": "idea",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "char": "新",
+              "label": "new",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "気",
+          "label": "spirit",
+          "children": []
+        },
+        {
+          "char": "考",
+          "label": "consider",
+          "children": []
+        },
+        {
+          "char": "行",
+          "label": "going",
+          "children": []
+        },
+        {
+          "char": "西",
+          "label": "west",
+          "children": []
+        },
+        {
+          "char": "近",
+          "label": "near",
+          "children": []
+        },
+        {
+          "char": "使",
+          "label": "use",
+          "children": []
+        },
+        {
+          "char": "夜",
+          "label": "night",
+          "children": []
+        },
+        {
+          "char": "長",
+          "label": "long",
+          "children": []
+        },
+        {
+          "char": "雨",
+          "label": "rain",
+          "children": [
+            {
+              "char": "電",
+              "label": "electricity",
+              "children": []
+            }
+          ]
+        },
+        {
+          "char": "家",
+          "label": "house",
+          "children": []
+        },
+        {
+          "char": "野",
+          "label": "plains",
+          "children": []
+        },
+        {
+          "char": "黒",
+          "label": "black",
+          "children": []
+        },
+        {
+          "char": "開",
+          "label": "open",
+          "children": []
+        },
+        {
+          "char": "業",
+          "label": "business",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "root": "他",
+      "label": "Other (standalone)",
+      "children": [
+        {
+          "char": "世",
+          "label": "generation",
           "children": []
         },
         {
@@ -1328,28 +1111,33 @@
           "children": []
         },
         {
-          "char": "京",
-          "label": "capital",
+          "char": "代",
+          "label": "substitute",
           "children": []
         },
         {
-          "char": "力",
-          "label": "power",
+          "char": "以",
+          "label": "by means of",
           "children": []
         },
         {
-          "char": "医",
-          "label": "doctor",
+          "char": "作",
+          "label": "make",
           "children": []
         },
         {
-          "char": "堂",
-          "label": "public chamber",
+          "char": "別",
+          "label": "separate",
           "children": []
         },
         {
-          "char": "少",
-          "label": "few",
+          "char": "図",
+          "label": "map",
+          "children": []
+        },
+        {
+          "char": "夏",
+          "label": "summer",
           "children": []
         },
         {
@@ -1358,8 +1146,23 @@
           "children": []
         },
         {
-          "char": "待",
-          "label": "wait",
+          "char": "広",
+          "label": "wide",
+          "children": []
+        },
+        {
+          "char": "度",
+          "label": "degrees",
+          "children": []
+        },
+        {
+          "char": "弟",
+          "label": "younger brother",
+          "children": []
+        },
+        {
+          "char": "強",
+          "label": "strong",
           "children": []
         },
         {
@@ -1373,68 +1176,8 @@
           "children": []
         },
         {
-          "char": "新",
-          "label": "new",
-          "children": []
-        },
-        {
-          "char": "楽",
-          "label": "music",
-          "children": []
-        },
-        {
-          "char": "止",
-          "label": "stop",
-          "children": []
-        },
-        {
-          "char": "死",
-          "label": "death",
-          "children": []
-        },
-        {
-          "char": "理",
-          "label": "logic",
-          "children": []
-        },
-        {
-          "char": "病",
-          "label": "ill",
-          "children": []
-        },
-        {
-          "char": "発",
-          "label": "departure",
-          "children": []
-        },
-        {
-          "char": "知",
-          "label": "know",
-          "children": []
-        },
-        {
-          "char": "研",
-          "label": "polish",
-          "children": []
-        },
-        {
-          "char": "社",
-          "label": "company",
-          "children": []
-        },
-        {
-          "char": "秋",
-          "label": "autumn",
-          "children": []
-        },
-        {
-          "char": "立",
-          "label": "stand up",
-          "children": []
-        },
-        {
-          "char": "答",
-          "label": "solution",
+          "char": "犬",
+          "label": "dog",
           "children": []
         },
         {
@@ -1443,13 +1186,8 @@
           "children": []
         },
         {
-          "char": "者",
-          "label": "someone",
-          "children": []
-        },
-        {
-          "char": "自",
-          "label": "oneself",
+          "char": "肉",
+          "label": "meat",
           "children": []
         },
         {
@@ -1458,28 +1196,13 @@
           "children": []
         },
         {
-          "char": "親",
-          "label": "parent",
+          "char": "週",
+          "label": "week",
           "children": []
         },
         {
-          "char": "買",
-          "label": "buy",
-          "children": []
-        },
-        {
-          "char": "足",
-          "label": "leg",
-          "children": []
-        },
-        {
-          "char": "転",
-          "label": "revolve",
-          "children": []
-        },
-        {
-          "char": "重",
-          "label": "heavy",
+          "char": "風",
+          "label": "wind",
           "children": []
         },
         {
@@ -1488,24 +1211,175 @@
           "children": []
         },
         {
-          "char": "魚",
-          "label": "fish",
-          "children": []
-        },
-        {
           "char": "鳥",
           "label": "bird",
-          "children": []
-        },
-        {
-          "char": "黒",
-          "label": "black",
           "children": []
         }
       ]
     }
   ],
   "kanji": {
+    "一": {
+      "char": "一",
+      "meanings": [
+        "one",
+        "one radical (no.1)"
+      ],
+      "on": [
+        "イチ",
+        "イツ"
+      ],
+      "kun": [
+        "ひと-",
+        "ひと.つ"
+      ],
+      "strokes": 1,
+      "vocab": {
+        "on": [
+          {
+            "word": "一",
+            "reading": "いち",
+            "gloss": "one"
+          },
+          {
+            "word": "一位",
+            "reading": "いちい",
+            "gloss": "first place"
+          }
+        ],
+        "kun": [
+          {
+            "word": "一",
+            "reading": "ひと",
+            "gloss": "one"
+          },
+          {
+            "word": "一つ",
+            "reading": "ひとつ",
+            "gloss": "one"
+          }
+        ]
+      }
+    },
+    "七": {
+      "char": "七",
+      "meanings": [
+        "seven"
+      ],
+      "on": [
+        "シチ"
+      ],
+      "kun": [
+        "なな",
+        "なな.つ",
+        "なの"
+      ],
+      "strokes": 2,
+      "vocab": {
+        "on": [
+          {
+            "word": "七",
+            "reading": "しち",
+            "gloss": "seven"
+          },
+          {
+            "word": "七月",
+            "reading": "しちがつ",
+            "gloss": "July"
+          }
+        ],
+        "kun": [
+          {
+            "word": "七つ",
+            "reading": "ななつ",
+            "gloss": "seven"
+          },
+          {
+            "word": "七十",
+            "reading": "ななじゅう",
+            "gloss": "seventy"
+          }
+        ]
+      }
+    },
+    "万": {
+      "char": "万",
+      "meanings": [
+        "ten thousand",
+        "10,000"
+      ],
+      "on": [
+        "マン",
+        "バン"
+      ],
+      "kun": [
+        "よろず"
+      ],
+      "strokes": 3,
+      "vocab": {
+        "on": [
+          {
+            "word": "万",
+            "reading": "まん",
+            "gloss": "10,000"
+          },
+          {
+            "word": "十万",
+            "reading": "じゅうまん",
+            "gloss": "100,000"
+          }
+        ],
+        "kun": [
+          {
+            "word": "万屋",
+            "reading": "よろずや",
+            "gloss": "general store"
+          }
+        ]
+      }
+    },
+    "三": {
+      "char": "三",
+      "meanings": [
+        "three"
+      ],
+      "on": [
+        "サン",
+        "ゾウ"
+      ],
+      "kun": [
+        "み",
+        "み.つ",
+        "みっ.つ"
+      ],
+      "strokes": 3,
+      "vocab": {
+        "on": [
+          {
+            "word": "三",
+            "reading": "さん",
+            "gloss": "three"
+          },
+          {
+            "word": "再三",
+            "reading": "さいさん",
+            "gloss": "again and again"
+          }
+        ],
+        "kun": [
+          {
+            "word": "三つ",
+            "reading": "みっつ",
+            "gloss": "three"
+          },
+          {
+            "word": "三日",
+            "reading": "みっか",
+            "gloss": "3rd day of the month"
+          }
+        ]
+      }
+    },
     "上": {
       "char": "上",
       "meanings": [
@@ -1832,6 +1706,89 @@
         ]
       }
     },
+    "二": {
+      "char": "二",
+      "meanings": [
+        "two",
+        "two radical (no. 7)"
+      ],
+      "on": [
+        "ニ",
+        "ジ"
+      ],
+      "kun": [
+        "ふた",
+        "ふた.つ",
+        "ふたたび"
+      ],
+      "strokes": 2,
+      "vocab": {
+        "on": [
+          {
+            "word": "二",
+            "reading": "に",
+            "gloss": "two"
+          },
+          {
+            "word": "十二",
+            "reading": "じゅうに",
+            "gloss": "twelve"
+          }
+        ],
+        "kun": [
+          {
+            "word": "二つ",
+            "reading": "ふたつ",
+            "gloss": "two"
+          },
+          {
+            "word": "二人",
+            "reading": "ふたり",
+            "gloss": "two persons"
+          }
+        ]
+      }
+    },
+    "五": {
+      "char": "五",
+      "meanings": [
+        "five"
+      ],
+      "on": [
+        "ゴ"
+      ],
+      "kun": [
+        "いつ",
+        "いつ.つ"
+      ],
+      "strokes": 4,
+      "vocab": {
+        "on": [
+          {
+            "word": "五",
+            "reading": "ご",
+            "gloss": "five"
+          },
+          {
+            "word": "五感",
+            "reading": "ごかん",
+            "gloss": "the five senses"
+          }
+        ],
+        "kun": [
+          {
+            "word": "五つ",
+            "reading": "いつつ",
+            "gloss": "five"
+          },
+          {
+            "word": "五日",
+            "reading": "いつか",
+            "gloss": "5th day of the month"
+          }
+        ]
+      }
+    },
     "京": {
       "char": "京",
       "meanings": [
@@ -1865,6 +1822,48 @@
             "word": "京",
             "reading": "みやこ",
             "gloss": "capital (esp. Kyoto, Japan's former capital)"
+          }
+        ]
+      }
+    },
+    "人": {
+      "char": "人",
+      "meanings": [
+        "person"
+      ],
+      "on": [
+        "ジン",
+        "ニン"
+      ],
+      "kun": [
+        "ひと",
+        "-り",
+        "-と"
+      ],
+      "strokes": 2,
+      "vocab": {
+        "on": [
+          {
+            "word": "人",
+            "reading": "じん",
+            "gloss": "-ian (e.g. Italian)"
+          },
+          {
+            "word": "人",
+            "reading": "にん",
+            "gloss": "counter for people"
+          }
+        ],
+        "kun": [
+          {
+            "word": "人",
+            "reading": "ひと",
+            "gloss": "person"
+          },
+          {
+            "word": "人妻",
+            "reading": "ひとづま",
+            "gloss": "married woman"
           }
         ]
       }
@@ -2047,6 +2046,50 @@
         ]
       }
     },
+    "休": {
+      "char": "休",
+      "meanings": [
+        "rest",
+        "day off",
+        "retire",
+        "sleep"
+      ],
+      "on": [
+        "キュウ"
+      ],
+      "kun": [
+        "やす.む",
+        "やす.まる",
+        "やす.める"
+      ],
+      "strokes": 6,
+      "vocab": {
+        "on": [
+          {
+            "word": "運休",
+            "reading": "うんきゅう",
+            "gloss": "suspension (of a transportation service)"
+          },
+          {
+            "word": "休暇",
+            "reading": "きゅうか",
+            "gloss": "holiday"
+          }
+        ],
+        "kun": [
+          {
+            "word": "休む",
+            "reading": "やすむ",
+            "gloss": "to be absent"
+          },
+          {
+            "word": "休まる",
+            "reading": "やすまる",
+            "gloss": "to be rested"
+          }
+        ]
+      }
+    },
     "会": {
       "char": "会",
       "meanings": [
@@ -2181,6 +2224,48 @@
             "word": "体つき",
             "reading": "からだつき",
             "gloss": "body build"
+          }
+        ]
+      }
+    },
+    "何": {
+      "char": "何",
+      "meanings": [
+        "what"
+      ],
+      "on": [
+        "カ"
+      ],
+      "kun": [
+        "なに",
+        "なん",
+        "なに-",
+        "なん-"
+      ],
+      "strokes": 7,
+      "vocab": {
+        "on": [
+          {
+            "word": "何か",
+            "reading": "なにか",
+            "gloss": "something"
+          },
+          {
+            "word": "何回",
+            "reading": "なんかい",
+            "gloss": "how many times"
+          }
+        ],
+        "kun": [
+          {
+            "word": "何",
+            "reading": "なに",
+            "gloss": "what"
+          },
+          {
+            "word": "何",
+            "reading": "なん",
+            "gloss": "what"
           }
         ]
       }
@@ -2401,6 +2486,50 @@
         ]
       }
     },
+    "八": {
+      "char": "八",
+      "meanings": [
+        "eight",
+        "eight radical (no. 12)"
+      ],
+      "on": [
+        "ハチ",
+        "ハツ"
+      ],
+      "kun": [
+        "や",
+        "や.つ",
+        "やっ.つ",
+        "よう"
+      ],
+      "strokes": 2,
+      "vocab": {
+        "on": [
+          {
+            "word": "八",
+            "reading": "はち",
+            "gloss": "eight"
+          },
+          {
+            "word": "尺八",
+            "reading": "しゃくはち",
+            "gloss": "shakuhachi"
+          }
+        ],
+        "kun": [
+          {
+            "word": "八日",
+            "reading": "ようか",
+            "gloss": "8th day of the month"
+          },
+          {
+            "word": "八つ",
+            "reading": "やっつ",
+            "gloss": "eight"
+          }
+        ]
+      }
+    },
     "公": {
       "char": "公",
       "meanings": [
@@ -2440,6 +2569,49 @@
             "word": "公所",
             "reading": "おおやけどころ",
             "gloss": "imperial court"
+          }
+        ]
+      }
+    },
+    "六": {
+      "char": "六",
+      "meanings": [
+        "six"
+      ],
+      "on": [
+        "ロク",
+        "リク"
+      ],
+      "kun": [
+        "む",
+        "む.つ",
+        "むっ.つ",
+        "むい"
+      ],
+      "strokes": 4,
+      "vocab": {
+        "on": [
+          {
+            "word": "六",
+            "reading": "ろく",
+            "gloss": "six"
+          },
+          {
+            "word": "十六",
+            "reading": "じゅうろく",
+            "gloss": "sixteen"
+          }
+        ],
+        "kun": [
+          {
+            "word": "六日",
+            "reading": "むいか",
+            "gloss": "6th day of the month"
+          },
+          {
+            "word": "六つ",
+            "reading": "むっつ",
+            "gloss": "six"
           }
         ]
       }
@@ -2625,6 +2797,47 @@
         ]
       }
     },
+    "前": {
+      "char": "前",
+      "meanings": [
+        "in front",
+        "before"
+      ],
+      "on": [
+        "ゼン"
+      ],
+      "kun": [
+        "まえ",
+        "-まえ"
+      ],
+      "strokes": 9,
+      "vocab": {
+        "on": [
+          {
+            "word": "前",
+            "reading": "ぜん",
+            "gloss": "last (i.e. immediately preceding)"
+          },
+          {
+            "word": "以前",
+            "reading": "いぜん",
+            "gloss": "before"
+          }
+        ],
+        "kun": [
+          {
+            "word": "前",
+            "reading": "まえ",
+            "gloss": "in front (of)"
+          },
+          {
+            "word": "前頭",
+            "reading": "まえがしら",
+            "gloss": "rank-and-file wrestlers in the highest division"
+          }
+        ]
+      }
+    },
     "力": {
       "char": "力",
       "meanings": [
@@ -2797,6 +3010,213 @@
         ]
       }
     },
+    "十": {
+      "char": "十",
+      "meanings": [
+        "ten"
+      ],
+      "on": [
+        "ジュウ",
+        "ジッ",
+        "ジュッ"
+      ],
+      "kun": [
+        "とお",
+        "と",
+        "そ"
+      ],
+      "strokes": 2,
+      "vocab": {
+        "on": [
+          {
+            "word": "十",
+            "reading": "じゅう",
+            "gloss": "ten"
+          },
+          {
+            "word": "十一",
+            "reading": "じゅういち",
+            "gloss": "eleven"
+          }
+        ],
+        "kun": [
+          {
+            "word": "十日",
+            "reading": "とおか",
+            "gloss": "10th day of the month"
+          },
+          {
+            "word": "十重",
+            "reading": "とえ",
+            "gloss": "tenfold"
+          }
+        ]
+      }
+    },
+    "千": {
+      "char": "千",
+      "meanings": [
+        "thousand"
+      ],
+      "on": [
+        "セン"
+      ],
+      "kun": [
+        "ち"
+      ],
+      "strokes": 3,
+      "vocab": {
+        "on": [
+          {
+            "word": "千",
+            "reading": "せん",
+            "gloss": "thousand"
+          },
+          {
+            "word": "一千",
+            "reading": "いっせん",
+            "gloss": "1,000"
+          }
+        ],
+        "kun": [
+          {
+            "word": "千鳥",
+            "reading": "ちどり",
+            "gloss": "plover"
+          },
+          {
+            "word": "千島",
+            "reading": "ちしま",
+            "gloss": "Kurile Islands"
+          }
+        ]
+      }
+    },
+    "午": {
+      "char": "午",
+      "meanings": [
+        "noon",
+        "sign of the horse",
+        "11AM-1PM",
+        "seventh sign of Chinese zodiac"
+      ],
+      "on": [
+        "ゴ"
+      ],
+      "kun": [
+        "うま"
+      ],
+      "strokes": 4,
+      "vocab": {
+        "on": [
+          {
+            "word": "午後",
+            "reading": "ごご",
+            "gloss": "afternoon"
+          },
+          {
+            "word": "午前",
+            "reading": "ごぜん",
+            "gloss": "morning"
+          }
+        ],
+        "kun": [
+          {
+            "word": "午",
+            "reading": "うま",
+            "gloss": "the Horse (seventh sign of the Chinese zodiac)"
+          },
+          {
+            "word": "午年",
+            "reading": "うまどし",
+            "gloss": "year of the Horse"
+          }
+        ]
+      }
+    },
+    "半": {
+      "char": "半",
+      "meanings": [
+        "half",
+        "middle",
+        "odd number",
+        "semi-",
+        "part-"
+      ],
+      "on": [
+        "ハン"
+      ],
+      "kun": [
+        "なか.ば"
+      ],
+      "strokes": 5,
+      "vocab": {
+        "on": [
+          {
+            "word": "半",
+            "reading": "はん",
+            "gloss": "half"
+          },
+          {
+            "word": "後半",
+            "reading": "こうはん",
+            "gloss": "second half"
+          }
+        ],
+        "kun": [
+          {
+            "word": "半ば",
+            "reading": "なかば",
+            "gloss": "middle"
+          },
+          {
+            "word": "半ば過ぎ",
+            "reading": "なかばすぎ",
+            "gloss": "beyond the middle"
+          }
+        ]
+      }
+    },
+    "南": {
+      "char": "南",
+      "meanings": [
+        "south"
+      ],
+      "on": [
+        "ナン",
+        "ナ"
+      ],
+      "kun": [
+        "みなみ"
+      ],
+      "strokes": 9,
+      "vocab": {
+        "on": [
+          {
+            "word": "南",
+            "reading": "みなみ",
+            "gloss": "south"
+          },
+          {
+            "word": "西南",
+            "reading": "せいなん",
+            "gloss": "south-west"
+          }
+        ],
+        "kun": [
+          {
+            "word": "南",
+            "reading": "みなみ",
+            "gloss": "south"
+          },
+          {
+            "word": "南口",
+            "reading": "みなみぐち",
+            "gloss": "south entrance"
+          }
+        ]
+      }
+    },
     "去": {
       "char": "去",
       "meanings": [
@@ -2964,6 +3384,46 @@
         ]
       }
     },
+    "右": {
+      "char": "右",
+      "meanings": [
+        "right"
+      ],
+      "on": [
+        "ウ",
+        "ユウ"
+      ],
+      "kun": [
+        "みぎ"
+      ],
+      "strokes": 5,
+      "vocab": {
+        "on": [
+          {
+            "word": "右上",
+            "reading": "みぎうえ",
+            "gloss": "upper right"
+          },
+          {
+            "word": "右折",
+            "reading": "うせつ",
+            "gloss": "turning to the right"
+          }
+        ],
+        "kun": [
+          {
+            "word": "右",
+            "reading": "みぎ",
+            "gloss": "right"
+          },
+          {
+            "word": "右下",
+            "reading": "みぎした",
+            "gloss": "lower right"
+          }
+        ]
+      }
+    },
     "同": {
       "char": "同",
       "meanings": [
@@ -3001,6 +3461,50 @@
             "word": "同じく",
             "reading": "おなじく",
             "gloss": "in the same way"
+          }
+        ]
+      }
+    },
+    "名": {
+      "char": "名",
+      "meanings": [
+        "name",
+        "noted",
+        "distinguished",
+        "reputation"
+      ],
+      "on": [
+        "メイ",
+        "ミョウ"
+      ],
+      "kun": [
+        "な",
+        "-な"
+      ],
+      "strokes": 6,
+      "vocab": {
+        "on": [
+          {
+            "word": "異名",
+            "reading": "いみょう",
+            "gloss": "another name"
+          },
+          {
+            "word": "汚名",
+            "reading": "おめい",
+            "gloss": "bad name"
+          }
+        ],
+        "kun": [
+          {
+            "word": "名",
+            "reading": "な",
+            "gloss": "name"
+          },
+          {
+            "word": "名札",
+            "reading": "なふだ",
+            "gloss": "name plate"
           }
         ]
       }
@@ -3505,6 +4009,50 @@
         ]
       }
     },
+    "外": {
+      "char": "外",
+      "meanings": [
+        "outside"
+      ],
+      "on": [
+        "ガイ",
+        "ゲ"
+      ],
+      "kun": [
+        "そと",
+        "ほか",
+        "はず.す",
+        "はず.れる",
+        "と-"
+      ],
+      "strokes": 5,
+      "vocab": {
+        "on": [
+          {
+            "word": "外",
+            "reading": "がい",
+            "gloss": "outside ..."
+          },
+          {
+            "word": "案外",
+            "reading": "あんがい",
+            "gloss": "unexpectedly"
+          }
+        ],
+        "kun": [
+          {
+            "word": "外",
+            "reading": "そと",
+            "gloss": "outside"
+          },
+          {
+            "word": "外す",
+            "reading": "はずす",
+            "gloss": "to remove"
+          }
+        ]
+      }
+    },
     "多": {
       "char": "多",
       "meanings": [
@@ -3589,6 +4137,49 @@
         ]
       }
     },
+    "大": {
+      "char": "大",
+      "meanings": [
+        "large",
+        "big"
+      ],
+      "on": [
+        "ダイ",
+        "タイ"
+      ],
+      "kun": [
+        "おお-",
+        "おお.きい",
+        "-おお.いに"
+      ],
+      "strokes": 3,
+      "vocab": {
+        "on": [
+          {
+            "word": "大",
+            "reading": "だい",
+            "gloss": "large"
+          },
+          {
+            "word": "偉大",
+            "reading": "いだい",
+            "gloss": "great"
+          }
+        ],
+        "kun": [
+          {
+            "word": "大",
+            "reading": "おお",
+            "gloss": "large"
+          },
+          {
+            "word": "大雨",
+            "reading": "おおあめ",
+            "gloss": "heavy rain"
+          }
+        ]
+      }
+    },
     "天": {
       "char": "天",
       "meanings": [
@@ -3628,6 +4219,49 @@
             "word": "天の川",
             "reading": "あまのがわ",
             "gloss": "Milky Way"
+          }
+        ]
+      }
+    },
+    "女": {
+      "char": "女",
+      "meanings": [
+        "woman",
+        "female"
+      ],
+      "on": [
+        "ジョ",
+        "ニョ",
+        "ニョウ"
+      ],
+      "kun": [
+        "おんな",
+        "め"
+      ],
+      "strokes": 3,
+      "vocab": {
+        "on": [
+          {
+            "word": "悪女",
+            "reading": "あくじょ",
+            "gloss": "wicked woman"
+          },
+          {
+            "word": "王女",
+            "reading": "おうじょ",
+            "gloss": "princess"
+          }
+        ],
+        "kun": [
+          {
+            "word": "女",
+            "reading": "おんな",
+            "gloss": "woman"
+          },
+          {
+            "word": "女神",
+            "reading": "めがみ",
+            "gloss": "goddess"
           }
         ]
       }
@@ -3749,6 +4383,52 @@
             "word": "始める",
             "reading": "はじめる",
             "gloss": "to start"
+          }
+        ]
+      }
+    },
+    "子": {
+      "char": "子",
+      "meanings": [
+        "child",
+        "sign of the rat",
+        "11PM-1AM",
+        "first sign of Chinese zodiac"
+      ],
+      "on": [
+        "シ",
+        "ス",
+        "ツ"
+      ],
+      "kun": [
+        "こ",
+        "-こ",
+        "ね"
+      ],
+      "strokes": 3,
+      "vocab": {
+        "on": [
+          {
+            "word": "椅子",
+            "reading": "いす",
+            "gloss": "chair"
+          },
+          {
+            "word": "因子",
+            "reading": "いんし",
+            "gloss": "factor"
+          }
+        ],
+        "kun": [
+          {
+            "word": "子",
+            "reading": "こ",
+            "gloss": "child"
+          },
+          {
+            "word": "子",
+            "reading": "ね",
+            "gloss": "the Rat (first sign of the Chinese zodiac)"
           }
         ]
       }
@@ -3971,6 +4651,49 @@
         ]
       }
     },
+    "小": {
+      "char": "小",
+      "meanings": [
+        "little",
+        "small"
+      ],
+      "on": [
+        "ショウ"
+      ],
+      "kun": [
+        "ちい.さい",
+        "こ-",
+        "お-",
+        "さ-"
+      ],
+      "strokes": 3,
+      "vocab": {
+        "on": [
+          {
+            "word": "小",
+            "reading": "しょう",
+            "gloss": "smallness"
+          },
+          {
+            "word": "最小",
+            "reading": "さいしょう",
+            "gloss": "smallest (in size, degree, etc.)"
+          }
+        ],
+        "kun": [
+          {
+            "word": "小",
+            "reading": "こ",
+            "gloss": "small"
+          },
+          {
+            "word": "最小",
+            "reading": "さいしょう",
+            "gloss": "smallest (in size, degree, etc.)"
+          }
+        ]
+      }
+    },
     "少": {
       "char": "少",
       "meanings": [
@@ -4083,6 +4806,46 @@
           }
         ],
         "kun": []
+      }
+    },
+    "左": {
+      "char": "左",
+      "meanings": [
+        "left"
+      ],
+      "on": [
+        "サ",
+        "シャ"
+      ],
+      "kun": [
+        "ひだり"
+      ],
+      "strokes": 5,
+      "vocab": {
+        "on": [
+          {
+            "word": "左右",
+            "reading": "さゆう",
+            "gloss": "left and right"
+          },
+          {
+            "word": "左記",
+            "reading": "さき",
+            "gloss": "undermentioned (statement)"
+          }
+        ],
+        "kun": [
+          {
+            "word": "左",
+            "reading": "ひだり",
+            "gloss": "left"
+          },
+          {
+            "word": "左手",
+            "reading": "ひだりて",
+            "gloss": "left hand"
+          }
+        ]
       }
     },
     "帰": {
@@ -5267,6 +6030,47 @@
         ]
       }
     },
+    "時": {
+      "char": "時",
+      "meanings": [
+        "time",
+        "hour"
+      ],
+      "on": [
+        "ジ"
+      ],
+      "kun": [
+        "とき",
+        "-どき"
+      ],
+      "strokes": 10,
+      "vocab": {
+        "on": [
+          {
+            "word": "時",
+            "reading": "じ",
+            "gloss": "hour"
+          },
+          {
+            "word": "何時",
+            "reading": "なんじ",
+            "gloss": "what time"
+          }
+        ],
+        "kun": [
+          {
+            "word": "時",
+            "reading": "とき",
+            "gloss": "time"
+          },
+          {
+            "word": "時折",
+            "reading": "ときおり",
+            "gloss": "sometimes"
+          }
+        ]
+      }
+    },
     "曜": {
       "char": "曜",
       "meanings": [
@@ -5330,6 +6134,47 @@
             "word": "確認書",
             "reading": "かくにんしょ",
             "gloss": "written confirmation"
+          }
+        ]
+      }
+    },
+    "月": {
+      "char": "月",
+      "meanings": [
+        "month",
+        "moon"
+      ],
+      "on": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "kun": [
+        "つき"
+      ],
+      "strokes": 4,
+      "vocab": {
+        "on": [
+          {
+            "word": "月",
+            "reading": "がつ",
+            "gloss": "month (of the year)"
+          },
+          {
+            "word": "１月",
+            "reading": "いちがつ",
+            "gloss": "January"
+          }
+        ],
+        "kun": [
+          {
+            "word": "月",
+            "reading": "つき",
+            "gloss": "Moon"
+          },
+          {
+            "word": "月見",
+            "reading": "つきみ",
+            "gloss": "moon viewing (esp. during the eight month of the lunar calendar)"
           }
         ]
       }
@@ -5450,6 +6295,124 @@
             "gloss": "Japanese morning glory (Ipomoea nil)"
           }
         ]
+      }
+    },
+    "木": {
+      "char": "木",
+      "meanings": [
+        "tree",
+        "wood"
+      ],
+      "on": [
+        "ボク",
+        "モク"
+      ],
+      "kun": [
+        "き",
+        "こ-"
+      ],
+      "strokes": 4,
+      "vocab": {
+        "on": [
+          {
+            "word": "材木",
+            "reading": "ざいもく",
+            "gloss": "wood (for building)"
+          },
+          {
+            "word": "樹木",
+            "reading": "じゅもく",
+            "gloss": "tree"
+          }
+        ],
+        "kun": [
+          {
+            "word": "木",
+            "reading": "き",
+            "gloss": "tree"
+          },
+          {
+            "word": "木陰",
+            "reading": "こかげ",
+            "gloss": "shade of a tree"
+          }
+        ]
+      }
+    },
+    "本": {
+      "char": "本",
+      "meanings": [
+        "book",
+        "present",
+        "main",
+        "origin",
+        "true",
+        "real",
+        "counter for long cylindrical things"
+      ],
+      "on": [
+        "ホン"
+      ],
+      "kun": [
+        "もと"
+      ],
+      "strokes": 5,
+      "vocab": {
+        "on": [
+          {
+            "word": "本",
+            "reading": "ほん",
+            "gloss": "book"
+          },
+          {
+            "word": "絵本",
+            "reading": "えほん",
+            "gloss": "picture book"
+          }
+        ],
+        "kun": [
+          {
+            "word": "本",
+            "reading": "もと",
+            "gloss": "origin"
+          },
+          {
+            "word": "本木",
+            "reading": "もとき",
+            "gloss": "original stock"
+          }
+        ]
+      }
+    },
+    "校": {
+      "char": "校",
+      "meanings": [
+        "exam",
+        "school",
+        "printing",
+        "proof",
+        "correction"
+      ],
+      "on": [
+        "コウ",
+        "キョウ"
+      ],
+      "kun": [],
+      "strokes": 10,
+      "vocab": {
+        "on": [
+          {
+            "word": "開校",
+            "reading": "かいこう",
+            "gloss": "opening a school"
+          },
+          {
+            "word": "学校",
+            "reading": "がっこう",
+            "gloss": "school"
+          }
+        ],
+        "kun": []
       }
     },
     "業": {
@@ -5804,42 +6767,47 @@
         ]
       }
     },
-    "毎": {
-      "char": "毎",
+    "気": {
+      "char": "気",
       "meanings": [
-        "every"
+        "spirit",
+        "mind",
+        "air",
+        "atmosphere",
+        "mood"
       ],
       "on": [
-        "マイ"
+        "キ",
+        "ケ"
       ],
       "kun": [
-        "ごと",
-        "-ごと.に"
+        "いき",
+        "き"
       ],
       "strokes": 6,
       "vocab": {
         "on": [
           {
-            "word": "毎",
-            "reading": "まい",
-            "gloss": "every (usu. with events, e.g. every weekend)"
+            "word": "気",
+            "reading": "き",
+            "gloss": "spirit"
           },
           {
-            "word": "毎回",
-            "reading": "まいかい",
-            "gloss": "every time"
+            "word": "意気",
+            "reading": "いき",
+            "gloss": "spirit"
           }
         ],
         "kun": [
           {
-            "word": "毎",
-            "reading": "ごと",
-            "gloss": "each"
+            "word": "気",
+            "reading": "き",
+            "gloss": "spirit"
           },
           {
-            "word": "毎に",
-            "reading": "ごとに",
-            "gloss": "one by one"
+            "word": "意気",
+            "reading": "いき",
+            "gloss": "spirit"
           }
         ]
       }
@@ -5986,6 +6954,86 @@
           }
         ],
         "kun": []
+      }
+    },
+    "火": {
+      "char": "火",
+      "meanings": [
+        "fire"
+      ],
+      "on": [
+        "カ"
+      ],
+      "kun": [
+        "ひ",
+        "-び",
+        "ほ-"
+      ],
+      "strokes": 4,
+      "vocab": {
+        "on": [
+          {
+            "word": "火器",
+            "reading": "かき",
+            "gloss": "firearms"
+          },
+          {
+            "word": "火災",
+            "reading": "かさい",
+            "gloss": "conflagration"
+          }
+        ],
+        "kun": [
+          {
+            "word": "火",
+            "reading": "ひ",
+            "gloss": "fire"
+          },
+          {
+            "word": "火花",
+            "reading": "ひばな",
+            "gloss": "spark"
+          }
+        ]
+      }
+    },
+    "父": {
+      "char": "父",
+      "meanings": [
+        "father"
+      ],
+      "on": [
+        "フ"
+      ],
+      "kun": [
+        "ちち"
+      ],
+      "strokes": 4,
+      "vocab": {
+        "on": [
+          {
+            "word": "義父",
+            "reading": "ぎふ",
+            "gloss": "father-in-law"
+          },
+          {
+            "word": "祖父",
+            "reading": "そふ",
+            "gloss": "grandfather"
+          }
+        ],
+        "kun": [
+          {
+            "word": "父",
+            "reading": "ちち",
+            "gloss": "father"
+          },
+          {
+            "word": "父親",
+            "reading": "ちちおや",
+            "gloss": "father"
+          }
+        ]
       }
     },
     "牛": {
@@ -6179,65 +7227,6 @@
         ]
       }
     },
-    "生": {
-      "char": "生",
-      "meanings": [
-        "life",
-        "genuine",
-        "birth"
-      ],
-      "on": [
-        "セイ",
-        "ショウ"
-      ],
-      "kun": [
-        "い.きる",
-        "い.かす",
-        "い.ける",
-        "う.まれる",
-        "うま.れる",
-        "う.まれ",
-        "うまれ",
-        "う.む",
-        "お.う",
-        "は.える",
-        "は.やす",
-        "き",
-        "なま",
-        "なま-",
-        "な.る",
-        "な.す",
-        "む.す",
-        "-う"
-      ],
-      "strokes": 5,
-      "vocab": {
-        "on": [
-          {
-            "word": "衛生",
-            "reading": "えいせい",
-            "gloss": "hygiene"
-          },
-          {
-            "word": "回生",
-            "reading": "かいせい",
-            "gloss": "resurrection"
-          }
-        ],
-        "kun": [
-          {
-            "word": "生",
-            "reading": "なま",
-            "gloss": "raw"
-          },
-          {
-            "word": "往生",
-            "reading": "おうじょう",
-            "gloss": "passing on to the next life"
-          }
-        ]
-      }
-    },
     "用": {
       "char": "用",
       "meanings": [
@@ -6312,6 +7301,47 @@
             "word": "田畑",
             "reading": "たはた",
             "gloss": "fields (of rice and other crops)"
+          }
+        ]
+      }
+    },
+    "男": {
+      "char": "男",
+      "meanings": [
+        "male"
+      ],
+      "on": [
+        "ダン",
+        "ナン"
+      ],
+      "kun": [
+        "おとこ",
+        "お"
+      ],
+      "strokes": 7,
+      "vocab": {
+        "on": [
+          {
+            "word": "一男",
+            "reading": "いちなん",
+            "gloss": "boy"
+          },
+          {
+            "word": "三男",
+            "reading": "さんなん",
+            "gloss": "three sons"
+          }
+        ],
+        "kun": [
+          {
+            "word": "男",
+            "reading": "おとこ",
+            "gloss": "man"
+          },
+          {
+            "word": "大男",
+            "reading": "おおおとこ",
+            "gloss": "big man"
           }
         ]
       }
@@ -6563,6 +7593,46 @@
             "word": "白い",
             "reading": "しろい",
             "gloss": "white"
+          }
+        ]
+      }
+    },
+    "百": {
+      "char": "百",
+      "meanings": [
+        "hundred"
+      ],
+      "on": [
+        "ヒャク",
+        "ビャク"
+      ],
+      "kun": [
+        "もも"
+      ],
+      "strokes": 6,
+      "vocab": {
+        "on": [
+          {
+            "word": "百",
+            "reading": "ひゃく",
+            "gloss": "hundred"
+          },
+          {
+            "word": "何百",
+            "reading": "なんびゃく",
+            "gloss": "hundreds"
+          }
+        ],
+        "kun": [
+          {
+            "word": "百",
+            "reading": "もも",
+            "gloss": "hundred"
+          },
+          {
+            "word": "百夜",
+            "reading": "ももよ",
+            "gloss": "many nights"
           }
         ]
       }
@@ -7287,49 +8357,6 @@
         ]
       }
     },
-    "聞": {
-      "char": "聞",
-      "meanings": [
-        "hear",
-        "ask",
-        "listen"
-      ],
-      "on": [
-        "ブン",
-        "モン"
-      ],
-      "kun": [
-        "き.く",
-        "き.こえる"
-      ],
-      "strokes": 14,
-      "vocab": {
-        "on": [
-          {
-            "word": "見聞",
-            "reading": "けんぶん",
-            "gloss": "information"
-          },
-          {
-            "word": "醜聞",
-            "reading": "しゅうぶん",
-            "gloss": "scandal"
-          }
-        ],
-        "kun": [
-          {
-            "word": "聞く",
-            "reading": "きく",
-            "gloss": "to hear"
-          },
-          {
-            "word": "聞こえる",
-            "reading": "きこえる",
-            "gloss": "to be heard"
-          }
-        ]
-      }
-    },
     "肉": {
       "char": "肉",
       "meanings": [
@@ -7556,6 +8583,103 @@
         "kun": []
       }
     },
+    "行": {
+      "char": "行",
+      "meanings": [
+        "going",
+        "journey",
+        "carry out",
+        "conduct",
+        "act",
+        "line",
+        "row",
+        "bank"
+      ],
+      "on": [
+        "コウ",
+        "ギョウ",
+        "アン"
+      ],
+      "kun": [
+        "い.く",
+        "ゆ.く",
+        "-ゆ.き",
+        "-ゆき",
+        "-い.き",
+        "-いき",
+        "おこな.う",
+        "おこ.なう"
+      ],
+      "strokes": 6,
+      "vocab": {
+        "on": [
+          {
+            "word": "行",
+            "reading": "ぎょう",
+            "gloss": "line (of text)"
+          },
+          {
+            "word": "移行",
+            "reading": "いこう",
+            "gloss": "transition"
+          }
+        ],
+        "kun": [
+          {
+            "word": "行方",
+            "reading": "ゆくえ",
+            "gloss": "(one's) whereabouts"
+          },
+          {
+            "word": "行き",
+            "reading": "いき",
+            "gloss": "the way there"
+          }
+        ]
+      }
+    },
+    "西": {
+      "char": "西",
+      "meanings": [
+        "west",
+        "Spain"
+      ],
+      "on": [
+        "セイ",
+        "サイ",
+        "ス"
+      ],
+      "kun": [
+        "にし"
+      ],
+      "strokes": 6,
+      "vocab": {
+        "on": [
+          {
+            "word": "関西",
+            "reading": "かんさい",
+            "gloss": "Kansai (region comprising Kyoto, Osaka, Kobe and surrounding prefectures)"
+          },
+          {
+            "word": "西瓜",
+            "reading": "すいか",
+            "gloss": "watermelon (Citrullus lanatus)"
+          }
+        ],
+        "kun": [
+          {
+            "word": "西",
+            "reading": "にし",
+            "gloss": "west"
+          },
+          {
+            "word": "西口",
+            "reading": "にしぐち",
+            "gloss": "west entrance"
+          }
+        ]
+      }
+    },
     "見": {
       "char": "見",
       "meanings": [
@@ -7774,6 +8898,131 @@
             "word": "試みる",
             "reading": "こころみる",
             "gloss": "to try"
+          }
+        ]
+      }
+    },
+    "話": {
+      "char": "話",
+      "meanings": [
+        "tale",
+        "talk"
+      ],
+      "on": [
+        "ワ"
+      ],
+      "kun": [
+        "はな.す",
+        "はなし"
+      ],
+      "strokes": 13,
+      "vocab": {
+        "on": [
+          {
+            "word": "逸話",
+            "reading": "いつわ",
+            "gloss": "anecdote"
+          },
+          {
+            "word": "会話",
+            "reading": "かいわ",
+            "gloss": "conversation"
+          }
+        ],
+        "kun": [
+          {
+            "word": "話",
+            "reading": "はなし",
+            "gloss": "talk"
+          },
+          {
+            "word": "話す",
+            "reading": "はなす",
+            "gloss": "to talk"
+          }
+        ]
+      }
+    },
+    "語": {
+      "char": "語",
+      "meanings": [
+        "word",
+        "speech",
+        "language"
+      ],
+      "on": [
+        "ゴ"
+      ],
+      "kun": [
+        "かた.る",
+        "かた.らう"
+      ],
+      "strokes": 14,
+      "vocab": {
+        "on": [
+          {
+            "word": "語",
+            "reading": "ご",
+            "gloss": "word"
+          },
+          {
+            "word": "隠語",
+            "reading": "いんご",
+            "gloss": "secret language"
+          }
+        ],
+        "kun": [
+          {
+            "word": "語る",
+            "reading": "かたる",
+            "gloss": "to talk about"
+          },
+          {
+            "word": "語らう",
+            "reading": "かたらう",
+            "gloss": "to talk"
+          }
+        ]
+      }
+    },
+    "読": {
+      "char": "読",
+      "meanings": [
+        "read"
+      ],
+      "on": [
+        "ドク",
+        "トク",
+        "トウ"
+      ],
+      "kun": [
+        "よ.む",
+        "-よ.み"
+      ],
+      "strokes": 14,
+      "vocab": {
+        "on": [
+          {
+            "word": "愛読",
+            "reading": "あいどく",
+            "gloss": "reading with pleasure"
+          },
+          {
+            "word": "音読",
+            "reading": "おんどく",
+            "gloss": "reading aloud"
+          }
+        ],
+        "kun": [
+          {
+            "word": "読み",
+            "reading": "よみ",
+            "gloss": "reading"
+          },
+          {
+            "word": "読む",
+            "reading": "よむ",
+            "gloss": "to read"
           }
         ]
       }
@@ -8784,6 +10033,73 @@
         ]
       }
     },
+    "雨": {
+      "char": "雨",
+      "meanings": [
+        "rain"
+      ],
+      "on": [
+        "ウ"
+      ],
+      "kun": [
+        "あめ",
+        "あま-",
+        "-さめ"
+      ],
+      "strokes": 8,
+      "vocab": {
+        "on": [
+          {
+            "word": "雨天",
+            "reading": "うてん",
+            "gloss": "rainy weather"
+          },
+          {
+            "word": "雨量",
+            "reading": "うりょう",
+            "gloss": "(amount of) rainfall"
+          }
+        ],
+        "kun": [
+          {
+            "word": "雨",
+            "reading": "あめ",
+            "gloss": "rain"
+          },
+          {
+            "word": "雨雲",
+            "reading": "あまぐも",
+            "gloss": "rain cloud"
+          }
+        ]
+      }
+    },
+    "電": {
+      "char": "電",
+      "meanings": [
+        "electricity"
+      ],
+      "on": [
+        "デン"
+      ],
+      "kun": [],
+      "strokes": 13,
+      "vocab": {
+        "on": [
+          {
+            "word": "家電",
+            "reading": "かでん",
+            "gloss": "household (electrical) appliances"
+          },
+          {
+            "word": "外電",
+            "reading": "がいでん",
+            "gloss": "foreign telegram"
+          }
+        ],
+        "kun": []
+      }
+    },
     "青": {
       "char": "青",
       "meanings": [
@@ -9173,6 +10489,51 @@
             "word": "験",
             "reading": "しるし",
             "gloss": "sign"
+          }
+        ]
+      }
+    },
+    "高": {
+      "char": "高",
+      "meanings": [
+        "tall",
+        "high",
+        "expensive"
+      ],
+      "on": [
+        "コウ"
+      ],
+      "kun": [
+        "たか.い",
+        "たか",
+        "-だか",
+        "たか.まる",
+        "たか.める"
+      ],
+      "strokes": 10,
+      "vocab": {
+        "on": [
+          {
+            "word": "高圧",
+            "reading": "こうあつ",
+            "gloss": "high voltage"
+          },
+          {
+            "word": "高位",
+            "reading": "こうい",
+            "gloss": "dignity"
+          }
+        ],
+        "kun": [
+          {
+            "word": "高",
+            "reading": "たか",
+            "gloss": "quantity"
+          },
+          {
+            "word": "高い",
+            "reading": "たかい",
+            "gloss": "high"
           }
         ]
       }
