@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JMdict>
+  <entry>
+    <k_ele><keb>生活</keb><ke_pri>news1</ke_pri></k_ele>
+    <r_ele><reb>せいかつ</reb><re_pri>news1</re_pri></r_ele>
+    <sense><gloss>life</gloss><gloss>living</gloss></sense>
+  </entry>
+  <entry>
+    <k_ele><keb>生きる</keb><ke_pri>ichi1</ke_pri></k_ele>
+    <r_ele><reb>いきる</reb><re_pri>ichi1</re_pri></r_ele>
+    <sense><gloss>to live</gloss></sense>
+  </entry>
+  <entry>
+    <k_ele><keb>一生</keb></k_ele>
+    <r_ele><reb>いっしょう</reb></r_ele>
+    <sense><gloss>whole life</gloss></sense>
+  </entry>
+  <entry>
+    <k_ele><keb>犬</keb><ke_pri>ichi1</ke_pri></k_ele>
+    <r_ele><reb>いぬ</reb><re_pri>ichi1</re_pri></r_ele>
+    <sense><gloss>dog</gloss></sense>
+  </entry>
+</JMdict>
