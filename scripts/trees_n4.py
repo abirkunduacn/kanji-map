@@ -81,7 +81,7 @@ ROOTS = [
             n("海", "sea, ocean")),
         n("妹", "younger sister"),
         n("母", "mother",
-            n("每", "every")),
+            n("毎", "every")),
         n("姉", "elder sister")),
 
     # Page 6 – 力 cluster (Power)
@@ -214,7 +214,7 @@ ROOTS = [
         n("妹", "younger sister"),
         n("好", "fond, pleasing, like something"),
         n("母", "mother"),
-        n("毎", "do not",
+        n("毎", "every",
             n("海", "sea, ocean")),
         n("民", "people, nation, subjects")),
 
