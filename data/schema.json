@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["level", "generated", "roots", "kanji"],
+  "properties": {
+    "level": { "type": "string", "enum": ["N5", "N4", "N3", "N2", "N1"] },
+    "generated": { "type": "string" },
+    "roots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "root", "label", "children"],
+        "properties": {
+          "id": { "type": "string" },
+          "root": { "type": "string" },
+          "label": { "type": "string" },
+          "children": { "type": "array", "items": { "$ref": "#/definitions/node" } }
+        }
+      }
+    },
+    "kanji": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/definitions/kanjiInfo" }
+    }
+  },
+  "definitions": {
+    "node": {
+      "type": "object",
+      "required": ["char", "label", "children"],
+      "properties": {
+        "char": { "type": "string", "minLength": 1, "maxLength": 1 },
+        "label": { "type": "string" },
+        "children": { "type": "array", "items": { "$ref": "#/definitions/node" } }
+      }
+    },
+    "kanjiInfo": {
+      "type": "object",
+      "required": ["char", "meanings", "on", "kun", "strokes", "vocab"],
+      "properties": {
+        "char": { "type": "string", "minLength": 1, "maxLength": 1 },
+        "meanings": { "type": "array", "items": { "type": "string" } },
+        "on": { "type": "array", "items": { "type": "string" } },
+        "kun": { "type": "array", "items": { "type": "string" } },
+        "strokes": { "type": "integer", "minimum": 1 },
+        "vocab": {
+          "type": "object",
+          "required": ["on", "kun"],
+          "properties": {
+            "on": { "type": "array", "items": { "$ref": "#/definitions/vocab" } },
+            "kun": { "type": "array", "items": { "$ref": "#/definitions/vocab" } }
+          }
+        }
+      }
+    },
+    "vocab": {
+      "type": "object",
+      "required": ["word", "reading", "gloss"],
+      "properties": {
+        "word": { "type": "string" },
+        "reading": { "type": "string" },
+        "gloss": { "type": "string" }
+      }
+    }
+  }
+}

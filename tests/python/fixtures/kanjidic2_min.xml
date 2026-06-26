@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kanjidic2>
+  <character>
+    <literal>生</literal>
+    <misc><stroke_count>5</stroke_count></misc>
+    <reading_meaning>
+      <rmgroup>
+        <reading r_type="ja_on">セイ</reading>
+        <reading r_type="ja_on">ショウ</reading>
+        <reading r_type="ja_kun">い.きる</reading>
+        <reading r_type="ja_kun">う.まれる</reading>
+        <reading r_type="pinyin">sheng1</reading>
+        <meaning>life</meaning>
+        <meaning>genuine</meaning>
+        <meaning m_lang="fr">vie</meaning>
+      </rmgroup>
+    </reading_meaning>
+  </character>
+  <character>
+    <literal>一</literal>
+    <misc><stroke_count>1</stroke_count></misc>
+    <reading_meaning>
+      <rmgroup>
+        <reading r_type="ja_on">イチ</reading>
+        <reading r_type="ja_kun">ひと.つ</reading>
+        <meaning>one</meaning>
+      </rmgroup>
+    </reading_meaning>
+  </character>
+</kanjidic2>
