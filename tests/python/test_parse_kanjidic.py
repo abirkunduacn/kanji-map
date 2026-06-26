@@ -11,6 +11,7 @@ def test_parses_readings_meanings_strokes():
     assert k["kun"] == ["い.きる", "う.まれる"]
     assert k["meanings"] == ["life", "genuine"]   # French meaning excluded
     assert k["strokes"] == 5
+    assert k["radical"] == 100
 
 def test_filters_to_wanted_only():
     out = parse_kanjidic.parse(FIX, wanted={"一"})

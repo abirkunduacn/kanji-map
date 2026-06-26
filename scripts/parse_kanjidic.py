@@ -17,6 +17,8 @@ def parse(path: Path, wanted: set[str]) -> dict[str, dict]:
 
 def _extract(char_el, literal: str) -> dict:
     strokes = int(char_el.findtext("misc/stroke_count") or 0)
+    rad = char_el.findtext("radical/rad_value[@rad_type='classical']")
+    radical = int(rad) if rad else 0
     on, kun, meanings = [], [], []
     rmgroup = char_el.find("reading_meaning/rmgroup")
     if rmgroup is not None:
@@ -35,4 +37,5 @@ def _extract(char_el, literal: str) -> dict:
         "on": on,
         "kun": kun,
         "strokes": strokes,
+        "radical": radical,
     }

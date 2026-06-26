@@ -3,6 +3,7 @@
   <character>
     <literal>生</literal>
     <misc><stroke_count>5</stroke_count></misc>
+    <radical><rad_value rad_type="classical">100</rad_value></radical>
     <reading_meaning>
       <rmgroup>
         <reading r_type="ja_on">セイ</reading>
