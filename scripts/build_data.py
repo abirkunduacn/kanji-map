@@ -11,6 +11,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 SCHEMA = json.loads((DATA_DIR / "schema.json").read_text(encoding="utf-8"))
 
+LEVEL_ORDER = ["N5", "N4", "N3", "N2"]
+
 
 def _placed_in(roots: list[dict]) -> set[str]:
     """Every kanji that appears in the trees: each root's own char (when it is a
@@ -59,13 +61,12 @@ def build_level(level, kanji_chars, kanji_infos, vocab_index, roots) -> dict:
 
 def _jlpt_chars() -> dict[str, set[str]]:
     raw = json.loads(JLPT_PATH.read_text(encoding="utf-8"))
-    levels = {"N5": set(), "N4": set()}
+    levels = {lv: set() for lv in LEVEL_ORDER}
+    by_num = {5: "N5", 4: "N4", 3: "N3", 2: "N2"}
     for char, meta in raw.items():
-        jl = meta.get("jlpt_new")
-        if jl == 5:
-            levels["N5"].add(char)
-        elif jl == 4:
-            levels["N4"].add(char)
+        lv = by_num.get(meta.get("jlpt_new"))
+        if lv:
+            levels[lv].add(char)
     return levels
 
 

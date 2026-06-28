@@ -44,3 +44,17 @@ def test_other_root_marker_gets_no_detail_entry():
               "children": [{"char": "犬", "label": "dog", "children": []}]}]
     level = build_data.build_level("N5", {"犬"}, infos, idx, roots)
     assert set(level["kanji"]) == {"犬"}   # 他 marker excluded
+
+def test_jlpt_chars_has_four_levels(monkeypatch, tmp_path):
+    import json as _json
+    fake = {
+        "一": {"jlpt_new": 5}, "二": {"jlpt_new": 4},
+        "三": {"jlpt_new": 3}, "四": {"jlpt_new": 2}, "あ": {"jlpt_new": None},
+    }
+    p = tmp_path / "kanji.json"
+    p.write_text(_json.dumps(fake), encoding="utf-8")
+    monkeypatch.setattr(build_data, "JLPT_PATH", p)
+    levels = build_data._jlpt_chars()
+    assert set(levels) == {"N5", "N4", "N3", "N2"}
+    assert levels["N3"] == {"三"} and levels["N2"] == {"四"}
+    assert build_data.LEVEL_ORDER == ["N5", "N4", "N3", "N2"]
