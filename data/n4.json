@@ -1,6 +1,6 @@
 {
   "level": "N4",
-  "generated": "2026-06-26",
+  "generated": "2026-06-28",
   "roots": [
     {
       "id": "k-重",
@@ -231,6 +231,18 @@
       ]
     },
     {
+      "id": "k-手",
+      "root": "手",
+      "label": "hand",
+      "children": [
+        {
+          "char": "持",
+          "label": "hold",
+          "children": []
+        }
+      ]
+    },
+    {
       "id": "k-日",
       "root": "日",
       "label": "day",
@@ -374,6 +386,23 @@
       ]
     },
     {
+      "id": "k-水",
+      "root": "水",
+      "label": "water",
+      "children": [
+        {
+          "char": "洋",
+          "label": "ocean",
+          "children": []
+        },
+        {
+          "char": "漢",
+          "label": "Sino-",
+          "children": []
+        }
+      ]
+    },
+    {
       "id": "k-牛",
       "root": "牛",
       "label": "cow",
@@ -477,18 +506,8 @@
           "children": []
         },
         {
-          "char": "漢",
-          "label": "Sino-",
-          "children": []
-        },
-        {
           "char": "歌",
           "label": "song",
-          "children": []
-        },
-        {
-          "char": "験",
-          "label": "verification",
           "children": []
         }
       ]
@@ -578,6 +597,11 @@
           "char": "京",
           "label": "capital",
           "children": []
+        },
+        {
+          "char": "紙",
+          "label": "paper",
+          "children": []
         }
       ]
     },
@@ -648,33 +672,64 @@
           "children": []
         },
         {
+          "char": "代",
+          "label": "substitute",
+          "children": []
+        },
+        {
           "char": "会",
           "label": "meeting",
           "children": []
         },
         {
+          "char": "作",
+          "label": "make",
+          "children": []
+        },
+        {
+          "char": "花",
+          "label": "flower",
+          "children": []
+        },
+        {
+          "char": "使",
+          "label": "use",
+          "children": []
+        },
+        {
+          "char": "夜",
+          "label": "night",
+          "children": []
+        },
+        {
+          "char": "茶",
+          "label": "tea",
+          "children": []
+        },
+        {
           "char": "食",
           "label": "eat",
-          "children": []
+          "children": [
+            {
+              "char": "飯",
+              "label": "meal",
+              "children": []
+            },
+            {
+              "char": "飲",
+              "label": "drink",
+              "children": []
+            },
+            {
+              "char": "館",
+              "label": "building",
+              "children": []
+            }
+          ]
         },
         {
           "char": "病",
           "label": "ill",
-          "children": []
-        },
-        {
-          "char": "飯",
-          "label": "meal",
-          "children": []
-        },
-        {
-          "char": "飲",
-          "label": "drink",
-          "children": []
-        },
-        {
-          "char": "館",
-          "label": "building",
           "children": []
         }
       ]
@@ -701,6 +756,26 @@
             {
               "char": "秋",
               "label": "autumn",
+              "children": []
+            },
+            {
+              "char": "鳥",
+              "label": "bird",
+              "children": []
+            },
+            {
+              "char": "黒",
+              "label": "black",
+              "children": []
+            },
+            {
+              "char": "駅",
+              "label": "station",
+              "children": []
+            },
+            {
+              "char": "験",
+              "label": "verification",
               "children": []
             }
           ]
@@ -828,11 +903,6 @@
               "children": []
             },
             {
-              "char": "持",
-              "label": "hold",
-              "children": []
-            },
-            {
               "char": "堂",
               "label": "public chamber",
               "children": []
@@ -860,23 +930,8 @@
           "children": []
         },
         {
-          "char": "花",
-          "label": "flower",
-          "children": []
-        },
-        {
-          "char": "英",
-          "label": "England",
-          "children": []
-        },
-        {
           "char": "南",
           "label": "south",
-          "children": []
-        },
-        {
-          "char": "茶",
-          "label": "tea",
           "children": []
         },
         {
@@ -919,11 +974,6 @@
             {
               "char": "建",
               "label": "build",
-              "children": []
-            },
-            {
-              "char": "洋",
-              "label": "ocean",
               "children": []
             },
             {
@@ -1043,16 +1093,6 @@
           "children": []
         },
         {
-          "char": "使",
-          "label": "use",
-          "children": []
-        },
-        {
-          "char": "夜",
-          "label": "night",
-          "children": []
-        },
-        {
           "char": "長",
           "label": "long",
           "children": []
@@ -1076,11 +1116,6 @@
         {
           "char": "野",
           "label": "plains",
-          "children": []
-        },
-        {
-          "char": "黒",
-          "label": "black",
           "children": []
         },
         {
@@ -1111,18 +1146,8 @@
           "children": []
         },
         {
-          "char": "代",
-          "label": "substitute",
-          "children": []
-        },
-        {
           "char": "以",
           "label": "by means of",
-          "children": []
-        },
-        {
-          "char": "作",
-          "label": "make",
           "children": []
         },
         {
@@ -1166,11 +1191,6 @@
           "children": []
         },
         {
-          "char": "手",
-          "label": "hand",
-          "children": []
-        },
-        {
           "char": "料",
           "label": "fee",
           "children": []
@@ -1178,11 +1198,6 @@
         {
           "char": "犬",
           "label": "dog",
-          "children": []
-        },
-        {
-          "char": "紙",
-          "label": "paper",
           "children": []
         },
         {
@@ -1196,6 +1211,11 @@
           "children": []
         },
         {
+          "char": "英",
+          "label": "England",
+          "children": []
+        },
+        {
           "char": "週",
           "label": "week",
           "children": []
@@ -1203,16 +1223,6 @@
         {
           "char": "風",
           "label": "wind",
-          "children": []
-        },
-        {
-          "char": "駅",
-          "label": "station",
-          "children": []
-        },
-        {
-          "char": "鳥",
-          "label": "bird",
           "children": []
         }
       ]
@@ -6812,6 +6822,46 @@
         ]
       }
     },
+    "水": {
+      "char": "水",
+      "meanings": [
+        "water"
+      ],
+      "on": [
+        "スイ"
+      ],
+      "kun": [
+        "みず",
+        "みず-"
+      ],
+      "strokes": 4,
+      "vocab": {
+        "on": [
+          {
+            "word": "汚水",
+            "reading": "おすい",
+            "gloss": "filthy water"
+          },
+          {
+            "word": "下水",
+            "reading": "げすい",
+            "gloss": "drainage"
+          }
+        ],
+        "kun": [
+          {
+            "word": "水",
+            "reading": "みず",
+            "gloss": "water (esp. cool or cold)"
+          },
+          {
+            "word": "水気",
+            "reading": "みずけ",
+            "gloss": "water content"
+          }
+        ]
+      }
+    },
     "注": {
       "char": "注",
       "meanings": [
@@ -10660,5 +10710,2257 @@
         ]
       }
     }
-  }
+  },
+  "words": [
+    {
+      "word": "一万",
+      "reading": "いちまん",
+      "gloss": "10,000",
+      "kanji": [
+        "一",
+        "万"
+      ]
+    },
+    {
+      "word": "一世",
+      "reading": "いっせい",
+      "gloss": "generation",
+      "kanji": [
+        "一",
+        "世"
+      ]
+    },
+    {
+      "word": "一二",
+      "reading": "いちに",
+      "gloss": "the first and second",
+      "kanji": [
+        "一",
+        "二"
+      ]
+    },
+    {
+      "word": "一人",
+      "reading": "ひとり",
+      "gloss": "one person",
+      "kanji": [
+        "一",
+        "人"
+      ]
+    },
+    {
+      "word": "一代",
+      "reading": "いちだい",
+      "gloss": "generation",
+      "kanji": [
+        "一",
+        "代"
+      ]
+    },
+    {
+      "word": "一体",
+      "reading": "いったい",
+      "gloss": "(what) the heck",
+      "kanji": [
+        "一",
+        "体"
+      ]
+    },
+    {
+      "word": "一元",
+      "reading": "いちげん",
+      "gloss": "single element",
+      "kanji": [
+        "一",
+        "元"
+      ]
+    },
+    {
+      "word": "一円",
+      "reading": "いちえん",
+      "gloss": "one yen",
+      "kanji": [
+        "一",
+        "円"
+      ]
+    },
+    {
+      "word": "一切",
+      "reading": "いっさい",
+      "gloss": "all",
+      "kanji": [
+        "一",
+        "切"
+      ]
+    },
+    {
+      "word": "一千",
+      "reading": "いっせん",
+      "gloss": "1,000",
+      "kanji": [
+        "一",
+        "千"
+      ]
+    },
+    {
+      "word": "一口",
+      "reading": "ひとくち",
+      "gloss": "mouthful",
+      "kanji": [
+        "一",
+        "口"
+      ]
+    },
+    {
+      "word": "一台",
+      "reading": "いちだい",
+      "gloss": "one machine",
+      "kanji": [
+        "一",
+        "台"
+      ]
+    },
+    {
+      "word": "一同",
+      "reading": "いちどう",
+      "gloss": "all present",
+      "kanji": [
+        "一",
+        "同"
+      ]
+    },
+    {
+      "word": "一品",
+      "reading": "いっぴん",
+      "gloss": "item",
+      "kanji": [
+        "一",
+        "品"
+      ]
+    },
+    {
+      "word": "一員",
+      "reading": "いちいん",
+      "gloss": "one person",
+      "kanji": [
+        "一",
+        "員"
+      ]
+    },
+    {
+      "word": "一問",
+      "reading": "いちもん",
+      "gloss": "one question",
+      "kanji": [
+        "一",
+        "問"
+      ]
+    },
+    {
+      "word": "一国",
+      "reading": "いっこく",
+      "gloss": "one country",
+      "kanji": [
+        "一",
+        "国"
+      ]
+    },
+    {
+      "word": "一堂",
+      "reading": "いちどう",
+      "gloss": "one building (hall, temple, shrine, room)",
+      "kanji": [
+        "一",
+        "堂"
+      ]
+    },
+    {
+      "word": "一夜",
+      "reading": "いちや",
+      "gloss": "one night",
+      "kanji": [
+        "一",
+        "夜"
+      ]
+    },
+    {
+      "word": "一大",
+      "reading": "いちだい",
+      "gloss": "one large ...",
+      "kanji": [
+        "一",
+        "大"
+      ]
+    },
+    {
+      "word": "一女",
+      "reading": "いちじょ",
+      "gloss": "one daughter",
+      "kanji": [
+        "一",
+        "女"
+      ]
+    },
+    {
+      "word": "一字",
+      "reading": "いちじ",
+      "gloss": "(one) letter",
+      "kanji": [
+        "一",
+        "字"
+      ]
+    },
+    {
+      "word": "一室",
+      "reading": "いっしつ",
+      "gloss": "one room",
+      "kanji": [
+        "一",
+        "室"
+      ]
+    },
+    {
+      "word": "一家",
+      "reading": "いっか",
+      "gloss": "a family",
+      "kanji": [
+        "一",
+        "家"
+      ]
+    },
+    {
+      "word": "一年",
+      "reading": "いちねん",
+      "gloss": "one year",
+      "kanji": [
+        "一",
+        "年"
+      ]
+    },
+    {
+      "word": "一度",
+      "reading": "いちど",
+      "gloss": "once",
+      "kanji": [
+        "一",
+        "度"
+      ]
+    },
+    {
+      "word": "一心",
+      "reading": "いっしん",
+      "gloss": "one mind",
+      "kanji": [
+        "一",
+        "心"
+      ]
+    },
+    {
+      "word": "一手",
+      "reading": "いって",
+      "gloss": "one move (in go, shogi, etc.)",
+      "kanji": [
+        "一",
+        "手"
+      ]
+    },
+    {
+      "word": "一文",
+      "reading": "いちもん",
+      "gloss": "tiny amount of money",
+      "kanji": [
+        "一",
+        "文"
+      ]
+    },
+    {
+      "word": "一新",
+      "reading": "いっしん",
+      "gloss": "complete change",
+      "kanji": [
+        "一",
+        "新"
+      ]
+    },
+    {
+      "word": "一方",
+      "reading": "いっぽう",
+      "gloss": "one (esp. of two)",
+      "kanji": [
+        "一",
+        "方"
+      ]
+    },
+    {
+      "word": "一族",
+      "reading": "いちぞく",
+      "gloss": "family",
+      "kanji": [
+        "一",
+        "族"
+      ]
+    },
+    {
+      "word": "一日",
+      "reading": "いちにち",
+      "gloss": "one day",
+      "kanji": [
+        "一",
+        "日"
+      ]
+    },
+    {
+      "word": "一日",
+      "reading": "ついたち",
+      "gloss": "first day of the month",
+      "kanji": [
+        "一",
+        "日"
+      ]
+    },
+    {
+      "word": "一時",
+      "reading": "ひととき",
+      "gloss": "a (short) time",
+      "kanji": [
+        "一",
+        "時"
+      ]
+    },
+    {
+      "word": "一時",
+      "reading": "いちじ",
+      "gloss": "one o'clock",
+      "kanji": [
+        "一",
+        "時"
+      ]
+    },
+    {
+      "word": "一月",
+      "reading": "いちがつ",
+      "gloss": "January",
+      "kanji": [
+        "一",
+        "月"
+      ]
+    },
+    {
+      "word": "一月",
+      "reading": "ひとつき",
+      "gloss": "one month",
+      "kanji": [
+        "一",
+        "月"
+      ]
+    },
+    {
+      "word": "一本",
+      "reading": "いっぽん",
+      "gloss": "one long cylindrical thing",
+      "kanji": [
+        "一",
+        "本"
+      ]
+    },
+    {
+      "word": "一校",
+      "reading": "いっこう",
+      "gloss": "one school",
+      "kanji": [
+        "一",
+        "校"
+      ]
+    },
+    {
+      "word": "一歩",
+      "reading": "いっぽ",
+      "gloss": "(a) step",
+      "kanji": [
+        "一",
+        "歩"
+      ]
+    },
+    {
+      "word": "一気",
+      "reading": "いっき",
+      "gloss": "one breath",
+      "kanji": [
+        "一",
+        "気"
+      ]
+    },
+    {
+      "word": "一生",
+      "reading": "いっしょう",
+      "gloss": "whole life",
+      "kanji": [
+        "一",
+        "生"
+      ]
+    },
+    {
+      "word": "一男",
+      "reading": "いちなん",
+      "gloss": "boy",
+      "kanji": [
+        "一",
+        "男"
+      ]
+    },
+    {
+      "word": "一発",
+      "reading": "いっぱつ",
+      "gloss": "one shot",
+      "kanji": [
+        "一",
+        "発"
+      ]
+    },
+    {
+      "word": "一目",
+      "reading": "ひとめ",
+      "gloss": "glance",
+      "kanji": [
+        "一",
+        "目"
+      ]
+    },
+    {
+      "word": "一着",
+      "reading": "いっちゃく",
+      "gloss": "first place (in a race)",
+      "kanji": [
+        "一",
+        "着"
+      ]
+    },
+    {
+      "word": "一色",
+      "reading": "いっしょく",
+      "gloss": "one color",
+      "kanji": [
+        "一",
+        "色"
+      ]
+    },
+    {
+      "word": "一行",
+      "reading": "いちぎょう",
+      "gloss": "(one) line",
+      "kanji": [
+        "一",
+        "行"
+      ]
+    },
+    {
+      "word": "一行",
+      "reading": "いっこう",
+      "gloss": "party",
+      "kanji": [
+        "一",
+        "行"
+      ]
+    },
+    {
+      "word": "一見",
+      "reading": "いっけん",
+      "gloss": "look",
+      "kanji": [
+        "一",
+        "見"
+      ]
+    },
+    {
+      "word": "一言",
+      "reading": "ひとこと",
+      "gloss": "single word",
+      "kanji": [
+        "一",
+        "言"
+      ]
+    },
+    {
+      "word": "一足",
+      "reading": "いっそく",
+      "gloss": "a pair (of shoes or socks)",
+      "kanji": [
+        "一",
+        "足"
+      ]
+    },
+    {
+      "word": "一足",
+      "reading": "ひとあし",
+      "gloss": "a step",
+      "kanji": [
+        "一",
+        "足"
+      ]
+    },
+    {
+      "word": "一通",
+      "reading": "いっつう",
+      "gloss": "one copy (of a document)",
+      "kanji": [
+        "一",
+        "通"
+      ]
+    },
+    {
+      "word": "一重",
+      "reading": "ひとえ",
+      "gloss": "one layer",
+      "kanji": [
+        "一",
+        "重"
+      ]
+    },
+    {
+      "word": "一風",
+      "reading": "いっぷう",
+      "gloss": "oddity",
+      "kanji": [
+        "一",
+        "風"
+      ]
+    },
+    {
+      "word": "七十",
+      "reading": "ななじゅう",
+      "gloss": "seventy",
+      "kanji": [
+        "七",
+        "十"
+      ]
+    },
+    {
+      "word": "七夕",
+      "reading": "たなばた",
+      "gloss": "Star Festival (held in July or August)",
+      "kanji": [
+        "七",
+        "夕"
+      ]
+    },
+    {
+      "word": "七日",
+      "reading": "なのか",
+      "gloss": "7th day of the month",
+      "kanji": [
+        "七",
+        "日"
+      ]
+    },
+    {
+      "word": "七時",
+      "reading": "しちじ",
+      "gloss": "seven o'clock",
+      "kanji": [
+        "七",
+        "時"
+      ]
+    },
+    {
+      "word": "七月",
+      "reading": "しちがつ",
+      "gloss": "July",
+      "kanji": [
+        "七",
+        "月"
+      ]
+    },
+    {
+      "word": "万一",
+      "reading": "まんいち",
+      "gloss": "(unlikely event of) emergency",
+      "kanji": [
+        "万",
+        "一"
+      ]
+    },
+    {
+      "word": "万事",
+      "reading": "ばんじ",
+      "gloss": "all",
+      "kanji": [
+        "万",
+        "事"
+      ]
+    },
+    {
+      "word": "万人",
+      "reading": "ばんにん",
+      "gloss": "all people",
+      "kanji": [
+        "万",
+        "人"
+      ]
+    },
+    {
+      "word": "万国",
+      "reading": "ばんこく",
+      "gloss": "all countries",
+      "kanji": [
+        "万",
+        "国"
+      ]
+    },
+    {
+      "word": "万年",
+      "reading": "まんねん",
+      "gloss": "ten thousand years",
+      "kanji": [
+        "万",
+        "年"
+      ]
+    },
+    {
+      "word": "三人",
+      "reading": "さんにん",
+      "gloss": "three people",
+      "kanji": [
+        "三",
+        "人"
+      ]
+    },
+    {
+      "word": "三代",
+      "reading": "さんだい",
+      "gloss": "three generations",
+      "kanji": [
+        "三",
+        "代"
+      ]
+    },
+    {
+      "word": "三十",
+      "reading": "さんじゅう",
+      "gloss": "thirty",
+      "kanji": [
+        "三",
+        "十"
+      ]
+    },
+    {
+      "word": "三千",
+      "reading": "さんぜん",
+      "gloss": "3000",
+      "kanji": [
+        "三",
+        "千"
+      ]
+    },
+    {
+      "word": "三女",
+      "reading": "さんじょ",
+      "gloss": "third daughter",
+      "kanji": [
+        "三",
+        "女"
+      ]
+    },
+    {
+      "word": "三年",
+      "reading": "さんねん",
+      "gloss": "three years",
+      "kanji": [
+        "三",
+        "年"
+      ]
+    },
+    {
+      "word": "三度",
+      "reading": "さんど",
+      "gloss": "three times",
+      "kanji": [
+        "三",
+        "度"
+      ]
+    },
+    {
+      "word": "三方",
+      "reading": "さんぼう",
+      "gloss": "three sides",
+      "kanji": [
+        "三",
+        "方"
+      ]
+    },
+    {
+      "word": "三日",
+      "reading": "みっか",
+      "gloss": "3rd day of the month",
+      "kanji": [
+        "三",
+        "日"
+      ]
+    },
+    {
+      "word": "三時",
+      "reading": "さんじ",
+      "gloss": "3 o'clock",
+      "kanji": [
+        "三",
+        "時"
+      ]
+    },
+    {
+      "word": "三月",
+      "reading": "さんがつ",
+      "gloss": "March",
+      "kanji": [
+        "三",
+        "月"
+      ]
+    },
+    {
+      "word": "三本",
+      "reading": "さんぼん",
+      "gloss": "three (long cylindrical things)",
+      "kanji": [
+        "三",
+        "本"
+      ]
+    },
+    {
+      "word": "三男",
+      "reading": "さんなん",
+      "gloss": "three sons",
+      "kanji": [
+        "三",
+        "男"
+      ]
+    },
+    {
+      "word": "三百",
+      "reading": "さんびゃく",
+      "gloss": "300",
+      "kanji": [
+        "三",
+        "百"
+      ]
+    },
+    {
+      "word": "三者",
+      "reading": "さんしゃ",
+      "gloss": "three persons",
+      "kanji": [
+        "三",
+        "者"
+      ]
+    },
+    {
+      "word": "上下",
+      "reading": "うえした",
+      "gloss": "top and bottom",
+      "kanji": [
+        "上",
+        "下"
+      ]
+    },
+    {
+      "word": "上下",
+      "reading": "じょうげ",
+      "gloss": "top and bottom",
+      "kanji": [
+        "上",
+        "下"
+      ]
+    },
+    {
+      "word": "上京",
+      "reading": "じょうきょう",
+      "gloss": "going (up) to the capital",
+      "kanji": [
+        "上",
+        "京"
+      ]
+    },
+    {
+      "word": "上体",
+      "reading": "じょうたい",
+      "gloss": "upper body",
+      "kanji": [
+        "上",
+        "体"
+      ]
+    },
+    {
+      "word": "上品",
+      "reading": "じょうひん",
+      "gloss": "elegant",
+      "kanji": [
+        "上",
+        "品"
+      ]
+    },
+    {
+      "word": "上場",
+      "reading": "じょうじょう",
+      "gloss": "listing (on the stock exchange, etc.)",
+      "kanji": [
+        "上",
+        "場"
+      ]
+    },
+    {
+      "word": "上手",
+      "reading": "じょうず",
+      "gloss": "skillful",
+      "kanji": [
+        "上",
+        "手"
+      ]
+    },
+    {
+      "word": "上方",
+      "reading": "じょうほう",
+      "gloss": "upper part",
+      "kanji": [
+        "上",
+        "方"
+      ]
+    },
+    {
+      "word": "上映",
+      "reading": "じょうえい",
+      "gloss": "screening (a movie)",
+      "kanji": [
+        "上",
+        "映"
+      ]
+    },
+    {
+      "word": "上海",
+      "reading": "シャンハイ",
+      "gloss": "Shanghai (China)",
+      "kanji": [
+        "上",
+        "海"
+      ]
+    },
+    {
+      "word": "上田",
+      "reading": "じょうでん",
+      "gloss": "high rice field",
+      "kanji": [
+        "上",
+        "田"
+      ]
+    },
+    {
+      "word": "上着",
+      "reading": "うわぎ",
+      "gloss": "coat",
+      "kanji": [
+        "上",
+        "着"
+      ]
+    },
+    {
+      "word": "上空",
+      "reading": "じょうくう",
+      "gloss": "sky",
+      "kanji": [
+        "上",
+        "空"
+      ]
+    },
+    {
+      "word": "上院",
+      "reading": "じょういん",
+      "gloss": "upper house",
+      "kanji": [
+        "上",
+        "院"
+      ]
+    },
+    {
+      "word": "下品",
+      "reading": "げひん",
+      "gloss": "vulgar",
+      "kanji": [
+        "下",
+        "品"
+      ]
+    },
+    {
+      "word": "下地",
+      "reading": "したじ",
+      "gloss": "groundwork",
+      "kanji": [
+        "下",
+        "地"
+      ]
+    },
+    {
+      "word": "下山",
+      "reading": "げざん",
+      "gloss": "descending a mountain",
+      "kanji": [
+        "下",
+        "山"
+      ]
+    },
+    {
+      "word": "下手",
+      "reading": "したて",
+      "gloss": "humble position",
+      "kanji": [
+        "下",
+        "手"
+      ]
+    },
+    {
+      "word": "下手",
+      "reading": "へた",
+      "gloss": "unskillful",
+      "kanji": [
+        "下",
+        "手"
+      ]
+    },
+    {
+      "word": "下方",
+      "reading": "かほう",
+      "gloss": "lower region",
+      "kanji": [
+        "下",
+        "方"
+      ]
+    },
+    {
+      "word": "下水",
+      "reading": "げすい",
+      "gloss": "drainage",
+      "kanji": [
+        "下",
+        "水"
+      ]
+    },
+    {
+      "word": "下火",
+      "reading": "したび",
+      "gloss": "burning low",
+      "kanji": [
+        "下",
+        "火"
+      ]
+    },
+    {
+      "word": "下町",
+      "reading": "したまち",
+      "gloss": "low-lying part of a city (usu. containing shops, factories, etc.)",
+      "kanji": [
+        "下",
+        "町"
+      ]
+    },
+    {
+      "word": "下界",
+      "reading": "げかい",
+      "gloss": "the earth below",
+      "kanji": [
+        "下",
+        "界"
+      ]
+    },
+    {
+      "word": "下着",
+      "reading": "したぎ",
+      "gloss": "underwear",
+      "kanji": [
+        "下",
+        "着"
+      ]
+    },
+    {
+      "word": "下見",
+      "reading": "したみ",
+      "gloss": "preliminary inspection",
+      "kanji": [
+        "下",
+        "見"
+      ]
+    },
+    {
+      "word": "下車",
+      "reading": "げしゃ",
+      "gloss": "alighting (from a train, bus, etc.)",
+      "kanji": [
+        "下",
+        "車"
+      ]
+    },
+    {
+      "word": "下野",
+      "reading": "げや",
+      "gloss": "resigning from (public) office",
+      "kanji": [
+        "下",
+        "野"
+      ]
+    },
+    {
+      "word": "下院",
+      "reading": "かいん",
+      "gloss": "lower house",
+      "kanji": [
+        "下",
+        "院"
+      ]
+    },
+    {
+      "word": "不作",
+      "reading": "ふさく",
+      "gloss": "poor crop",
+      "kanji": [
+        "不",
+        "作"
+      ]
+    },
+    {
+      "word": "不動",
+      "reading": "ふどう",
+      "gloss": "immovable",
+      "kanji": [
+        "不",
+        "動"
+      ]
+    },
+    {
+      "word": "不問",
+      "reading": "ふもん",
+      "gloss": "not asking (about)",
+      "kanji": [
+        "不",
+        "問"
+      ]
+    },
+    {
+      "word": "不安",
+      "reading": "ふあん",
+      "gloss": "anxiety",
+      "kanji": [
+        "不",
+        "安"
+      ]
+    },
+    {
+      "word": "不意",
+      "reading": "ふい",
+      "gloss": "sudden",
+      "kanji": [
+        "不",
+        "意"
+      ]
+    },
+    {
+      "word": "不明",
+      "reading": "ふめい",
+      "gloss": "unclear",
+      "kanji": [
+        "不",
+        "明"
+      ]
+    },
+    {
+      "word": "不服",
+      "reading": "ふふく",
+      "gloss": "dissatisfaction",
+      "kanji": [
+        "不",
+        "服"
+      ]
+    },
+    {
+      "word": "不正",
+      "reading": "ふせい",
+      "gloss": "injustice",
+      "kanji": [
+        "不",
+        "正"
+      ]
+    },
+    {
+      "word": "不発",
+      "reading": "ふはつ",
+      "gloss": "misfire",
+      "kanji": [
+        "不",
+        "発"
+      ]
+    },
+    {
+      "word": "不足",
+      "reading": "ふそく",
+      "gloss": "insufficiency",
+      "kanji": [
+        "不",
+        "足"
+      ]
+    },
+    {
+      "word": "不通",
+      "reading": "ふつう",
+      "gloss": "suspension",
+      "kanji": [
+        "不",
+        "通"
+      ]
+    },
+    {
+      "word": "不運",
+      "reading": "ふうん",
+      "gloss": "misfortune",
+      "kanji": [
+        "不",
+        "運"
+      ]
+    },
+    {
+      "word": "世代",
+      "reading": "せだい",
+      "gloss": "generation",
+      "kanji": [
+        "世",
+        "代"
+      ]
+    },
+    {
+      "word": "世界",
+      "reading": "せかい",
+      "gloss": "the world",
+      "kanji": [
+        "世",
+        "界"
+      ]
+    },
+    {
+      "word": "世話",
+      "reading": "せわ",
+      "gloss": "care",
+      "kanji": [
+        "世",
+        "話"
+      ]
+    },
+    {
+      "word": "世銀",
+      "reading": "せぎん",
+      "gloss": "World Bank",
+      "kanji": [
+        "世",
+        "銀"
+      ]
+    },
+    {
+      "word": "世間",
+      "reading": "せけん",
+      "gloss": "world",
+      "kanji": [
+        "世",
+        "間"
+      ]
+    },
+    {
+      "word": "中世",
+      "reading": "ちゅうせい",
+      "gloss": "Middle Ages (in Japan esp. the Kamakura and Muromachi periods)",
+      "kanji": [
+        "中",
+        "世"
+      ]
+    },
+    {
+      "word": "中京",
+      "reading": "ちゅうきょう",
+      "gloss": "Nagoya (city)",
+      "kanji": [
+        "中",
+        "京"
+      ]
+    },
+    {
+      "word": "中元",
+      "reading": "ちゅうげん",
+      "gloss": "15th day of the 7th lunar month",
+      "kanji": [
+        "中",
+        "元"
+      ]
+    },
+    {
+      "word": "中前",
+      "reading": "ちゅうぜん",
+      "gloss": "front of center field",
+      "kanji": [
+        "中",
+        "前"
+      ]
+    },
+    {
+      "word": "中古",
+      "reading": "ちゅうこ",
+      "gloss": "used",
+      "kanji": [
+        "中",
+        "古"
+      ]
+    },
+    {
+      "word": "中国",
+      "reading": "ちゅうごく",
+      "gloss": "China",
+      "kanji": [
+        "中",
+        "国"
+      ]
+    },
+    {
+      "word": "中学",
+      "reading": "ちゅうがく",
+      "gloss": "junior high school",
+      "kanji": [
+        "中",
+        "学"
+      ]
+    },
+    {
+      "word": "中小",
+      "reading": "ちゅうしょう",
+      "gloss": "small and medium",
+      "kanji": [
+        "中",
+        "小"
+      ]
+    },
+    {
+      "word": "中年",
+      "reading": "ちゅうねん",
+      "gloss": "middle-age",
+      "kanji": [
+        "中",
+        "年"
+      ]
+    },
+    {
+      "word": "中心",
+      "reading": "ちゅうしん",
+      "gloss": "center",
+      "kanji": [
+        "中",
+        "心"
+      ]
+    },
+    {
+      "word": "中日",
+      "reading": "ちゅうにち",
+      "gloss": "China and Japan",
+      "kanji": [
+        "中",
+        "日"
+      ]
+    },
+    {
+      "word": "中東",
+      "reading": "ちゅうとう",
+      "gloss": "Middle East",
+      "kanji": [
+        "中",
+        "東"
+      ]
+    },
+    {
+      "word": "中止",
+      "reading": "ちゅうし",
+      "gloss": "interruption",
+      "kanji": [
+        "中",
+        "止"
+      ]
+    },
+    {
+      "word": "中立",
+      "reading": "ちゅうりつ",
+      "gloss": "neutrality",
+      "kanji": [
+        "中",
+        "立"
+      ]
+    },
+    {
+      "word": "中道",
+      "reading": "ちゅうどう",
+      "gloss": "middle of the road",
+      "kanji": [
+        "中",
+        "道"
+      ]
+    },
+    {
+      "word": "中間",
+      "reading": "ちゅうかん",
+      "gloss": "middle",
+      "kanji": [
+        "中",
+        "間"
+      ]
+    },
+    {
+      "word": "中高",
+      "reading": "ちゅうこう",
+      "gloss": "middle and high school",
+      "kanji": [
+        "中",
+        "高"
+      ]
+    },
+    {
+      "word": "主人",
+      "reading": "しゅじん",
+      "gloss": "head (of a household)",
+      "kanji": [
+        "主",
+        "人"
+      ]
+    },
+    {
+      "word": "主体",
+      "reading": "しゅたい",
+      "gloss": "main constituent",
+      "kanji": [
+        "主",
+        "体"
+      ]
+    },
+    {
+      "word": "主力",
+      "reading": "しゅりょく",
+      "gloss": "main force",
+      "kanji": [
+        "主",
+        "力"
+      ]
+    },
+    {
+      "word": "主計",
+      "reading": "しゅけい",
+      "gloss": "paymaster",
+      "kanji": [
+        "主",
+        "計"
+      ]
+    },
+    {
+      "word": "主語",
+      "reading": "しゅご",
+      "gloss": "subject",
+      "kanji": [
+        "主",
+        "語"
+      ]
+    },
+    {
+      "word": "主題",
+      "reading": "しゅだい",
+      "gloss": "subject",
+      "kanji": [
+        "主",
+        "題"
+      ]
+    },
+    {
+      "word": "主食",
+      "reading": "しゅしょく",
+      "gloss": "staple food",
+      "kanji": [
+        "主",
+        "食"
+      ]
+    },
+    {
+      "word": "九十",
+      "reading": "きゅうじゅう",
+      "gloss": "ninety",
+      "kanji": [
+        "九",
+        "十"
+      ]
+    },
+    {
+      "word": "九日",
+      "reading": "ここのか",
+      "gloss": "9th day of the month",
+      "kanji": [
+        "九",
+        "日"
+      ]
+    },
+    {
+      "word": "九月",
+      "reading": "くがつ",
+      "gloss": "September",
+      "kanji": [
+        "九",
+        "月"
+      ]
+    },
+    {
+      "word": "九重",
+      "reading": "ここのえ",
+      "gloss": "ninefold",
+      "kanji": [
+        "九",
+        "重"
+      ]
+    },
+    {
+      "word": "事前",
+      "reading": "じぜん",
+      "gloss": "prior",
+      "kanji": [
+        "事",
+        "前"
+      ]
+    },
+    {
+      "word": "事後",
+      "reading": "じご",
+      "gloss": "after",
+      "kanji": [
+        "事",
+        "後"
+      ]
+    },
+    {
+      "word": "事業",
+      "reading": "じぎょう",
+      "gloss": "business",
+      "kanji": [
+        "事",
+        "業"
+      ]
+    },
+    {
+      "word": "二世",
+      "reading": "にせい",
+      "gloss": "nisei",
+      "kanji": [
+        "二",
+        "世"
+      ]
+    },
+    {
+      "word": "二人",
+      "reading": "ふたり",
+      "gloss": "two persons",
+      "kanji": [
+        "二",
+        "人"
+      ]
+    },
+    {
+      "word": "二十",
+      "reading": "にじゅう",
+      "gloss": "twenty",
+      "kanji": [
+        "二",
+        "十"
+      ]
+    },
+    {
+      "word": "二度",
+      "reading": "にど",
+      "gloss": "two times",
+      "kanji": [
+        "二",
+        "度"
+      ]
+    },
+    {
+      "word": "二日",
+      "reading": "ふつか",
+      "gloss": "2nd day of the month",
+      "kanji": [
+        "二",
+        "日"
+      ]
+    },
+    {
+      "word": "二月",
+      "reading": "にがつ",
+      "gloss": "February",
+      "kanji": [
+        "二",
+        "月"
+      ]
+    },
+    {
+      "word": "二死",
+      "reading": "にし",
+      "gloss": "two out",
+      "kanji": [
+        "二",
+        "死"
+      ]
+    },
+    {
+      "word": "二百",
+      "reading": "にひゃく",
+      "gloss": "200",
+      "kanji": [
+        "二",
+        "百"
+      ]
+    },
+    {
+      "word": "二重",
+      "reading": "にじゅう",
+      "gloss": "double",
+      "kanji": [
+        "二",
+        "重"
+      ]
+    },
+    {
+      "word": "二院",
+      "reading": "にいん",
+      "gloss": "the two houses of legislature",
+      "kanji": [
+        "二",
+        "院"
+      ]
+    },
+    {
+      "word": "五体",
+      "reading": "ごたい",
+      "gloss": "the whole body",
+      "kanji": [
+        "五",
+        "体"
+      ]
+    },
+    {
+      "word": "五十",
+      "reading": "ごじゅう",
+      "gloss": "fifty",
+      "kanji": [
+        "五",
+        "十"
+      ]
+    },
+    {
+      "word": "五日",
+      "reading": "いつか",
+      "gloss": "5th day of the month",
+      "kanji": [
+        "五",
+        "日"
+      ]
+    },
+    {
+      "word": "五月",
+      "reading": "ごがつ",
+      "gloss": "May",
+      "kanji": [
+        "五",
+        "月"
+      ]
+    },
+    {
+      "word": "人中",
+      "reading": "ひとなか",
+      "gloss": "society",
+      "kanji": [
+        "人",
+        "中"
+      ]
+    },
+    {
+      "word": "人事",
+      "reading": "じんじ",
+      "gloss": "human affairs",
+      "kanji": [
+        "人",
+        "事"
+      ]
+    },
+    {
+      "word": "人事",
+      "reading": "ひとごと",
+      "gloss": "other people's affairs",
+      "kanji": [
+        "人",
+        "事"
+      ]
+    },
+    {
+      "word": "人体",
+      "reading": "じんたい",
+      "gloss": "human body",
+      "kanji": [
+        "人",
+        "体"
+      ]
+    },
+    {
+      "word": "人出",
+      "reading": "ひとで",
+      "gloss": "crowd",
+      "kanji": [
+        "人",
+        "出"
+      ]
+    },
+    {
+      "word": "人前",
+      "reading": "にんまえ",
+      "gloss": "portion of food",
+      "kanji": [
+        "人",
+        "前"
+      ]
+    },
+    {
+      "word": "人前",
+      "reading": "ひとまえ",
+      "gloss": "presence of other people",
+      "kanji": [
+        "人",
+        "前"
+      ]
+    },
+    {
+      "word": "人口",
+      "reading": "じんこう",
+      "gloss": "population",
+      "kanji": [
+        "人",
+        "口"
+      ]
+    },
+    {
+      "word": "人名",
+      "reading": "じんめい",
+      "gloss": "person's name",
+      "kanji": [
+        "人",
+        "名"
+      ]
+    },
+    {
+      "word": "人員",
+      "reading": "じんいん",
+      "gloss": "number of persons",
+      "kanji": [
+        "人",
+        "員"
+      ]
+    },
+    {
+      "word": "人工",
+      "reading": "じんこう",
+      "gloss": "artificial",
+      "kanji": [
+        "人",
+        "工"
+      ]
+    },
+    {
+      "word": "人心",
+      "reading": "じんしん",
+      "gloss": "human nature",
+      "kanji": [
+        "人",
+        "心"
+      ]
+    },
+    {
+      "word": "人文",
+      "reading": "じんぶん",
+      "gloss": "humanity",
+      "kanji": [
+        "人",
+        "文"
+      ]
+    },
+    {
+      "word": "人気",
+      "reading": "にんき",
+      "gloss": "popularity",
+      "kanji": [
+        "人",
+        "気"
+      ]
+    },
+    {
+      "word": "人物",
+      "reading": "じんぶつ",
+      "gloss": "person",
+      "kanji": [
+        "人",
+        "物"
+      ]
+    },
+    {
+      "word": "人生",
+      "reading": "じんせい",
+      "gloss": "(one's) life",
+      "kanji": [
+        "人",
+        "生"
+      ]
+    },
+    {
+      "word": "人目",
+      "reading": "ひとめ",
+      "gloss": "(public) notice",
+      "kanji": [
+        "人",
+        "目"
+      ]
+    },
+    {
+      "word": "人質",
+      "reading": "ひとじち",
+      "gloss": "hostage",
+      "kanji": [
+        "人",
+        "質"
+      ]
+    },
+    {
+      "word": "人道",
+      "reading": "じんどう",
+      "gloss": "humanity",
+      "kanji": [
+        "人",
+        "道"
+      ]
+    },
+    {
+      "word": "人間",
+      "reading": "にんげん",
+      "gloss": "human being",
+      "kanji": [
+        "人",
+        "間"
+      ]
+    },
+    {
+      "word": "今一",
+      "reading": "いまいち",
+      "gloss": "not quite (right)",
+      "kanji": [
+        "今",
+        "一"
+      ]
+    },
+    {
+      "word": "今夏",
+      "reading": "こんか",
+      "gloss": "this summer",
+      "kanji": [
+        "今",
+        "夏"
+      ]
+    },
+    {
+      "word": "今夜",
+      "reading": "こんや",
+      "gloss": "this evening",
+      "kanji": [
+        "今",
+        "夜"
+      ]
+    },
+    {
+      "word": "今年",
+      "reading": "ことし",
+      "gloss": "this year",
+      "kanji": [
+        "今",
+        "年"
+      ]
+    },
+    {
+      "word": "今度",
+      "reading": "こんど",
+      "gloss": "this time",
+      "kanji": [
+        "今",
+        "度"
+      ]
+    },
+    {
+      "word": "今後",
+      "reading": "こんご",
+      "gloss": "from now on",
+      "kanji": [
+        "今",
+        "後"
+      ]
+    },
+    {
+      "word": "今日",
+      "reading": "きょう",
+      "gloss": "today",
+      "kanji": [
+        "今",
+        "日"
+      ]
+    },
+    {
+      "word": "今春",
+      "reading": "こんしゅん",
+      "gloss": "this spring",
+      "kanji": [
+        "今",
+        "春"
+      ]
+    },
+    {
+      "word": "今時",
+      "reading": "いまどき",
+      "gloss": "these days",
+      "kanji": [
+        "今",
+        "時"
+      ]
+    },
+    {
+      "word": "今月",
+      "reading": "こんげつ",
+      "gloss": "this month",
+      "kanji": [
+        "今",
+        "月"
+      ]
+    },
+    {
+      "word": "今朝",
+      "reading": "けさ",
+      "gloss": "this morning",
+      "kanji": [
+        "今",
+        "朝"
+      ]
+    },
+    {
+      "word": "今秋",
+      "reading": "こんしゅう",
+      "gloss": "this autumn",
+      "kanji": [
+        "今",
+        "秋"
+      ]
+    },
+    {
+      "word": "今週",
+      "reading": "こんしゅう",
+      "gloss": "this week",
+      "kanji": [
+        "今",
+        "週"
+      ]
+    },
+    {
+      "word": "仕事",
+      "reading": "しごと",
+      "gloss": "work",
+      "kanji": [
+        "仕",
+        "事"
+      ]
+    },
+    {
+      "word": "仕手",
+      "reading": "して",
+      "gloss": "doer",
+      "kanji": [
+        "仕",
+        "手"
+      ]
+    },
+    {
+      "word": "仕方",
+      "reading": "しかた",
+      "gloss": "way",
+      "kanji": [
+        "仕",
+        "方"
+      ]
+    },
+    {
+      "word": "仕業",
+      "reading": "しわざ",
+      "gloss": "deed (esp. negative)",
+      "kanji": [
+        "仕",
+        "業"
+      ]
+    },
+    {
+      "word": "代人",
+      "reading": "だいにん",
+      "gloss": "substitute",
+      "kanji": [
+        "代",
+        "人"
+      ]
+    },
+    {
+      "word": "代理",
+      "reading": "だいり",
+      "gloss": "representation",
+      "kanji": [
+        "代",
+        "理"
+      ]
+    },
+    {
+      "word": "代用",
+      "reading": "だいよう",
+      "gloss": "substitution",
+      "kanji": [
+        "代",
+        "用"
+      ]
+    },
+    {
+      "word": "代目",
+      "reading": "だいめ",
+      "gloss": "nth generation",
+      "kanji": [
+        "代",
+        "目"
+      ]
+    },
+    {
+      "word": "代行",
+      "reading": "だいこう",
+      "gloss": "acting as agent",
+      "kanji": [
+        "代",
+        "行"
+      ]
+    },
+    {
+      "word": "代金",
+      "reading": "だいきん",
+      "gloss": "price",
+      "kanji": [
+        "代",
+        "金"
+      ]
+    },
+    {
+      "word": "以上",
+      "reading": "いじょう",
+      "gloss": "not less than ...",
+      "kanji": [
+        "以",
+        "上"
+      ]
+    },
+    {
+      "word": "以下",
+      "reading": "いか",
+      "gloss": "not exceeding ...",
+      "kanji": [
+        "以",
+        "下"
+      ]
+    },
+    {
+      "word": "以前",
+      "reading": "いぜん",
+      "gloss": "before",
+      "kanji": [
+        "以",
+        "前"
+      ]
+    },
+    {
+      "word": "以外",
+      "reading": "いがい",
+      "gloss": "excluding",
+      "kanji": [
+        "以",
+        "外"
+      ]
+    },
+    {
+      "word": "以後",
+      "reading": "いご",
+      "gloss": "after this",
+      "kanji": [
+        "以",
+        "後"
+      ]
+    },
+    {
+      "word": "以来",
+      "reading": "いらい",
+      "gloss": "since",
+      "kanji": [
+        "以",
+        "来"
+      ]
+    },
+    {
+      "word": "休場",
+      "reading": "きゅうじょう",
+      "gloss": "(temporary) closure (of a theater, entertainment venue, etc.)",
+      "kanji": [
+        "休",
+        "場"
+      ]
+    },
+    {
+      "word": "休学",
+      "reading": "きゅうがく",
+      "gloss": "temporary absence from school",
+      "kanji": [
+        "休",
+        "学"
+      ]
+    },
+    {
+      "word": "休日",
+      "reading": "きゅうじつ",
+      "gloss": "holiday",
+      "kanji": [
+        "休",
+        "日"
+      ]
+    },
+    {
+      "word": "休校",
+      "reading": "きゅうこう",
+      "gloss": "(temporary) closure of school",
+      "kanji": [
+        "休",
+        "校"
+      ]
+    },
+    {
+      "word": "休業",
+      "reading": "きゅうぎょう",
+      "gloss": "suspension of business",
+      "kanji": [
+        "休",
+        "業"
+      ]
+    },
+    {
+      "word": "休止",
+      "reading": "きゅうし",
+      "gloss": "pause",
+      "kanji": [
+        "休",
+        "止"
+      ]
+    },
+    {
+      "word": "休館",
+      "reading": "きゅうかん",
+      "gloss": "closure (of a library, museum, etc.)",
+      "kanji": [
+        "休",
+        "館"
+      ]
+    },
+    {
+      "word": "会員",
+      "reading": "かいいん",
+      "gloss": "member",
+      "kanji": [
+        "会",
+        "員"
+      ]
+    },
+    {
+      "word": "会堂",
+      "reading": "かいどう",
+      "gloss": "church",
+      "kanji": [
+        "会",
+        "堂"
+      ]
+    },
+    {
+      "word": "会場",
+      "reading": "かいじょう",
+      "gloss": "assembly hall",
+      "kanji": [
+        "会",
+        "場"
+      ]
+    },
+    {
+      "word": "会心",
+      "reading": "かいしん",
+      "gloss": "congeniality",
+      "kanji": [
+        "会",
+        "心"
+      ]
+    },
+    {
+      "word": "会社",
+      "reading": "かいしゃ",
+      "gloss": "company",
+      "kanji": [
+        "会",
+        "社"
+      ]
+    },
+    {
+      "word": "会見",
+      "reading": "かいけん",
+      "gloss": "interview",
+      "kanji": [
+        "会",
+        "見"
+      ]
+    },
+    {
+      "word": "会計",
+      "reading": "かいけい",
+      "gloss": "accounting",
+      "kanji": [
+        "会",
+        "計"
+      ]
+    },
+    {
+      "word": "会話",
+      "reading": "かいわ",
+      "gloss": "conversation",
+      "kanji": [
+        "会",
+        "話"
+      ]
+    },
+    {
+      "word": "会長",
+      "reading": "かいちょう",
+      "gloss": "president (of a society)",
+      "kanji": [
+        "会",
+        "長"
+      ]
+    },
+    {
+      "word": "会食",
+      "reading": "かいしょく",
+      "gloss": "eating together",
+      "kanji": [
+        "会",
+        "食"
+      ]
+    },
+    {
+      "word": "会館",
+      "reading": "かいかん",
+      "gloss": "meeting hall",
+      "kanji": [
+        "会",
+        "館"
+      ]
+    },
+    {
+      "word": "住人",
+      "reading": "じゅうにん",
+      "gloss": "dweller",
+      "kanji": [
+        "住",
+        "人"
+      ]
+    },
+    {
+      "word": "体力",
+      "reading": "たいりょく",
+      "gloss": "physical strength",
+      "kanji": [
+        "体",
+        "力"
+      ]
+    },
+    {
+      "word": "体質",
+      "reading": "たいしつ",
+      "gloss": "constitution (physical)",
+      "kanji": [
+        "体",
+        "質"
+      ]
+    },
+    {
+      "word": "体重",
+      "reading": "たいじゅう",
+      "gloss": "(body) weight",
+      "kanji": [
+        "体",
+        "重"
+      ]
+    },
+    {
+      "word": "体長",
+      "reading": "たいちょう",
+      "gloss": "length (of an animal)",
+      "kanji": [
+        "体",
+        "長"
+      ]
+    },
+    {
+      "word": "体験",
+      "reading": "たいけん",
+      "gloss": "(practical) experience",
+      "kanji": [
+        "体",
+        "験"
+      ]
+    },
+    {
+      "word": "何事",
+      "reading": "なにごと",
+      "gloss": "what",
+      "kanji": [
+        "何",
+        "事"
+      ]
+    },
+    {
+      "word": "何人",
+      "reading": "なんにん",
+      "gloss": "how many people",
+      "kanji": [
+        "何",
+        "人"
+      ]
+    },
+    {
+      "word": "何人",
+      "reading": "なにびと",
+      "gloss": "anyone",
+      "kanji": [
+        "何",
+        "人"
+      ]
+    },
+    {
+      "word": "何十",
+      "reading": "なんじゅう",
+      "gloss": "(several) tens",
+      "kanji": [
+        "何",
+        "十"
+      ]
+    }
+  ]
 }

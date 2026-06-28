@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "required": ["level", "generated", "roots", "kanji"],
+  "required": ["level", "generated", "roots", "kanji", "words"],
   "properties": {
     "level": { "type": "string", "enum": ["N5", "N4", "N3", "N2", "N1"] },
     "generated": { "type": "string" },
@@ -21,6 +21,10 @@
     "kanji": {
       "type": "object",
       "additionalProperties": { "$ref": "#/definitions/kanjiInfo" }
+    },
+    "words": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/wordEntry" }
     }
   },
   "definitions": {
@@ -59,6 +63,16 @@
         "word": { "type": "string" },
         "reading": { "type": "string" },
         "gloss": { "type": "string" }
+      }
+    },
+    "wordEntry": {
+      "type": "object",
+      "required": ["word", "reading", "gloss", "kanji"],
+      "properties": {
+        "word": { "type": "string" },
+        "reading": { "type": "string" },
+        "gloss": { "type": "string" },
+        "kanji": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 1 } }
       }
     }
   }

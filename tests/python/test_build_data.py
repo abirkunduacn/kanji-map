@@ -15,7 +15,7 @@ def test_build_level_is_schema_valid_and_complete():
     roots = [{"id": "r1", "root": "口", "label": "Mouth",
               "children": [{"char": "生", "label": "life", "children": []},
                            {"char": "犬", "label": "dog", "children": []}]}]
-    level = build_data.build_level("N5", {"生", "犬"}, infos, idx, roots)
+    level = build_data.build_level("N5", {"生", "犬"}, infos, idx, roots, words=[])
     jsonschema.validate(level, SCHEMA)         # raises on any schema violation
     # every kanji placed in a node has a detail entry (口 has no readings -> skipped)
     assert set(level["kanji"]) == {"生", "犬"}
@@ -32,7 +32,7 @@ def test_build_level_includes_real_root_kanji_in_detail_map():
     idx = parse_jmdict.build_index(JMFIX, wanted=set())
     roots = [{"id": "k-元", "root": "元", "label": "origin",
               "children": [{"char": "院", "label": "institution", "children": []}]}]
-    level = build_data.build_level("N4", {"元", "院"}, infos, idx, roots)
+    level = build_data.build_level("N4", {"元", "院"}, infos, idx, roots, words=[])
     assert "元" in level["kanji"]   # the root kanji has its own entry
     assert "院" in level["kanji"]
 
@@ -42,7 +42,7 @@ def test_other_root_marker_gets_no_detail_entry():
     idx = parse_jmdict.build_index(JMFIX, wanted=set())
     roots = [{"id": "other", "root": trees_ids.OTHER_ROOT, "label": "Other (standalone)",
               "children": [{"char": "犬", "label": "dog", "children": []}]}]
-    level = build_data.build_level("N5", {"犬"}, infos, idx, roots)
+    level = build_data.build_level("N5", {"犬"}, infos, idx, roots, words=[])
     assert set(level["kanji"]) == {"犬"}   # 他 marker excluded
 
 def test_jlpt_chars_has_four_levels(monkeypatch, tmp_path):
@@ -58,3 +58,11 @@ def test_jlpt_chars_has_four_levels(monkeypatch, tmp_path):
     assert set(levels) == {"N5", "N4", "N3", "N2"}
     assert levels["N3"] == {"三"} and levels["N2"] == {"四"}
     assert build_data.LEVEL_ORDER == ["N5", "N4", "N3", "N2"]
+
+def test_build_level_includes_words_array():
+    infos = {"生": {"char": "生", "meanings": ["life"], "on": [], "kun": [], "strokes": 5}}
+    idx = parse_jmdict.build_index(JMFIX, wanted=set())
+    roots = [{"id": "k-生", "root": "生", "label": "life", "children": []}]
+    w = [{"word": "学生", "reading": "がくせい", "gloss": "student", "kanji": ["学", "生"]}]
+    level = build_data.build_level("N5", {"生"}, infos, idx, roots, words=w)
+    assert level["words"] == w

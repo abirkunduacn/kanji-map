@@ -1,6 +1,6 @@
 {
   "level": "N5",
-  "generated": "2026-06-26",
+  "generated": "2026-06-28",
   "roots": [
     {
       "id": "k-白",
@@ -91,6 +91,11 @@
         {
           "char": "今",
           "label": "now",
+          "children": []
+        },
+        {
+          "char": "何",
+          "label": "what",
           "children": []
         },
         {
@@ -237,11 +242,6 @@
         {
           "char": "西",
           "label": "west",
-          "children": []
-        },
-        {
-          "char": "何",
-          "label": "what",
           "children": []
         },
         {
@@ -3790,5 +3790,2257 @@
         ]
       }
     }
-  }
+  },
+  "words": [
+    {
+      "word": "一万",
+      "reading": "いちまん",
+      "gloss": "10,000",
+      "kanji": [
+        "一",
+        "万"
+      ]
+    },
+    {
+      "word": "一二",
+      "reading": "いちに",
+      "gloss": "the first and second",
+      "kanji": [
+        "一",
+        "二"
+      ]
+    },
+    {
+      "word": "一人",
+      "reading": "ひとり",
+      "gloss": "one person",
+      "kanji": [
+        "一",
+        "人"
+      ]
+    },
+    {
+      "word": "一円",
+      "reading": "いちえん",
+      "gloss": "one yen",
+      "kanji": [
+        "一",
+        "円"
+      ]
+    },
+    {
+      "word": "一千",
+      "reading": "いっせん",
+      "gloss": "1,000",
+      "kanji": [
+        "一",
+        "千"
+      ]
+    },
+    {
+      "word": "一国",
+      "reading": "いっこく",
+      "gloss": "one country",
+      "kanji": [
+        "一",
+        "国"
+      ]
+    },
+    {
+      "word": "一大",
+      "reading": "いちだい",
+      "gloss": "one large ...",
+      "kanji": [
+        "一",
+        "大"
+      ]
+    },
+    {
+      "word": "一女",
+      "reading": "いちじょ",
+      "gloss": "one daughter",
+      "kanji": [
+        "一",
+        "女"
+      ]
+    },
+    {
+      "word": "一年",
+      "reading": "いちねん",
+      "gloss": "one year",
+      "kanji": [
+        "一",
+        "年"
+      ]
+    },
+    {
+      "word": "一日",
+      "reading": "いちにち",
+      "gloss": "one day",
+      "kanji": [
+        "一",
+        "日"
+      ]
+    },
+    {
+      "word": "一日",
+      "reading": "ついたち",
+      "gloss": "first day of the month",
+      "kanji": [
+        "一",
+        "日"
+      ]
+    },
+    {
+      "word": "一時",
+      "reading": "ひととき",
+      "gloss": "a (short) time",
+      "kanji": [
+        "一",
+        "時"
+      ]
+    },
+    {
+      "word": "一時",
+      "reading": "いちじ",
+      "gloss": "one o'clock",
+      "kanji": [
+        "一",
+        "時"
+      ]
+    },
+    {
+      "word": "一月",
+      "reading": "いちがつ",
+      "gloss": "January",
+      "kanji": [
+        "一",
+        "月"
+      ]
+    },
+    {
+      "word": "一月",
+      "reading": "ひとつき",
+      "gloss": "one month",
+      "kanji": [
+        "一",
+        "月"
+      ]
+    },
+    {
+      "word": "一本",
+      "reading": "いっぽん",
+      "gloss": "one long cylindrical thing",
+      "kanji": [
+        "一",
+        "本"
+      ]
+    },
+    {
+      "word": "一校",
+      "reading": "いっこう",
+      "gloss": "one school",
+      "kanji": [
+        "一",
+        "校"
+      ]
+    },
+    {
+      "word": "一気",
+      "reading": "いっき",
+      "gloss": "one breath",
+      "kanji": [
+        "一",
+        "気"
+      ]
+    },
+    {
+      "word": "一生",
+      "reading": "いっしょう",
+      "gloss": "whole life",
+      "kanji": [
+        "一",
+        "生"
+      ]
+    },
+    {
+      "word": "一男",
+      "reading": "いちなん",
+      "gloss": "boy",
+      "kanji": [
+        "一",
+        "男"
+      ]
+    },
+    {
+      "word": "一行",
+      "reading": "いちぎょう",
+      "gloss": "(one) line",
+      "kanji": [
+        "一",
+        "行"
+      ]
+    },
+    {
+      "word": "一行",
+      "reading": "いっこう",
+      "gloss": "party",
+      "kanji": [
+        "一",
+        "行"
+      ]
+    },
+    {
+      "word": "一見",
+      "reading": "いっけん",
+      "gloss": "look",
+      "kanji": [
+        "一",
+        "見"
+      ]
+    },
+    {
+      "word": "七十",
+      "reading": "ななじゅう",
+      "gloss": "seventy",
+      "kanji": [
+        "七",
+        "十"
+      ]
+    },
+    {
+      "word": "七日",
+      "reading": "なのか",
+      "gloss": "7th day of the month",
+      "kanji": [
+        "七",
+        "日"
+      ]
+    },
+    {
+      "word": "七時",
+      "reading": "しちじ",
+      "gloss": "seven o'clock",
+      "kanji": [
+        "七",
+        "時"
+      ]
+    },
+    {
+      "word": "七月",
+      "reading": "しちがつ",
+      "gloss": "July",
+      "kanji": [
+        "七",
+        "月"
+      ]
+    },
+    {
+      "word": "万一",
+      "reading": "まんいち",
+      "gloss": "(unlikely event of) emergency",
+      "kanji": [
+        "万",
+        "一"
+      ]
+    },
+    {
+      "word": "万人",
+      "reading": "ばんにん",
+      "gloss": "all people",
+      "kanji": [
+        "万",
+        "人"
+      ]
+    },
+    {
+      "word": "万国",
+      "reading": "ばんこく",
+      "gloss": "all countries",
+      "kanji": [
+        "万",
+        "国"
+      ]
+    },
+    {
+      "word": "万年",
+      "reading": "まんねん",
+      "gloss": "ten thousand years",
+      "kanji": [
+        "万",
+        "年"
+      ]
+    },
+    {
+      "word": "三人",
+      "reading": "さんにん",
+      "gloss": "three people",
+      "kanji": [
+        "三",
+        "人"
+      ]
+    },
+    {
+      "word": "三十",
+      "reading": "さんじゅう",
+      "gloss": "thirty",
+      "kanji": [
+        "三",
+        "十"
+      ]
+    },
+    {
+      "word": "三千",
+      "reading": "さんぜん",
+      "gloss": "3000",
+      "kanji": [
+        "三",
+        "千"
+      ]
+    },
+    {
+      "word": "三女",
+      "reading": "さんじょ",
+      "gloss": "third daughter",
+      "kanji": [
+        "三",
+        "女"
+      ]
+    },
+    {
+      "word": "三年",
+      "reading": "さんねん",
+      "gloss": "three years",
+      "kanji": [
+        "三",
+        "年"
+      ]
+    },
+    {
+      "word": "三日",
+      "reading": "みっか",
+      "gloss": "3rd day of the month",
+      "kanji": [
+        "三",
+        "日"
+      ]
+    },
+    {
+      "word": "三時",
+      "reading": "さんじ",
+      "gloss": "3 o'clock",
+      "kanji": [
+        "三",
+        "時"
+      ]
+    },
+    {
+      "word": "三月",
+      "reading": "さんがつ",
+      "gloss": "March",
+      "kanji": [
+        "三",
+        "月"
+      ]
+    },
+    {
+      "word": "三本",
+      "reading": "さんぼん",
+      "gloss": "three (long cylindrical things)",
+      "kanji": [
+        "三",
+        "本"
+      ]
+    },
+    {
+      "word": "三男",
+      "reading": "さんなん",
+      "gloss": "three sons",
+      "kanji": [
+        "三",
+        "男"
+      ]
+    },
+    {
+      "word": "三百",
+      "reading": "さんびゃく",
+      "gloss": "300",
+      "kanji": [
+        "三",
+        "百"
+      ]
+    },
+    {
+      "word": "上下",
+      "reading": "うえした",
+      "gloss": "top and bottom",
+      "kanji": [
+        "上",
+        "下"
+      ]
+    },
+    {
+      "word": "上下",
+      "reading": "じょうげ",
+      "gloss": "top and bottom",
+      "kanji": [
+        "上",
+        "下"
+      ]
+    },
+    {
+      "word": "下山",
+      "reading": "げざん",
+      "gloss": "descending a mountain",
+      "kanji": [
+        "下",
+        "山"
+      ]
+    },
+    {
+      "word": "下水",
+      "reading": "げすい",
+      "gloss": "drainage",
+      "kanji": [
+        "下",
+        "水"
+      ]
+    },
+    {
+      "word": "下火",
+      "reading": "したび",
+      "gloss": "burning low",
+      "kanji": [
+        "下",
+        "火"
+      ]
+    },
+    {
+      "word": "下見",
+      "reading": "したみ",
+      "gloss": "preliminary inspection",
+      "kanji": [
+        "下",
+        "見"
+      ]
+    },
+    {
+      "word": "下車",
+      "reading": "げしゃ",
+      "gloss": "alighting (from a train, bus, etc.)",
+      "kanji": [
+        "下",
+        "車"
+      ]
+    },
+    {
+      "word": "中前",
+      "reading": "ちゅうぜん",
+      "gloss": "front of center field",
+      "kanji": [
+        "中",
+        "前"
+      ]
+    },
+    {
+      "word": "中国",
+      "reading": "ちゅうごく",
+      "gloss": "China",
+      "kanji": [
+        "中",
+        "国"
+      ]
+    },
+    {
+      "word": "中学",
+      "reading": "ちゅうがく",
+      "gloss": "junior high school",
+      "kanji": [
+        "中",
+        "学"
+      ]
+    },
+    {
+      "word": "中小",
+      "reading": "ちゅうしょう",
+      "gloss": "small and medium",
+      "kanji": [
+        "中",
+        "小"
+      ]
+    },
+    {
+      "word": "中年",
+      "reading": "ちゅうねん",
+      "gloss": "middle-age",
+      "kanji": [
+        "中",
+        "年"
+      ]
+    },
+    {
+      "word": "中日",
+      "reading": "ちゅうにち",
+      "gloss": "China and Japan",
+      "kanji": [
+        "中",
+        "日"
+      ]
+    },
+    {
+      "word": "中東",
+      "reading": "ちゅうとう",
+      "gloss": "Middle East",
+      "kanji": [
+        "中",
+        "東"
+      ]
+    },
+    {
+      "word": "中間",
+      "reading": "ちゅうかん",
+      "gloss": "middle",
+      "kanji": [
+        "中",
+        "間"
+      ]
+    },
+    {
+      "word": "中高",
+      "reading": "ちゅうこう",
+      "gloss": "middle and high school",
+      "kanji": [
+        "中",
+        "高"
+      ]
+    },
+    {
+      "word": "九十",
+      "reading": "きゅうじゅう",
+      "gloss": "ninety",
+      "kanji": [
+        "九",
+        "十"
+      ]
+    },
+    {
+      "word": "九日",
+      "reading": "ここのか",
+      "gloss": "9th day of the month",
+      "kanji": [
+        "九",
+        "日"
+      ]
+    },
+    {
+      "word": "九月",
+      "reading": "くがつ",
+      "gloss": "September",
+      "kanji": [
+        "九",
+        "月"
+      ]
+    },
+    {
+      "word": "二人",
+      "reading": "ふたり",
+      "gloss": "two persons",
+      "kanji": [
+        "二",
+        "人"
+      ]
+    },
+    {
+      "word": "二十",
+      "reading": "にじゅう",
+      "gloss": "twenty",
+      "kanji": [
+        "二",
+        "十"
+      ]
+    },
+    {
+      "word": "二日",
+      "reading": "ふつか",
+      "gloss": "2nd day of the month",
+      "kanji": [
+        "二",
+        "日"
+      ]
+    },
+    {
+      "word": "二月",
+      "reading": "にがつ",
+      "gloss": "February",
+      "kanji": [
+        "二",
+        "月"
+      ]
+    },
+    {
+      "word": "二百",
+      "reading": "にひゃく",
+      "gloss": "200",
+      "kanji": [
+        "二",
+        "百"
+      ]
+    },
+    {
+      "word": "五十",
+      "reading": "ごじゅう",
+      "gloss": "fifty",
+      "kanji": [
+        "五",
+        "十"
+      ]
+    },
+    {
+      "word": "五日",
+      "reading": "いつか",
+      "gloss": "5th day of the month",
+      "kanji": [
+        "五",
+        "日"
+      ]
+    },
+    {
+      "word": "五月",
+      "reading": "ごがつ",
+      "gloss": "May",
+      "kanji": [
+        "五",
+        "月"
+      ]
+    },
+    {
+      "word": "人中",
+      "reading": "ひとなか",
+      "gloss": "society",
+      "kanji": [
+        "人",
+        "中"
+      ]
+    },
+    {
+      "word": "人出",
+      "reading": "ひとで",
+      "gloss": "crowd",
+      "kanji": [
+        "人",
+        "出"
+      ]
+    },
+    {
+      "word": "人前",
+      "reading": "にんまえ",
+      "gloss": "portion of food",
+      "kanji": [
+        "人",
+        "前"
+      ]
+    },
+    {
+      "word": "人前",
+      "reading": "ひとまえ",
+      "gloss": "presence of other people",
+      "kanji": [
+        "人",
+        "前"
+      ]
+    },
+    {
+      "word": "人名",
+      "reading": "じんめい",
+      "gloss": "person's name",
+      "kanji": [
+        "人",
+        "名"
+      ]
+    },
+    {
+      "word": "人気",
+      "reading": "にんき",
+      "gloss": "popularity",
+      "kanji": [
+        "人",
+        "気"
+      ]
+    },
+    {
+      "word": "人生",
+      "reading": "じんせい",
+      "gloss": "(one's) life",
+      "kanji": [
+        "人",
+        "生"
+      ]
+    },
+    {
+      "word": "人間",
+      "reading": "にんげん",
+      "gloss": "human being",
+      "kanji": [
+        "人",
+        "間"
+      ]
+    },
+    {
+      "word": "今一",
+      "reading": "いまいち",
+      "gloss": "not quite (right)",
+      "kanji": [
+        "今",
+        "一"
+      ]
+    },
+    {
+      "word": "今年",
+      "reading": "ことし",
+      "gloss": "this year",
+      "kanji": [
+        "今",
+        "年"
+      ]
+    },
+    {
+      "word": "今後",
+      "reading": "こんご",
+      "gloss": "from now on",
+      "kanji": [
+        "今",
+        "後"
+      ]
+    },
+    {
+      "word": "今日",
+      "reading": "きょう",
+      "gloss": "today",
+      "kanji": [
+        "今",
+        "日"
+      ]
+    },
+    {
+      "word": "今時",
+      "reading": "いまどき",
+      "gloss": "these days",
+      "kanji": [
+        "今",
+        "時"
+      ]
+    },
+    {
+      "word": "今月",
+      "reading": "こんげつ",
+      "gloss": "this month",
+      "kanji": [
+        "今",
+        "月"
+      ]
+    },
+    {
+      "word": "休学",
+      "reading": "きゅうがく",
+      "gloss": "temporary absence from school",
+      "kanji": [
+        "休",
+        "学"
+      ]
+    },
+    {
+      "word": "休日",
+      "reading": "きゅうじつ",
+      "gloss": "holiday",
+      "kanji": [
+        "休",
+        "日"
+      ]
+    },
+    {
+      "word": "休校",
+      "reading": "きゅうこう",
+      "gloss": "(temporary) closure of school",
+      "kanji": [
+        "休",
+        "校"
+      ]
+    },
+    {
+      "word": "何人",
+      "reading": "なんにん",
+      "gloss": "how many people",
+      "kanji": [
+        "何",
+        "人"
+      ]
+    },
+    {
+      "word": "何人",
+      "reading": "なにびと",
+      "gloss": "anyone",
+      "kanji": [
+        "何",
+        "人"
+      ]
+    },
+    {
+      "word": "何十",
+      "reading": "なんじゅう",
+      "gloss": "(several) tens",
+      "kanji": [
+        "何",
+        "十"
+      ]
+    },
+    {
+      "word": "何千",
+      "reading": "なんぜん",
+      "gloss": "many thousands",
+      "kanji": [
+        "何",
+        "千"
+      ]
+    },
+    {
+      "word": "何年",
+      "reading": "なんねん",
+      "gloss": "how many years",
+      "kanji": [
+        "何",
+        "年"
+      ]
+    },
+    {
+      "word": "何日",
+      "reading": "なんにち",
+      "gloss": "what day",
+      "kanji": [
+        "何",
+        "日"
+      ]
+    },
+    {
+      "word": "何時",
+      "reading": "なんじ",
+      "gloss": "what time",
+      "kanji": [
+        "何",
+        "時"
+      ]
+    },
+    {
+      "word": "何百",
+      "reading": "なんびゃく",
+      "gloss": "hundreds",
+      "kanji": [
+        "何",
+        "百"
+      ]
+    },
+    {
+      "word": "先人",
+      "reading": "せんじん",
+      "gloss": "predecessor",
+      "kanji": [
+        "先",
+        "人"
+      ]
+    },
+    {
+      "word": "先日",
+      "reading": "せんじつ",
+      "gloss": "the other day",
+      "kanji": [
+        "先",
+        "日"
+      ]
+    },
+    {
+      "word": "先月",
+      "reading": "せんげつ",
+      "gloss": "last month",
+      "kanji": [
+        "先",
+        "月"
+      ]
+    },
+    {
+      "word": "先生",
+      "reading": "せんせい",
+      "gloss": "teacher",
+      "kanji": [
+        "先",
+        "生"
+      ]
+    },
+    {
+      "word": "先行",
+      "reading": "せんこう",
+      "gloss": "going ahead",
+      "kanji": [
+        "先",
+        "行"
+      ]
+    },
+    {
+      "word": "先見",
+      "reading": "せんけん",
+      "gloss": "foresight",
+      "kanji": [
+        "先",
+        "見"
+      ]
+    },
+    {
+      "word": "入国",
+      "reading": "にゅうこく",
+      "gloss": "entry into a country",
+      "kanji": [
+        "入",
+        "国"
+      ]
+    },
+    {
+      "word": "入学",
+      "reading": "にゅうがく",
+      "gloss": "admission (to a school or university)",
+      "kanji": [
+        "入",
+        "学"
+      ]
+    },
+    {
+      "word": "入金",
+      "reading": "にゅうきん",
+      "gloss": "receipt of money",
+      "kanji": [
+        "入",
+        "金"
+      ]
+    },
+    {
+      "word": "八十",
+      "reading": "はちじゅう",
+      "gloss": "eighty",
+      "kanji": [
+        "八",
+        "十"
+      ]
+    },
+    {
+      "word": "八日",
+      "reading": "ようか",
+      "gloss": "8th day of the month",
+      "kanji": [
+        "八",
+        "日"
+      ]
+    },
+    {
+      "word": "八月",
+      "reading": "はちがつ",
+      "gloss": "August",
+      "kanji": [
+        "八",
+        "月"
+      ]
+    },
+    {
+      "word": "六十",
+      "reading": "ろくじゅう",
+      "gloss": "sixty",
+      "kanji": [
+        "六",
+        "十"
+      ]
+    },
+    {
+      "word": "六日",
+      "reading": "むいか",
+      "gloss": "6th day of the month",
+      "kanji": [
+        "六",
+        "日"
+      ]
+    },
+    {
+      "word": "六月",
+      "reading": "ろくがつ",
+      "gloss": "June",
+      "kanji": [
+        "六",
+        "月"
+      ]
+    },
+    {
+      "word": "円高",
+      "reading": "えんだか",
+      "gloss": "appreciation of the yen",
+      "kanji": [
+        "円",
+        "高"
+      ]
+    },
+    {
+      "word": "出入",
+      "reading": "しゅつにゅう",
+      "gloss": "in and out",
+      "kanji": [
+        "出",
+        "入"
+      ]
+    },
+    {
+      "word": "出前",
+      "reading": "でまえ",
+      "gloss": "home delivery (of food)",
+      "kanji": [
+        "出",
+        "前"
+      ]
+    },
+    {
+      "word": "出国",
+      "reading": "しゅっこく",
+      "gloss": "departure from a country",
+      "kanji": [
+        "出",
+        "国"
+      ]
+    },
+    {
+      "word": "出土",
+      "reading": "しゅつど",
+      "gloss": "archeological excavation (archaeological)",
+      "kanji": [
+        "出",
+        "土"
+      ]
+    },
+    {
+      "word": "出来",
+      "reading": "しゅったい",
+      "gloss": "occurrence",
+      "kanji": [
+        "出",
+        "来"
+      ]
+    },
+    {
+      "word": "出来",
+      "reading": "でき",
+      "gloss": "workmanship",
+      "kanji": [
+        "出",
+        "来"
+      ]
+    },
+    {
+      "word": "出火",
+      "reading": "しゅっか",
+      "gloss": "outbreak of fire",
+      "kanji": [
+        "出",
+        "火"
+      ]
+    },
+    {
+      "word": "出生",
+      "reading": "しゅっしょう",
+      "gloss": "birth",
+      "kanji": [
+        "出",
+        "生"
+      ]
+    },
+    {
+      "word": "出金",
+      "reading": "しゅっきん",
+      "gloss": "withdrawal (of money)",
+      "kanji": [
+        "出",
+        "金"
+      ]
+    },
+    {
+      "word": "前半",
+      "reading": "ぜんはん",
+      "gloss": "first half",
+      "kanji": [
+        "前",
+        "半"
+      ]
+    },
+    {
+      "word": "前年",
+      "reading": "ぜんねん",
+      "gloss": "the preceding year",
+      "kanji": [
+        "前",
+        "年"
+      ]
+    },
+    {
+      "word": "前後",
+      "reading": "ぜんご",
+      "gloss": "front and rear",
+      "kanji": [
+        "前",
+        "後"
+      ]
+    },
+    {
+      "word": "前日",
+      "reading": "ぜんじつ",
+      "gloss": "previous day",
+      "kanji": [
+        "前",
+        "日"
+      ]
+    },
+    {
+      "word": "北上",
+      "reading": "ほくじょう",
+      "gloss": "going north",
+      "kanji": [
+        "北",
+        "上"
+      ]
+    },
+    {
+      "word": "北国",
+      "reading": "きたぐに",
+      "gloss": "northern country",
+      "kanji": [
+        "北",
+        "国"
+      ]
+    },
+    {
+      "word": "北東",
+      "reading": "ほくとう",
+      "gloss": "northeast",
+      "kanji": [
+        "北",
+        "東"
+      ]
+    },
+    {
+      "word": "北西",
+      "reading": "ほくせい",
+      "gloss": "northwest",
+      "kanji": [
+        "北",
+        "西"
+      ]
+    },
+    {
+      "word": "十一",
+      "reading": "じゅういち",
+      "gloss": "eleven",
+      "kanji": [
+        "十",
+        "一"
+      ]
+    },
+    {
+      "word": "十七",
+      "reading": "じゅうなな",
+      "gloss": "seventeen",
+      "kanji": [
+        "十",
+        "七"
+      ]
+    },
+    {
+      "word": "十万",
+      "reading": "じゅうまん",
+      "gloss": "100,000",
+      "kanji": [
+        "十",
+        "万"
+      ]
+    },
+    {
+      "word": "十三",
+      "reading": "じゅうさん",
+      "gloss": "thirteen",
+      "kanji": [
+        "十",
+        "三"
+      ]
+    },
+    {
+      "word": "十九",
+      "reading": "じゅうきゅう",
+      "gloss": "nineteen",
+      "kanji": [
+        "十",
+        "九"
+      ]
+    },
+    {
+      "word": "十二",
+      "reading": "じゅうに",
+      "gloss": "twelve",
+      "kanji": [
+        "十",
+        "二"
+      ]
+    },
+    {
+      "word": "十五",
+      "reading": "じゅうご",
+      "gloss": "fifteen",
+      "kanji": [
+        "十",
+        "五"
+      ]
+    },
+    {
+      "word": "十八",
+      "reading": "じゅうはち",
+      "gloss": "eighteen",
+      "kanji": [
+        "十",
+        "八"
+      ]
+    },
+    {
+      "word": "十六",
+      "reading": "じゅうろく",
+      "gloss": "sixteen",
+      "kanji": [
+        "十",
+        "六"
+      ]
+    },
+    {
+      "word": "十四",
+      "reading": "じゅうし",
+      "gloss": "fourteen",
+      "kanji": [
+        "十",
+        "四"
+      ]
+    },
+    {
+      "word": "十日",
+      "reading": "とおか",
+      "gloss": "10th day of the month",
+      "kanji": [
+        "十",
+        "日"
+      ]
+    },
+    {
+      "word": "十月",
+      "reading": "じゅうがつ",
+      "gloss": "October",
+      "kanji": [
+        "十",
+        "月"
+      ]
+    },
+    {
+      "word": "午前",
+      "reading": "ごぜん",
+      "gloss": "morning",
+      "kanji": [
+        "午",
+        "前"
+      ]
+    },
+    {
+      "word": "午後",
+      "reading": "ごご",
+      "gloss": "afternoon",
+      "kanji": [
+        "午",
+        "後"
+      ]
+    },
+    {
+      "word": "半年",
+      "reading": "はんとし",
+      "gloss": "half a year",
+      "kanji": [
+        "半",
+        "年"
+      ]
+    },
+    {
+      "word": "半日",
+      "reading": "はんにち",
+      "gloss": "half day",
+      "kanji": [
+        "半",
+        "日"
+      ]
+    },
+    {
+      "word": "半月",
+      "reading": "はんげつ",
+      "gloss": "half-moon",
+      "kanji": [
+        "半",
+        "月"
+      ]
+    },
+    {
+      "word": "半生",
+      "reading": "はんせい",
+      "gloss": "half a lifetime",
+      "kanji": [
+        "半",
+        "生"
+      ]
+    },
+    {
+      "word": "南北",
+      "reading": "なんぼく",
+      "gloss": "north and south",
+      "kanji": [
+        "南",
+        "北"
+      ]
+    },
+    {
+      "word": "南東",
+      "reading": "なんとう",
+      "gloss": "southeast",
+      "kanji": [
+        "南",
+        "東"
+      ]
+    },
+    {
+      "word": "南西",
+      "reading": "なんせい",
+      "gloss": "southwest",
+      "kanji": [
+        "南",
+        "西"
+      ]
+    },
+    {
+      "word": "友人",
+      "reading": "ゆうじん",
+      "gloss": "friend",
+      "kanji": [
+        "友",
+        "人"
+      ]
+    },
+    {
+      "word": "右上",
+      "reading": "みぎうえ",
+      "gloss": "upper right",
+      "kanji": [
+        "右",
+        "上"
+      ]
+    },
+    {
+      "word": "右下",
+      "reading": "みぎした",
+      "gloss": "lower right",
+      "kanji": [
+        "右",
+        "下"
+      ]
+    },
+    {
+      "word": "名人",
+      "reading": "めいじん",
+      "gloss": "master",
+      "kanji": [
+        "名",
+        "人"
+      ]
+    },
+    {
+      "word": "名前",
+      "reading": "なまえ",
+      "gloss": "name",
+      "kanji": [
+        "名",
+        "前"
+      ]
+    },
+    {
+      "word": "名月",
+      "reading": "めいげつ",
+      "gloss": "harvest moon (trad. 15th day of the 8th lunar month)",
+      "kanji": [
+        "名",
+        "月"
+      ]
+    },
+    {
+      "word": "四人",
+      "reading": "よにん",
+      "gloss": "four people",
+      "kanji": [
+        "四",
+        "人"
+      ]
+    },
+    {
+      "word": "四十",
+      "reading": "よんじゅう",
+      "gloss": "forty",
+      "kanji": [
+        "四",
+        "十"
+      ]
+    },
+    {
+      "word": "四千",
+      "reading": "よんせん",
+      "gloss": "four thousand",
+      "kanji": [
+        "四",
+        "千"
+      ]
+    },
+    {
+      "word": "四国",
+      "reading": "しこく",
+      "gloss": "Shikoku (smallest of the four main islands of Japan)",
+      "kanji": [
+        "四",
+        "国"
+      ]
+    },
+    {
+      "word": "四日",
+      "reading": "よっか",
+      "gloss": "4th day of the month",
+      "kanji": [
+        "四",
+        "日"
+      ]
+    },
+    {
+      "word": "四時",
+      "reading": "よじ",
+      "gloss": "four o'clock",
+      "kanji": [
+        "四",
+        "時"
+      ]
+    },
+    {
+      "word": "四月",
+      "reading": "しがつ",
+      "gloss": "April",
+      "kanji": [
+        "四",
+        "月"
+      ]
+    },
+    {
+      "word": "四本",
+      "reading": "よんほん",
+      "gloss": "four (long cylindrical things)",
+      "kanji": [
+        "四",
+        "本"
+      ]
+    },
+    {
+      "word": "四百",
+      "reading": "よんひゃく",
+      "gloss": "400",
+      "kanji": [
+        "四",
+        "百"
+      ]
+    },
+    {
+      "word": "国人",
+      "reading": "こくじん",
+      "gloss": "indigenous person",
+      "kanji": [
+        "国",
+        "人"
+      ]
+    },
+    {
+      "word": "国名",
+      "reading": "こくめい",
+      "gloss": "country name",
+      "kanji": [
+        "国",
+        "名"
+      ]
+    },
+    {
+      "word": "国土",
+      "reading": "こくど",
+      "gloss": "country",
+      "kanji": [
+        "国",
+        "土"
+      ]
+    },
+    {
+      "word": "国外",
+      "reading": "こくがい",
+      "gloss": "outside the country",
+      "kanji": [
+        "国",
+        "外"
+      ]
+    },
+    {
+      "word": "国学",
+      "reading": "こくがく",
+      "gloss": "study of classical Japanese literature and culture",
+      "kanji": [
+        "国",
+        "学"
+      ]
+    },
+    {
+      "word": "国語",
+      "reading": "こくご",
+      "gloss": "national language",
+      "kanji": [
+        "国",
+        "語"
+      ]
+    },
+    {
+      "word": "土人",
+      "reading": "どじん",
+      "gloss": "native",
+      "kanji": [
+        "土",
+        "人"
+      ]
+    },
+    {
+      "word": "土日",
+      "reading": "どにち",
+      "gloss": "weekend",
+      "kanji": [
+        "土",
+        "日"
+      ]
+    },
+    {
+      "word": "土木",
+      "reading": "どぼく",
+      "gloss": "engineering works",
+      "kanji": [
+        "土",
+        "木"
+      ]
+    },
+    {
+      "word": "土間",
+      "reading": "どま",
+      "gloss": "dirt floor",
+      "kanji": [
+        "土",
+        "間"
+      ]
+    },
+    {
+      "word": "外人",
+      "reading": "がいじん",
+      "gloss": "foreigner (esp. one of European ancestry)",
+      "kanji": [
+        "外",
+        "人"
+      ]
+    },
+    {
+      "word": "外出",
+      "reading": "がいしゅつ",
+      "gloss": "going out",
+      "kanji": [
+        "外",
+        "出"
+      ]
+    },
+    {
+      "word": "外国",
+      "reading": "がいこく",
+      "gloss": "foreign country",
+      "kanji": [
+        "外",
+        "国"
+      ]
+    },
+    {
+      "word": "外来",
+      "reading": "がいらい",
+      "gloss": "foreign",
+      "kanji": [
+        "外",
+        "来"
+      ]
+    },
+    {
+      "word": "外気",
+      "reading": "がいき",
+      "gloss": "open air",
+      "kanji": [
+        "外",
+        "気"
+      ]
+    },
+    {
+      "word": "外見",
+      "reading": "がいけん",
+      "gloss": "outward appearance",
+      "kanji": [
+        "外",
+        "見"
+      ]
+    },
+    {
+      "word": "外車",
+      "reading": "がいしゃ",
+      "gloss": "foreign car",
+      "kanji": [
+        "外",
+        "車"
+      ]
+    },
+    {
+      "word": "外電",
+      "reading": "がいでん",
+      "gloss": "foreign telegram",
+      "kanji": [
+        "外",
+        "電"
+      ]
+    },
+    {
+      "word": "外食",
+      "reading": "がいしょく",
+      "gloss": "eating out",
+      "kanji": [
+        "外",
+        "食"
+      ]
+    },
+    {
+      "word": "大人",
+      "reading": "おとな",
+      "gloss": "adult",
+      "kanji": [
+        "大",
+        "人"
+      ]
+    },
+    {
+      "word": "大半",
+      "reading": "たいはん",
+      "gloss": "majority",
+      "kanji": [
+        "大",
+        "半"
+      ]
+    },
+    {
+      "word": "大名",
+      "reading": "だいみょう",
+      "gloss": "daimyo (Japanese feudal lord)",
+      "kanji": [
+        "大",
+        "名"
+      ]
+    },
+    {
+      "word": "大国",
+      "reading": "たいこく",
+      "gloss": "large country",
+      "kanji": [
+        "大",
+        "国"
+      ]
+    },
+    {
+      "word": "大学",
+      "reading": "だいがく",
+      "gloss": "university",
+      "kanji": [
+        "大",
+        "学"
+      ]
+    },
+    {
+      "word": "大小",
+      "reading": "だいしょう",
+      "gloss": "size",
+      "kanji": [
+        "大",
+        "小"
+      ]
+    },
+    {
+      "word": "大山",
+      "reading": "たいざん",
+      "gloss": "great mountain",
+      "kanji": [
+        "大",
+        "山"
+      ]
+    },
+    {
+      "word": "大木",
+      "reading": "たいぼく",
+      "gloss": "large tree",
+      "kanji": [
+        "大",
+        "木"
+      ]
+    },
+    {
+      "word": "大気",
+      "reading": "たいき",
+      "gloss": "atmosphere",
+      "kanji": [
+        "大",
+        "気"
+      ]
+    },
+    {
+      "word": "大水",
+      "reading": "おおみず",
+      "gloss": "flood",
+      "kanji": [
+        "大",
+        "水"
+      ]
+    },
+    {
+      "word": "大火",
+      "reading": "たいか",
+      "gloss": "large fire",
+      "kanji": [
+        "大",
+        "火"
+      ]
+    },
+    {
+      "word": "大男",
+      "reading": "おおおとこ",
+      "gloss": "big man",
+      "kanji": [
+        "大",
+        "男"
+      ]
+    },
+    {
+      "word": "大金",
+      "reading": "たいきん",
+      "gloss": "large amount of money",
+      "kanji": [
+        "大",
+        "金"
+      ]
+    },
+    {
+      "word": "大雨",
+      "reading": "おおあめ",
+      "gloss": "heavy rain",
+      "kanji": [
+        "大",
+        "雨"
+      ]
+    },
+    {
+      "word": "天下",
+      "reading": "てんか",
+      "gloss": "the whole world",
+      "kanji": [
+        "天",
+        "下"
+      ]
+    },
+    {
+      "word": "天国",
+      "reading": "てんごく",
+      "gloss": "paradise",
+      "kanji": [
+        "天",
+        "国"
+      ]
+    },
+    {
+      "word": "天気",
+      "reading": "てんき",
+      "gloss": "weather",
+      "kanji": [
+        "天",
+        "気"
+      ]
+    },
+    {
+      "word": "女中",
+      "reading": "じょちゅう",
+      "gloss": "maidservant",
+      "kanji": [
+        "女",
+        "中"
+      ]
+    },
+    {
+      "word": "女子",
+      "reading": "じょし",
+      "gloss": "woman",
+      "kanji": [
+        "女",
+        "子"
+      ]
+    },
+    {
+      "word": "子女",
+      "reading": "しじょ",
+      "gloss": "sons and daughters",
+      "kanji": [
+        "子",
+        "女"
+      ]
+    },
+    {
+      "word": "学友",
+      "reading": "がくゆう",
+      "gloss": "school friend",
+      "kanji": [
+        "学",
+        "友"
+      ]
+    },
+    {
+      "word": "学年",
+      "reading": "がくねん",
+      "gloss": "academic year",
+      "kanji": [
+        "学",
+        "年"
+      ]
+    },
+    {
+      "word": "学校",
+      "reading": "がっこう",
+      "gloss": "school",
+      "kanji": [
+        "学",
+        "校"
+      ]
+    },
+    {
+      "word": "学生",
+      "reading": "がくせい",
+      "gloss": "student (esp. a university student)",
+      "kanji": [
+        "学",
+        "生"
+      ]
+    },
+    {
+      "word": "学長",
+      "reading": "がくちょう",
+      "gloss": "(university) president",
+      "kanji": [
+        "学",
+        "長"
+      ]
+    },
+    {
+      "word": "小人",
+      "reading": "しょうにん",
+      "gloss": "child (esp. one of elementary school age or younger)",
+      "kanji": [
+        "小",
+        "人"
+      ]
+    },
+    {
+      "word": "小人",
+      "reading": "こびと",
+      "gloss": "little person (in folklore and fantasy, e.g. fairy, elf, gnome)",
+      "kanji": [
+        "小",
+        "人"
+      ]
+    },
+    {
+      "word": "小国",
+      "reading": "しょうこく",
+      "gloss": "small country",
+      "kanji": [
+        "小",
+        "国"
+      ]
+    },
+    {
+      "word": "小学",
+      "reading": "しょうがく",
+      "gloss": "elementary school",
+      "kanji": [
+        "小",
+        "学"
+      ]
+    },
+    {
+      "word": "小山",
+      "reading": "こやま",
+      "gloss": "hill",
+      "kanji": [
+        "小",
+        "山"
+      ]
+    },
+    {
+      "word": "小川",
+      "reading": "おがわ",
+      "gloss": "stream",
+      "kanji": [
+        "小",
+        "川"
+      ]
+    },
+    {
+      "word": "小火",
+      "reading": "ボヤ",
+      "gloss": "small fire",
+      "kanji": [
+        "小",
+        "火"
+      ]
+    },
+    {
+      "word": "小雨",
+      "reading": "こさめ",
+      "gloss": "light rain",
+      "kanji": [
+        "小",
+        "雨"
+      ]
+    },
+    {
+      "word": "山川",
+      "reading": "さんせん",
+      "gloss": "mountains and rivers",
+      "kanji": [
+        "山",
+        "川"
+      ]
+    },
+    {
+      "word": "山間",
+      "reading": "さんかん",
+      "gloss": "among the mountains",
+      "kanji": [
+        "山",
+        "間"
+      ]
+    },
+    {
+      "word": "川上",
+      "reading": "かわかみ",
+      "gloss": "upper reaches of a river",
+      "kanji": [
+        "川",
+        "上"
+      ]
+    },
+    {
+      "word": "川下",
+      "reading": "かわしも",
+      "gloss": "downstream",
+      "kanji": [
+        "川",
+        "下"
+      ]
+    },
+    {
+      "word": "左上",
+      "reading": "ひだりうえ",
+      "gloss": "upper left",
+      "kanji": [
+        "左",
+        "上"
+      ]
+    },
+    {
+      "word": "左前",
+      "reading": "ひだりまえ",
+      "gloss": "wearing a kimono with the right side over the left (normally used only for the dead)",
+      "kanji": [
+        "左",
+        "前"
+      ]
+    },
+    {
+      "word": "左右",
+      "reading": "さゆう",
+      "gloss": "left and right",
+      "kanji": [
+        "左",
+        "右"
+      ]
+    },
+    {
+      "word": "年上",
+      "reading": "としうえ",
+      "gloss": "older",
+      "kanji": [
+        "年",
+        "上"
+      ]
+    },
+    {
+      "word": "年下",
+      "reading": "としした",
+      "gloss": "younger",
+      "kanji": [
+        "年",
+        "下"
+      ]
+    },
+    {
+      "word": "年中",
+      "reading": "ねんじゅう",
+      "gloss": "whole year",
+      "kanji": [
+        "年",
+        "中"
+      ]
+    },
+    {
+      "word": "年後",
+      "reading": "ねんご",
+      "gloss": "years later",
+      "kanji": [
+        "年",
+        "後"
+      ]
+    },
+    {
+      "word": "年月",
+      "reading": "としつき",
+      "gloss": "months and years",
+      "kanji": [
+        "年",
+        "月"
+      ]
+    },
+    {
+      "word": "年来",
+      "reading": "ねんらい",
+      "gloss": "of long standing",
+      "kanji": [
+        "年",
+        "来"
+      ]
+    },
+    {
+      "word": "年生",
+      "reading": "ねんせい",
+      "gloss": "nth-year student",
+      "kanji": [
+        "年",
+        "生"
+      ]
+    },
+    {
+      "word": "年男",
+      "reading": "としおとこ",
+      "gloss": "man born in a year with the same Chinese zodiac sign as the current year",
+      "kanji": [
+        "年",
+        "男"
+      ]
+    },
+    {
+      "word": "年金",
+      "reading": "ねんきん",
+      "gloss": "annuity",
+      "kanji": [
+        "年",
+        "金"
+      ]
+    },
+    {
+      "word": "年長",
+      "reading": "ねんちょう",
+      "gloss": "senior",
+      "kanji": [
+        "年",
+        "長"
+      ]
+    },
+    {
+      "word": "年間",
+      "reading": "ねんかん",
+      "gloss": "(period of) a year",
+      "kanji": [
+        "年",
+        "間"
+      ]
+    },
+    {
+      "word": "後半",
+      "reading": "こうはん",
+      "gloss": "second half",
+      "kanji": [
+        "後",
+        "半"
+      ]
+    },
+    {
+      "word": "後日",
+      "reading": "ごじつ",
+      "gloss": "in the future",
+      "kanji": [
+        "後",
+        "日"
+      ]
+    },
+    {
+      "word": "後書",
+      "reading": "あとがき",
+      "gloss": "afterword",
+      "kanji": [
+        "後",
+        "書"
+      ]
+    },
+    {
+      "word": "後見",
+      "reading": "こうけん",
+      "gloss": "guardianship",
+      "kanji": [
+        "後",
+        "見"
+      ]
+    },
+    {
+      "word": "日中",
+      "reading": "にっちゅう",
+      "gloss": "daytime",
+      "kanji": [
+        "日",
+        "中"
+      ]
+    },
+    {
+      "word": "日時",
+      "reading": "にちじ",
+      "gloss": "date and time (of a meeting, departure, etc.)",
+      "kanji": [
+        "日",
+        "時"
+      ]
+    },
+    {
+      "word": "日本",
+      "reading": "にほん",
+      "gloss": "Japan",
+      "kanji": [
+        "日",
+        "本"
+      ]
+    },
+    {
+      "word": "日食",
+      "reading": "にっしょく",
+      "gloss": "solar eclipse",
+      "kanji": [
+        "日",
+        "食"
+      ]
+    },
+    {
+      "word": "時半",
+      "reading": "じはん",
+      "gloss": "half past (the hour)",
+      "kanji": [
+        "時",
+        "半"
+      ]
+    },
+    {
+      "word": "時間",
+      "reading": "じかん",
+      "gloss": "time",
+      "kanji": [
+        "時",
+        "間"
+      ]
+    },
+    {
+      "word": "時雨",
+      "reading": "しぐれ",
+      "gloss": "rain shower in late autumn (fall) or early winter",
+      "kanji": [
+        "時",
+        "雨"
+      ]
+    },
+    {
+      "word": "書名",
+      "reading": "しょめい",
+      "gloss": "book title",
+      "kanji": [
+        "書",
+        "名"
+      ]
+    },
+    {
+      "word": "月日",
+      "reading": "つきひ",
+      "gloss": "time",
+      "kanji": [
+        "月",
+        "日"
+      ]
+    },
+    {
+      "word": "月日",
+      "reading": "がっぴ",
+      "gloss": "month and day (of the year)",
+      "kanji": [
+        "月",
+        "日"
+      ]
+    },
+    {
+      "word": "月見",
+      "reading": "つきみ",
+      "gloss": "moon viewing (esp. during the eight month of the lunar calendar)",
+      "kanji": [
+        "月",
+        "見"
+      ]
+    },
+    {
+      "word": "月間",
+      "reading": "げっかん",
+      "gloss": "month-long period",
+      "kanji": [
+        "月",
+        "間"
+      ]
+    },
+    {
+      "word": "月食",
+      "reading": "げっしょく",
+      "gloss": "lunar eclipse",
+      "kanji": [
+        "月",
+        "食"
+      ]
+    }
+  ]
 }

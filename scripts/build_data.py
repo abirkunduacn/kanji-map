@@ -6,6 +6,7 @@ import jsonschema
 
 from scripts import parse_kanjidic, parse_jmdict, trees_ids
 from scripts.sources import KANJIDIC2_PATH, JMDICT_PATH, JLPT_PATH, IDS_PATH
+from scripts.words import build_words
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -31,7 +32,7 @@ def _placed_in(roots: list[dict]) -> set[str]:
     return out
 
 
-def build_level(level, kanji_chars, kanji_infos, vocab_index, roots) -> dict:
+def build_level(level, kanji_chars, kanji_infos, vocab_index, roots, words) -> dict:
     placed = _placed_in(roots)
     kanji = {}
     for ch in sorted(placed):
@@ -54,6 +55,7 @@ def build_level(level, kanji_chars, kanji_infos, vocab_index, roots) -> dict:
         "generated": date.today().isoformat(),
         "roots": roots,
         "kanji": kanji,
+        "words": words,
     }
     jsonschema.validate(level_dict, SCHEMA)
     return level_dict
@@ -72,28 +74,24 @@ def _jlpt_chars() -> dict[str, set[str]]:
 
 def main() -> None:
     levels = _jlpt_chars()
-    all_wanted = levels["N5"] | levels["N4"]
+    all_wanted = set().union(*levels.values())
     kanji_infos = parse_kanjidic.parse(KANJIDIC2_PATH, wanted=all_wanted)
     vocab_index = parse_jmdict.build_index(JMDICT_PATH, wanted=all_wanted)
     ids = trees_ids.parse_ids(IDS_PATH)
 
-    n5_chars = levels["N5"]
-    n4_chars = levels["N4"]
-
-    # N5: build-from forest over N5 kanji only (parents restricted to N5).
-    n5_roots = trees_ids.build_forest(ids, kanji_infos, scope=n5_chars)
-    n5 = build_level("N5", n5_chars, kanji_infos, vocab_index, n5_roots)
-
-    # N4: forest over N5 ∪ N4 so N5 building blocks connect the N4 kanji into
-    # deep chains; only trees that include at least one N4 kanji are kept.
-    n4_roots = trees_ids.build_forest(
-        ids, kanji_infos, scope=n5_chars | n4_chars, required=n4_chars
-    )
-    n4 = build_level("N4", n4_chars, kanji_infos, vocab_index, n4_roots)
-
-    (DATA_DIR / "n4.json").write_text(json.dumps(n4, ensure_ascii=False, indent=2), encoding="utf-8")
-    (DATA_DIR / "n5.json").write_text(json.dumps(n5, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote N4 ({len(n4['kanji'])} kanji) and N5 ({len(n5['kanji'])} kanji)")
+    cumulative: set[str] = set()
+    for lv in LEVEL_ORDER:
+        cumulative = cumulative | levels[lv]
+        roots = trees_ids.build_forest(
+            ids, kanji_infos, scope=cumulative, required=levels[lv]
+        )
+        words = build_words(JMDICT_PATH, known=cumulative, limit=250)
+        level_dict = build_level(lv, levels[lv], kanji_infos, vocab_index, roots, words)
+        (DATA_DIR / f"{lv.lower()}.json").write_text(
+            json.dumps(level_dict, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"Wrote {lv}: {len(level_dict['kanji'])} kanji, "
+              f"{len(level_dict['roots'])} clusters, {len(level_dict['words'])} words")
 
 
 if __name__ == "__main__":
