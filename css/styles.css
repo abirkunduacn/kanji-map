@@ -84,3 +84,28 @@ body.print .cluster { break-inside: avoid; page-break-inside: avoid; }
 #ref th, #ref td { border:1px solid var(--line); padding:.25rem .4rem; text-align:left; }
 #ref .rk { font-size:1.2rem; color:var(--accent); }
 #ref { page-break-before: always; }
+
+/* Keep the existing @page / body.print / #ref rules below this line intact. */
+
+@media (max-width: 700px) {
+  header { gap:var(--s2); padding:var(--s2) var(--s3); }
+  header h1 { width:100%; font-size:var(--t-md); }
+  #levels, #views { font-size:var(--t-xs); }
+  #levels button, #views button { padding:.35rem .6rem; }
+  main { padding:var(--s3); }
+  .cluster { padding:var(--s3); }
+  .words-grid { grid-template-columns:1fr; }
+
+  /* Detail panel becomes a bottom sheet */
+  #detail {
+    top:auto; bottom:0; left:0; right:0; width:auto; height:auto; max-height:80vh;
+    border-left:none; border-top:1px solid var(--line);
+    border-radius:16px 16px 0 0; box-shadow:0 -8px 24px rgba(20,32,46,.18);
+    padding-top:var(--s5);
+  }
+  #detail::before {
+    content:""; position:absolute; top:8px; left:50%; transform:translateX(-50%);
+    width:40px; height:4px; border-radius:2px; background:var(--line);
+  }
+  .big-kanji { font-size:3.5rem; }
+}
