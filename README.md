@@ -20,8 +20,8 @@ printable PDF for each level.
 - **Words view** (new in v2) — a gallery of compound words (sourced from JMdict)
   whose every kanji you have learned up to and including the selected level
   (cumulative known-set), capped at 250 words per level.  Words are sorted by
-  kanji-count descending then by length.  Clicking a kanji chip in a word card
-  opens that kanji's detail panel.
+  kanji-count ascending (fewest kanji first), then by length.  Clicking a kanji
+  chip in a word card opens that kanji's detail panel.
 - **Navigation** — a level selector (N5 N4 N3 N2) and a Trees | Words view
   toggle let you switch context without reloading.
 - **Print / PDF** — `print.html?level=N5` (or `N4`, `N3`, `N2`) renders all
