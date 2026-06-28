@@ -8,6 +8,7 @@ const good = {
             children: [{ char: '生', label: 'life', children: [] }] }],
   kanji: { '生': { char: '生', meanings: ['life'], on: ['セイ'], kun: ['い.きる'],
                    strokes: 5, vocab: { on: [], kun: [] } } },
+  words: [],
 };
 
 test('valid data passes', () => {
@@ -30,4 +31,19 @@ test('loadLevel fetches and validates', async () => {
   const fakeFetch = async (url) => ({ ok: true, json: async () => good });
   const data = await loadLevel('N5', fakeFetch);
   assert.equal(data.level, 'N5');
+});
+
+test('loadLevel caches per level (one fetch per level)', async () => {
+  let calls = 0;
+  const data = { level: 'N5', roots: [], kanji: {}, words: [] };
+  const fakeFetch = async () => { calls++; return { ok: true, json: async () => data }; };
+  const { loadLevel } = await import('../../js/data-loader.js?cachetest');
+  await loadLevel('N5', fakeFetch);
+  await loadLevel('N5', fakeFetch);
+  assert.equal(calls, 1);
+});
+
+test('validateLevelData requires words array', () => {
+  const bad = { level: 'N5', roots: [], kanji: {} };
+  assert.equal(validateLevelData(bad).ok, false);
 });

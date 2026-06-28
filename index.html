@@ -10,13 +10,19 @@
 <body>
   <header>
     <h1>Kanji Mind-Map</h1>
-    <nav id="levels">
+    <nav id="levels" aria-label="JLPT level">
       <button data-level="N5" class="active">N5</button>
       <button data-level="N4">N4</button>
+      <button data-level="N3">N3</button>
+      <button data-level="N2">N2</button>
     </nav>
+    <div id="views" role="tablist" aria-label="View">
+      <button data-view="trees" class="active">Trees</button>
+      <button data-view="words">Words</button>
+    </div>
   </header>
   <main>
-    <section id="maps" aria-label="Kanji mind maps"></section>
+    <section id="content" aria-live="polite"></section>
   </main>
   <aside id="detail" hidden></aside>
   <footer>

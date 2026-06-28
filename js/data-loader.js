@@ -7,7 +7,7 @@ function walkChars(nodes, out) {
 
 export function validateLevelData(data) {
   if (!data || typeof data !== 'object') return { ok: false, error: 'not an object' };
-  for (const key of ['level', 'roots', 'kanji']) {
+  for (const key of ['level', 'roots', 'kanji', 'words']) {
     if (!(key in data)) return { ok: false, error: `missing ${key}` };
   }
   const placed = new Set();
@@ -22,11 +22,15 @@ export function kanjiCount(data) {
   return Object.keys(data.kanji || {}).length;
 }
 
+const _cache = new Map();
+
 export async function loadLevel(level, fetchFn = fetch) {
+  if (_cache.has(level)) return _cache.get(level);
   const res = await fetchFn(`data/${level.toLowerCase()}.json`);
   if (!res.ok) throw new Error(`failed to load ${level}`);
   const data = await res.json();
   const v = validateLevelData(data);
   if (!v.ok) throw new Error(`invalid ${level} data: ${v.error}`);
+  _cache.set(level, data);
   return data;
 }
