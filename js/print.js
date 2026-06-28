@@ -37,6 +37,12 @@ async function main() {
       `<td>${vocab1(k.vocab.kun)}</td>`;
     tbody.append(tr);
   }
+  const wbody = document.querySelector('#words tbody');
+  for (const w of (data.words || [])) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td class="rk">${w.word}</td><td>${w.reading}</td><td>${w.gloss}</td>`;
+    wbody.append(tr);
+  }
   window.__renderComplete = true;
 }
 main();

@@ -40,7 +40,7 @@ def main() -> None:
     port = 8123
     httpd = _start_server(port)
     try:
-        for level in ("N5", "N4"):
+        for level in ("N5", "N4", "N3", "N2"):
             render(level, port)
     finally:
         httpd.shutdown()
