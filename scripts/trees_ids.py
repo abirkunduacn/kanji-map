@@ -13,6 +13,37 @@ decomposition and emit factual parent/child relationships.
 # Ideographic Description Characters — structural operators, not components.
 _IDC = set("⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻")
 
+# Radical variant forms -> canonical unified ideograph, so a kanji decomposed
+# with a radical glyph (e.g. 飯 = ⿰飠反) links to the real in-scope kanji (食).
+# Keys include CJK Radicals Supplement (U+2E80–U+2EFF) and Kangxi Radicals
+# (U+2F00–U+2FD5) glyphs as well as variant ideographs.
+VARIANT_TO_KANJI = {
+    "飠": "食", "𩙿": "食", "⻞": "食", "⾷": "食",
+    "氵": "水", "氺": "水", "⺡": "水", "⽔": "水",
+    "扌": "手", "⺘": "手", "⼿": "手",
+    "亻": "人", "⺅": "人", "⼈": "人",
+    "忄": "心", "⺖": "心", "⺗": "心", "⼼": "心",
+    "灬": "火", "⺣": "火", "⽕": "火",
+    "釒": "金", "⻐": "金", "⾦": "金",
+    "钅": "金",
+    "犭": "犬", "⺨": "犬",
+    "纟": "糸", "糹": "糸", "⺯": "糸",
+    "讠": "言", "訁": "言",
+    "刂": "刀", "⺉": "刀",
+    "阝": "邑",   # right-side; left-side 阝 is 阜 — kept as 邑 (both rare in scope)
+    "⻌": "辵", "辶": "辵", "⻎": "辵",
+    "礻": "示", "⺬": "示",
+    "衤": "衣", "⻂": "衣",
+    "罒": "网", "⺫": "网",
+    "⺹": "老", "耂": "老",
+    "艹": "艸", "⺾": "艸", "⺿": "艸", "艹": "艸",
+}
+
+
+def _normalize(ch: str) -> str:
+    return VARIANT_TO_KANJI.get(ch, ch)
+
+
 # Char used for the catch-all cluster that collects kanji with no in-scope
 # parent and no children.  Not a JLPT kanji, so it gets no detail entry.
 OTHER_ROOT = "他"
@@ -44,7 +75,13 @@ def parse_ids(path) -> dict[str, list[str]]:
         if len(ch) != 1:
             continue
         ids = parts[2].split("[")[0]
-        comps = [c for c in ids if c not in _IDC and _is_cjk(c) and c != ch]
+        comps = []
+        for c in ids:
+            if c in _IDC:
+                continue
+            n = _normalize(c)
+            if _is_cjk(n) and n != ch:
+                comps.append(n)
         direct[ch] = comps
     return direct
 

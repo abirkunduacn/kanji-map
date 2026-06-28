@@ -16,7 +16,7 @@ def test_parse_ids_extracts_components_dropping_idc_operators(tmp_path):
     ])
     direct = trees_ids.parse_ids(p)
     assert direct["完"] == ["宀", "元"]   # ⿱ operator dropped
-    assert direct["院"] == ["阝", "完"]
+    assert direct["院"] == ["邑", "完"]   # 阝 normalized to 邑
 
 
 def test_build_forest_makes_built_from_chain(tmp_path):
@@ -76,3 +76,30 @@ def test_required_filter_keeps_only_trees_touching_required(tmp_path):
             placed.add(n["char"])
     assert "字" in placed and "子" in placed   # the 字 tree is kept (子 -> 字)
     assert "元" not in placed                   # the pure-N5 一->元 tree is dropped
+
+
+def test_variant_radical_normalized_to_kanji(tmp_path):
+    # 飯 = ⿰飠反 ; the food-radical 飠 must normalize to 食 so 飯 nests under 食.
+    p = _write_ids(tmp_path, [
+        "U+98DF\t食\t食",
+        "U+98EF\t飯\t⿰飠反",
+    ])
+    direct = trees_ids.parse_ids(p)
+    assert "食" in direct["飯"]          # 飠 normalized to 食
+    assert "飠" not in direct["飯"]
+
+
+def test_build_forest_nests_via_normalized_variant(tmp_path):
+    p = _write_ids(tmp_path, [
+        "U+98DF\t食\t食",
+        "U+98EF\t飯\t⿰飠反",
+        "U+98F2\t飲\t⿰飠欠",
+    ])
+    direct = trees_ids.parse_ids(p)
+    infos = {c: {"char": c, "meanings": [c], "strokes": s}
+             for c, s in {"食": 9, "飯": 12, "飲": 12}.items()}
+    roots = trees_ids.build_forest(direct, infos, scope={"食", "飯", "飲"})
+    real = [r for r in roots if r["root"] != trees_ids.OTHER_ROOT]
+    assert len(real) == 1 and real[0]["root"] == "食"
+    kids = {c["char"] for c in real[0]["children"]}
+    assert kids == {"飯", "飲"}
