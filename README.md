@@ -170,7 +170,10 @@ three small steps:
    new tree module is needed — the IDS builder works for every level.
 2. **Navigation** — add a `<button data-level="N1">N1</button>` to the `#levels`
    nav in `index.html` and a matching entry in `print.html`.
-3. **PDF CI** — add `N1` to the level list in `.github/workflows/pdf.yml`.
+3. **PDF** — add `"N1"` to the level tuple in `pdf/generate_pdf.py` `main()`
+   (`("N5", "N4", "N3", "N2")`). No workflow edit is needed:
+   `.github/workflows/pdf.yml` just runs `python -m pdf.generate_pdf` and
+   uploads `pdf/*.pdf`.
 
 No structural changes to `js/` or `css/` are needed.
 
